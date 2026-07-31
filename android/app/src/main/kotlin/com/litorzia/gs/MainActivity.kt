@@ -1,4 +1,4 @@
-package com.example.litorzia
+package com.litorzia.gs
 
 import io.flutter.embedding.android.FlutterActivity
 
