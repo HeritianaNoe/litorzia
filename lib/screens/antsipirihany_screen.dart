@@ -109,36 +109,9 @@ class AntsipirihanyScreen extends StatelessWidget {
   }
 
   Widget _buatraSaryLehibe() {
-    if (olomasina.sary == null || olomasina.sary!.isEmpty) {
-      return Container(
+    return Container(
         color: Colors.deepPurple.shade100,
         child: const Icon(Icons.church, size: 90, color: Colors.deepPurple),
       );
-    }
-
-    final String sary = olomasina.sary!;
-
-    if (sary.startsWith('http')) {
-      return Image.network(
-        sary,
-        fit: BoxFit.cover,
-        errorBuilder: (_, __, ___) => Container(color: Colors.deepPurple.shade100),
-      );
-    }
-    if (sary.startsWith('/')) {
-      return Image.file(
-        File(sary),
-        fit: BoxFit.cover,
-        errorBuilder: (_, __, ___) => Container(color: Colors.deepPurple.shade100),
-      );
-    }
-    return Image.asset(
-      'assets/$sary',
-      fit: BoxFit.cover,
-      errorBuilder: (_, __, ___) => Container(
-        color: Colors.deepPurple.shade100,
-        child: const Icon(Icons.church, size: 90, color: Colors.deepPurple),
-      ),
-    );
   }
 }

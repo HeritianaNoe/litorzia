@@ -74,23 +74,59 @@ class _SokajyOlomasinaScreenState extends State<SokajyOlomasinaScreen> {
             )
           : _lisitra.isEmpty
           ? const Center(child: Text('Tsy misy Olomasina hita amin\'ity sokajy ity.'))
-          : ListView.builder(
-              itemCount: _lisitra.length,
-              itemBuilder: (context, index) {
-                final olomasina = _lisitra[index];
-                return OlomasinaCard(
-                  olomasina: olomasina,
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => AntsipirihanyScreen(olomasina: olomasina),
-                      ),
-                    );
-                  },
-                );
-              },
-            ),
+          : _lisitraMultiscreen(),
+    );
+  }
+
+  /// Mamerina lisitra (ListView) raha efitrano finday tery, na grid
+  /// (GridView) misy tsanganana maromaro raha efitrano midadasika kokoa
+  /// (tablet/desktop), mba hampitovy tsara ny fampiasana ny habaka.
+  Widget _lisitraMultiscreen() {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final double sakany = constraints.maxWidth;
+
+        // Finday tery: lisitra tsotra iray tsanganana.
+        if (sakany < 600) {
+          return ListView.builder(
+            itemCount: _lisitra.length,
+            itemBuilder: (context, index) => _karatra(_lisitra[index]),
+          );
+        }
+
+        // Tablet/desktop: grid misy tsanganana maro arakaraka ny sakan'ny efitrano.
+        final int tsanganana = sakany >= 1200
+            ? 4
+            : sakany >= 900
+            ? 3
+            : 2;
+
+        return GridView.builder(
+          padding: const EdgeInsets.symmetric(vertical: 6),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: tsanganana,
+            mainAxisExtent: 108,
+            crossAxisSpacing: 4,
+            mainAxisSpacing: 4,
+          ),
+          itemCount: _lisitra.length,
+          itemBuilder: (context, index) => _karatra(_lisitra[index]),
+        );
+      },
+    );
+  }
+
+  Widget _karatra(Olomasina olomasina) {
+    return OlomasinaCard(
+      olomasina: olomasina,
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (_) => AntsipirihanyScreen(olomasina: olomasina),
+          ),
+        );
+      },
     );
   }
 }

@@ -32,21 +32,37 @@ const List<SokajyCategory> sokajyCategories = [
   SokajyCategory(
     label: 'Mpampianatra ny Fiangonana',
     imagePath: 'mpampianatry.png',
-    sokajyValues: ['Mpampianatra ny Fiangonana', 'Mpanabe'],
+    sokajyValues: ['Mpampianatra ny Fiangonana'],
   ),
   SokajyCategory(
     label: 'Mpanorina Ordina',
-    imagePath: 'relijiozy.png',
-    sokajyValues: ['Mpanorina Ordina'],
+    imagePath: 'mpanorina.png',
+    sokajyValues: ['Mpanorina Ordina', 'Relijiozy'],
   ),
   SokajyCategory(
-    label: 'Maritiora',
+    label: 'Martiry',
     imagePath: 'martiry.png',
-    sokajyValues: ['Maritiora Afrikanina'],
+    sokajyValues: ['Martiry'],
   ),
   SokajyCategory(
-    label: 'Beato / Beata sy Anjely',
-    imagePath: 'hafa.png',
-    sokajyValues: ['Beata Malagasy', 'Beato Malagasy', 'Anjely'],
+    label: 'Virijiny',
+    imagePath: 'virijiny.png',
+    sokajyValues: ['Virijiny'],
+  ),
+
+  SokajyCategory(
+    label: 'Relijiozy',
+    imagePath: 'relijiozy.png',
+    sokajyValues: ['Relijiozy'],
+  ),
+  SokajyCategory(
+    label: 'Mpanabe',
+    imagePath: 'mpanabe.png',
+    sokajyValues: ['Mpanabe'],
+  ),
+  SokajyCategory(
+    label: 'Papa / Eveka',
+    imagePath: 'papa_eveka.png',
+    sokajyValues: ['Papa', 'Eveka'],
   ),
 ];
