@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
 import 'liturgical_calendar.dart';
-import 'liturgical_data.dart';
+import '../models/liturgical_data.dart';
 
 /// Kilasy mpampifandray ny JSON (vakiteny) sy ny LiturgicalCalendar (daty/code).
 ///
