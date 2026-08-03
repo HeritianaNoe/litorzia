@@ -517,9 +517,6 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
                         itemBuilder: (context, index) {
                           final event = allDays[index];
                           final isLast = event == lastSunday;
-                          final formattedCode =
-                              _formatLiturgicalCode(event.code);
-
                           return Card(
                             margin: const EdgeInsets.symmetric(
                               horizontal: 12,
