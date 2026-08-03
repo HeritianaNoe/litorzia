@@ -6,9 +6,8 @@ import '../services/olomasina_service.dart';
 import 'sokajy_olomasina_screen.dart';
 
 /// Pejy grid mampiseho ny sokajin'ny Olomasina rehetra (Masina, Apostoly,
-/// Mpampianatra ny Fiangonana, sns.) miaraka amin'ny sary mifandraika
-/// aminy. Tsindrio ny tile iray hijerena ny lisitry ny Olomasina ao
-/// anatin'io sokajy io.
+/// Mpampianatra ny Fiangonana, sns.) miaraka amin'ny sary mifandraika aminy.
+/// Mety tsara amin'ny ecran rehetra (Mobile, Tablet, Desktop).
 class SokajyScreen extends StatefulWidget {
   const SokajyScreen({super.key});
 
@@ -61,29 +60,56 @@ class _SokajyScreenState extends State<SokajyScreen> {
       ),
       body: _mbolaMiandry
           ? const Center(child: CircularProgressIndicator())
-          : GridView.builder(
-              padding: const EdgeInsets.all(16),
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
-                crossAxisSpacing: 14,
-                mainAxisSpacing: 14,
-                childAspectRatio: 0.95,
-              ),
-              itemCount: sokajyCategories.length,
-              itemBuilder: (context, index) {
-                final category = sokajyCategories[index];
-                final isa = _isaAmin(category);
-                return _SokajyTile(
-                  category: category,
-                  isa: isa,
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => SokajyOlomasinaScreen(category: category),
+          : LayoutBuilder(
+              builder: (context, constraints) {
+                final double width = constraints.maxWidth;
+
+                // Responsive Breakpoints ho an'ny Sokajy
+                int crossAxisCount = 2; // Mobile tery
+                if (width >= 1200) {
+                  crossAxisCount = 6; // Desktop lehibe
+                } else if (width >= 900) {
+                  crossAxisCount = 5; // Desktop / Tablet lehibe
+                } else if (width >= 600) {
+                  crossAxisCount = 4; // Tablet
+                } else if (width >= 400) {
+                  crossAxisCount = 3; // Mobile midadasika
+                }
+
+                return Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 1200),
+                    child: GridView.builder(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: width > 600 ? 24 : 16,
+                        vertical: 16,
                       ),
-                    );
-                  },
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: crossAxisCount,
+                        crossAxisSpacing: width > 600 ? 16 : 12,
+                        mainAxisSpacing: width > 600 ? 16 : 12,
+                        childAspectRatio: 0.85,
+                      ),
+                      itemCount: sokajyCategories.length,
+                      itemBuilder: (context, index) {
+                        final category = sokajyCategories[index];
+                        final isa = _isaAmin(category);
+                        return _SokajyTile(
+                          category: category,
+                          isa: isa,
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) =>
+                                    SokajyOlomasinaScreen(category: category),
+                              ),
+                            );
+                          },
+                        );
+                      },
+                    ),
+                  ),
                 );
               },
             ),
@@ -111,41 +137,46 @@ class _SokajyTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 10),
+          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: Image.asset(
-                  'assets/images/${category.imagePath}',
-                  width: 64,
-                  height: 64,
-                  fit: BoxFit.cover,
-                  errorBuilder: (_, __, ___) => Container(
-                    width: 64,
-                    height: 64,
-                    color: Colors.deepPurple.shade100,
-                    child: const Icon(Icons.church, color: Colors.deepPurple),
+              Expanded(
+                child: AspectRatio(
+                  aspectRatio: 1,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: Container(
+                      color: Colors.deepPurple.shade100,
+                      alignment: Alignment.center,
+                      child: Icon(
+                        category.icon,
+                        color: Colors.deepPurple,
+                        size: 36,
+                      ),
+                    ),
                   ),
                 ),
               ),
-              const SizedBox(height: 10),
-              Text(
-                category.label,
-                textAlign: TextAlign.center,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 13.5,
-                  color: Colors.deepPurple,
+              const SizedBox(height: 8),
+              FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  category.label,
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 13,
+                    color: Colors.deepPurple,
+                  ),
                 ),
               ),
-              const SizedBox(height: 4),
+              const SizedBox(height: 2),
               Text(
                 '$isa Olomasina',
-                style: TextStyle(fontSize: 12, color: Colors.grey[700]),
+                style: TextStyle(fontSize: 11, color: Colors.grey[700]),
               ),
             ],
           ),

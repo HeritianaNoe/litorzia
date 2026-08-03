@@ -1,7 +1,7 @@
 name: litorzia
-description: "A new Flutter project."
+description: "Alimanaka Katolika."
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.3+6
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -23,6 +23,10 @@ dependencies:
 
   # Ho an'ny fanamboarana daty malagasy raha ilaina
   intl: ^0.19.0
+
+  # Ho an'ny fanaovana "partage" (fizarana) ny antsipiriany Olomasina sy ny Litorjika
+  share_plus: ^13.3.0
+  package_info_plus: ^10.2.1
 
 dev_dependencies:
   flutter_test:

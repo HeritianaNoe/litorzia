@@ -59,7 +59,7 @@ class LiturgicalCalendar {
     return getEpiphany(year).add(const Duration(days: 7));
   }
 
-  /// Kajy ny Alahady voalohan'ny Advento
+  /// Kajy ny Alahady voalohan'ny Fiaviana
   static DateTime getFirstSundayOfAdvent(int year) {
     DateTime christmas = DateTime(year, 12, 25);
     int christmasWeekday = christmas.weekday;
@@ -82,7 +82,7 @@ class LiturgicalCalendar {
     DateTime baptism = getBaptismOfLord(year);
     events.add(LiturgicalEvent(
       code: 'BAPTISM_OF_LORD',
-      title: 'Bateminy ny Tompo (Famaranana ny Krismasy)',
+      title: 'Bateminy ny Tompo',
       date: baptism,
     ));
 
@@ -93,7 +93,7 @@ class LiturgicalCalendar {
     while (currentSunday.isBefore(ashWednesday)) {
       events.add(LiturgicalEvent(
         code: 'ORDINARY_SUNDAY_$ordNumber',
-        title: 'Alahady faha-$ordNumber Mandavantaona',
+        title: 'Alahady faha-$ordNumber Tsotra',
         date: currentSunday,
       ));
       ordNumber++;
@@ -112,34 +112,34 @@ class LiturgicalCalendar {
     for (int i = 1; i <= 5; i++) {
       events.add(LiturgicalEvent(
         code: 'LENT_SUNDAY_$i',
-        title: 'Alahady faha-$i amin\'ny Karemy',
+        title: 'Alahady faha-$i Karemy',
         date: ashWednesday.add(Duration(days: 4 + (i - 1) * 7)),
       ));
     }
 
     events.add(LiturgicalEvent(
       code: 'PALM_SUNDAY',
-      title: 'Alahadyn\'ny Sampan-kazo',
+      title: 'Alahady ny Sampan-kazo',
       date: easter.subtract(const Duration(days: 7)),
     ));
 
     events.add(LiturgicalEvent(
       code: 'EASTER',
-      title: 'Andro Masina Paka',
+      title: 'Alahady Paka',
       date: easter,
     ));
 
     for (int i = 2; i <= 7; i++) {
       events.add(LiturgicalEvent(
         code: 'EASTER_SUNDAY_$i',
-        title: 'Alahady faha-$i amin\'ny Paka',
+        title: 'Alahady faha-$i Paka',
         date: easter.add(Duration(days: (i - 1) * 7)),
       ));
     }
 
     events.add(LiturgicalEvent(
       code: 'PENTECOST',
-      title: 'Pentekosta',
+      title: 'Alahady Pentekoty',
       date: pentecost,
     ));
 
@@ -159,7 +159,7 @@ class LiturgicalCalendar {
     ));
 
     // Miverina amin'ny Mandavantaona ny Alahady aorian'ny Pentekosta
-    // Ny isa manaraka dia mikajy mba ho ny Alahady faha-34 no farany mialoha ny Advento
+    // Ny isa manaraka dia mikajy mba ho ny Alahady faha-34 no farany mialoha ny Fiaviana
     DateTime lastOrdinarySunday = advent1.subtract(const Duration(days: 7));
     currentSunday = pentecost.add(const Duration(days: 7));
     
@@ -169,8 +169,8 @@ class LiturgicalCalendar {
     while (currentSunday.isBefore(advent1)) {
       // Tsy soloina ny Alahady Trinite sy Corpus Christi raha mifanOverlap
       String title = (postPentecostOrdNumber == 34) 
-          ? 'Alahady faha-34 Mandavantaona (Kristy Mpanjaka)' 
-          : 'Alahady faha-$postPentecostOrdNumber Mandavantaona';
+          ? 'Alahady faha-34 Tsotra (Kristy Mpanjaka)' 
+          : 'Alahady faha-$postPentecostOrdNumber Tsotra';
 
       events.add(LiturgicalEvent(
         code: 'ORDINARY_SUNDAY_$postPentecostOrdNumber',
@@ -183,32 +183,32 @@ class LiturgicalCalendar {
     }
 
     // -------------------------------------------------------------
-    // 4. ADVENTO SY KRISMASY
+    // 4. Fiaviana SY KRISMASY
     // -------------------------------------------------------------
     events.add(LiturgicalEvent(
       code: 'ADVENT_1',
-      title: 'Alahady 1 amin\'ny Advento',
+      title: 'Alahady voalohany Fiaviana',
       date: advent1,
     ));
     events.add(LiturgicalEvent(
       code: 'ADVENT_2',
-      title: 'Alahady 2 amin\'ny Advento',
+      title: 'Alahady faha-2 Fiaviana',
       date: advent1.add(const Duration(days: 7)),
     ));
     events.add(LiturgicalEvent(
       code: 'ADVENT_3',
-      title: 'Alahady 3 amin\'ny Advento (Gaudete)',
+      title: 'Alahady faha-3 Fiaviana',
       date: advent1.add(const Duration(days: 14)),
     ));
     events.add(LiturgicalEvent(
       code: 'ADVENT_4',
-      title: 'Alahady 4 amin\'ny Advento',
+      title: 'Alahady faha-4 Fiaviana',
       date: advent1.add(const Duration(days: 21)),
     ));
 
     events.add(LiturgicalEvent(
       code: 'CHRISTMAS',
-      title: 'Fahatsiarovana ny Hena Masina (Krismasy)',
+      title: 'Noely (Krismasy)',
       date: DateTime(year, 12, 25),
     ));
 

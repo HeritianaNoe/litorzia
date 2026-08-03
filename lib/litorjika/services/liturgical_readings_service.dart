@@ -69,10 +69,10 @@ class LiturgicalReadingsService {
   // Anarana manokana ho an'ny Advento / Karemy / Paka (tsy manaraka ny
   // lamina ambony satria samy hafa ny fomba fanoratana azy ao amin'ny JSON).
   static const Map<int, String> _adventNames = {
-    1: "Alahady voalohan'ny Advento",
-    2: "Alahady faharoan'ny Advento",
-    3: "Alahady fahatelon'ny Advento",
-    4: "Alahady fahefatry ny Advento",
+    1: "Alahady voalohan'ny Fiaviana",
+    2: "Alahady faharoan'ny Fiaviana",
+    3: "Alahady fahatelon'ny Fiaviana",
+    4: "Alahady fahefatry ny Fiaviana",
   };
 
   static const Map<int, String> _lentNames = {
@@ -108,7 +108,7 @@ class LiturgicalReadingsService {
     }
     if (code.startsWith('ADVENT_')) {
       final n = int.parse(code.substring('ADVENT_'.length));
-      return ('Advento', _adventNames[n]!);
+      return ('Fiaviana', _adventNames[n]!);
     }
     if (code.startsWith('LENT_SUNDAY_')) {
       final n = int.parse(code.substring('LENT_SUNDAY_'.length));
@@ -142,7 +142,9 @@ class LiturgicalReadingsService {
       return ('Krismasy', "Krismasy: Amin'ny antoandro");
     }
     if (code == 'ASH_WEDNESDAY') {
-      return null; // tsy misy vakiteny mifandraika aminy ao amin'ny JSON
+      // Mitovy vakiteny isan-taona (A, B, C) ny an'ny Alarobian'ny Lavenona,
+      // koa "ABC" no soratana ao amin'ny JSON ho an'ny "taona" mifanaraka.
+      return ('Karemy', "Alarobian'ny Lavenona");
     }
     return null;
   }

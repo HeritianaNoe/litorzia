@@ -3,10 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 import '../models/olomasina_model.dart';
+import '../models/sokajy_category.dart';
 
-/// Karatra fintina mampiseho ny sarin'ny Olomasina, ny anarany
-/// sy ny daty fankalazana azy. Raha tsindriana dia mankany amin'ny
-/// pejy antsipirihany.
 class OlomasinaCard extends StatelessWidget {
   final Olomasina olomasina;
   final VoidCallback onTap;
@@ -20,7 +18,7 @@ class OlomasinaCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      margin: EdgeInsets.zero,
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
       clipBehavior: Clip.antiAlias,
@@ -29,38 +27,47 @@ class OlomasinaCard extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(10),
           child: Row(
+            // Voahitsy eto: CrossAxisAlignment (misy Axis)
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               _buatraSary(),
-              const SizedBox(width: 14),
+              const SizedBox(width: 12),
               Expanded(
                 child: Column(
+                  mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       olomasina.anarana,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        fontSize: 16,
+                        fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 3),
                     Text(
                       olomasina.fanoharana,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      style: TextStyle(color: Colors.grey[700], fontSize: 13),
+                      style: TextStyle(color: Colors.grey[700], fontSize: 12),
                     ),
-                    const SizedBox(height: 6),
+                    const SizedBox(height: 4),
                     Row(
                       children: [
-                        const Icon(Icons.calendar_today, size: 14, color: Colors.deepPurple),
+                        const Icon(Icons.calendar_today, size: 12, color: Colors.deepPurple),
                         const SizedBox(width: 4),
-                        Text(
-                          olomasina.datyFankalazana,
-                          style: const TextStyle(
-                            color: Colors.deepPurple,
-                            fontWeight: FontWeight.w600,
-                            fontSize: 13,
+                        Expanded(
+                          child: Text(
+                            olomasina.datyFankalazana,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              color: Colors.deepPurple,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 12,
+                            ),
                           ),
                         ),
                       ],
@@ -76,10 +83,8 @@ class OlomasinaCard extends StatelessWidget {
     );
   }
 
-  /// Mampiseho ny sarin'ny Olomasina; raha tsy misy sary na tsy hita
-  /// ilay rakitra, dia mampiseho tandindona (icon) solon'izany.
   Widget _buatraSary() {
-    const double taille = 64;
+    const double taille = 60;
 
     if (olomasina.sary == null || olomasina.sary!.isEmpty) {
       return _tandindonaSolo(taille);
@@ -87,7 +92,6 @@ class OlomasinaCard extends StatelessWidget {
 
     final String sary = olomasina.sary!;
 
-    // URL avy amin'ny internet
     if (sary.startsWith('http')) {
       return ClipRRect(
         borderRadius: BorderRadius.circular(10),
@@ -101,7 +105,6 @@ class OlomasinaCard extends StatelessWidget {
       );
     }
 
-    // Sary voarakitra ao anaty fitehirizana lokaly an'ny finday
     if (sary.startsWith('/')) {
       return ClipRRect(
         borderRadius: BorderRadius.circular(10),
@@ -115,7 +118,6 @@ class OlomasinaCard extends StatelessWidget {
       );
     }
 
-    // Sary ao anaty assets/images/ (bundle miaraka amin'ny app)
     return ClipRRect(
       borderRadius: BorderRadius.circular(10),
       child: Image.asset(
@@ -129,6 +131,8 @@ class OlomasinaCard extends StatelessWidget {
   }
 
   Widget _tandindonaSolo(double taille) {
+    final SokajyCategory? category = findSokajyCategory(olomasina.sokajy);
+
     return Container(
       width: taille,
       height: taille,
@@ -136,7 +140,11 @@ class OlomasinaCard extends StatelessWidget {
         color: Colors.deepPurple.shade50,
         borderRadius: BorderRadius.circular(10),
       ),
-      child: const Icon(Icons.church, color: Colors.deepPurple, size: 30),
+      child: Icon(
+        category?.icon ?? Icons.church,
+        color: Colors.deepPurple,
+        size: 28,
+      ),
     );
   }
 }

@@ -6,8 +6,8 @@ import '../services/olomasina_service.dart';
 import '../widgets/olomasina_card.dart';
 import 'antsipirihany_screen.dart';
 
-/// Mampiseho ny lisitry ny Olomasina rehetra mifanaraka amin'ny
-/// sokajy (SokajyCategory) voafidy avy amin'ny SokajyScreen.
+/// Pejy mampiseho ny lisitry ny Olomasina mifanaraka amin'ny sokajy voafidy.
+/// Mampifanaraka ny layout ho an'ny Mobile (ListView) ary Tablet/Desktop (GridView).
 class SokajyOlomasinaScreen extends StatefulWidget {
   final SokajyCategory category;
 
@@ -62,57 +62,71 @@ class _SokajyOlomasinaScreenState extends State<SokajyOlomasinaScreen> {
       body: _mbolaMiandry
           ? const Center(child: CircularProgressIndicator())
           : _hadisoana != null
-          ? Center(
-              child: Padding(
-                padding: const EdgeInsets.all(24.0),
-                child: Text(
-                  _hadisoana!,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(color: Colors.red),
-                ),
-              ),
-            )
-          : _lisitra.isEmpty
-          ? const Center(child: Text('Tsy misy Olomasina hita amin\'ity sokajy ity.'))
-          : _lisitraMultiscreen(),
+              ? Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(24.0),
+                    child: Text(
+                      _hadisoana!,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(color: Colors.red),
+                    ),
+                  ),
+                )
+              : _lisitra.isEmpty
+                  ? const Center(
+                      child: Text('Tsy misy Olomasina hita amin\'ity sokajy ity.'),
+                    )
+                  : _lisitraMultiscreen(),
     );
   }
 
-  /// Mamerina lisitra (ListView) raha efitrano finday tery, na grid
-  /// (GridView) misy tsanganana maromaro raha efitrano midadasika kokoa
-  /// (tablet/desktop), mba hampitovy tsara ny fampiasana ny habaka.
+  /// Mamerina ny layout mifanaraka amin'ny haben'ny ecran
   Widget _lisitraMultiscreen() {
     return LayoutBuilder(
       builder: (context, constraints) {
         final double sakany = constraints.maxWidth;
 
-        // Finday tery: lisitra tsotra iray tsanganana.
-        if (sakany < 600) {
-          return ListView.builder(
-            itemCount: _lisitra.length,
-            itemBuilder: (context, index) => _karatra(_lisitra[index]),
-          );
-        }
-
-        // Tablet/desktop: grid misy tsanganana maro arakaraka ny sakan'ny efitrano.
-        final int tsanganana = sakany >= 1200
-            ? 4
-            : sakany >= 900
-            ? 3
-            : 2;
-
-        return GridView.builder(
-          padding: const EdgeInsets.symmetric(vertical: 6),
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: tsanganana,
-            mainAxisExtent: 108,
-            crossAxisSpacing: 4,
-            mainAxisSpacing: 4,
+        return Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 1200),
+            child: _buildAdaptiveLayout(sakany),
           ),
-          itemCount: _lisitra.length,
-          itemBuilder: (context, index) => _karatra(_lisitra[index]),
         );
       },
+    );
+  }
+
+  Widget _buildAdaptiveLayout(double sakany) {
+    // 1. MOBILE (< 600px): ListView.builder
+    // Tsy asiana mainAxisExtent/haavo raikitra mba handray ny soratra lava rehetra (tsy hisy overflow).
+    if (sakany < 600) {
+      return ListView.builder(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+        itemCount: _lisitra.length,
+        itemBuilder: (context, index) => Padding(
+          padding: const EdgeInsets.only(bottom: 8.0),
+          child: _karatra(_lisitra[index]),
+        ),
+      );
+    }
+
+    // 2. TABLET SY DESKTOP (>= 600px): GridView.builder
+    final int tsanganana = sakany >= 1200
+        ? 4 // Desktop lehibe
+        : sakany >= 900
+            ? 3 // Desktop / Tablet lehibe
+            : 2; // Tablet midadasika
+
+    return GridView.builder(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: tsanganana,
+        mainAxisExtent: 140, // Haavo ampy tsara ho an'ny Tablet/Desktop
+        crossAxisSpacing: 16,
+        mainAxisSpacing: 16,
+      ),
+      itemCount: _lisitra.length,
+      itemBuilder: (context, index) => _karatra(_lisitra[index]),
     );
   }
 
