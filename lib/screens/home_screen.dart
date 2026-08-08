@@ -321,7 +321,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Version ${HomeScreen.appVersion}', // ✅ Works properly now
+                      'Version ${HomeScreen.appVersion}',  
                       style: const TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -340,8 +340,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   'Ity app ity dia mampiseho ny alimanaka Katolika '
                   '(Fiaviana, Krismasy, Karemy, Paka, Alahady tsotra, sns.) '
-                  'miaraka amin\'ny vakiteny (Vakiteny voalohany, Salamo, Vakiteny '
-                  'faharoa ary Evanjely) mifandraika amin\'ny alahady sy fety '
+                  'miaraka amin\'ny vakiteny '
+                  'mifandraika amin\'ny alahady sy fety '
                   'tsirairay, araka ny taona litorjika A, B na C. '
                   'Mirakitra ihany koa ny tantaran\'ny Olomasina '
                   'ho fanampiana ny fiainam-panahin\'ny kristiana Katolika.',
