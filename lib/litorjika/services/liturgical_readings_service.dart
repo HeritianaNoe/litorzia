@@ -126,20 +126,36 @@ class LiturgicalReadingsService {
       if (name == null) return null;
       return ('Paka', name);
     }
+    if (code == 'SACRED_HEART_OF_JESUS') {
+      return ('Fetim-panjakana', "Ny Fo Masin\'i Jesoa");
+    }
     if (code == 'PENTECOST') {
       return ('Paka', "Pentekosta: Amin'ny antoandro");
+    }
+    if (code == 'ASCENSION') {
+      return ('Paka', "Ny Fiakaran\'ny Tompo");
     }
     if (code == 'TRINITY_SUNDAY') {
       return ('Fetim-panjakana', 'Ny Trinite Masina');
     }
     if (code == 'CORPUS_CHRISTI') {
-      return ('Fetim-panjakana', "Ny Vatana sy Ran'ny Kristy (Korpus Kristi)");
+      return ('Fetim-panjakana', "Ny Vatana sy Ran'ny Kristy");
     }
     if (code == 'BAPTISM_OF_LORD') {
       return ('Krismasy', 'Ny Batemin\'ny Tompo');
     }
     if (code == 'CHRISTMAS') {
       return ('Krismasy', "Krismasy: Amin'ny antoandro");
+    }
+    if (code == 'HOLY_FAMILY') {
+      return ('Krismasy', "Ny Fianakaviana Masina");
+    }
+    if (code == 'MARY_MOTHER_OF_GOD') {
+      // Daty raikitra (1 Janoary), koa "ABC" no soratana ho an'ny "taona".
+      return (
+        'Krismasy',
+        "Maria Reny Masin'Andriamanitra",
+      );
     }
     if (code == 'ASH_WEDNESDAY') {
       // Mitovy vakiteny isan-taona (A, B, C) ny an'ny Alarobian'ny Lavenona,

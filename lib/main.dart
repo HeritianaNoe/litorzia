@@ -17,7 +17,7 @@ class LitorziaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Alimanaka Katolika',
+      title: 'Alimanaka',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

@@ -67,6 +67,18 @@ class LiturgicalCalendar {
     return christmas.subtract(Duration(days: daysToFirstSunday));
   }
 
+  /// Kajy ny Fetin'ny Fianakavian'i Nazareta Masina: ny Alahady eo anelanelan'
+  /// ny 26 sy 31 Desambra (ao anatin'ny Oktavan'ny Noely); raha tsy misy
+  /// Alahady amin'io fe-potoana io (satria Alahady mihitsy ny 25 Desambra),
+  /// dia ny 30 Desambra no ankalazana azy.
+  static DateTime getHolyFamily(int year) {
+    for (int day = 26; day <= 31; day++) {
+      DateTime d = DateTime(year, 12, day);
+      if (d.weekday == DateTime.sunday) return d;
+    }
+    return DateTime(year, 12, 30);
+  }
+
   /// MAZO NY LISITRA REHETRA (Ahitana ireo Alahady Mandavantaona rehetra)
   static List<LiturgicalEvent> getEventsForYear(int year) {
     List<LiturgicalEvent> events = [];
@@ -143,6 +155,18 @@ class LiturgicalCalendar {
       date: pentecost,
     ));
 
+    events.add(LiturgicalEvent(
+      code: 'SACRED_HEART_OF_JESUS',
+      title: 'Ny Fo Masin\'i Jesoa',
+      date: pentecost.add(Duration(days: 19)),
+    ));
+
+    events.add(LiturgicalEvent(
+      code: 'ASCENSION',
+      title: 'Ny Fiakaran\'ny Tompo',
+      date: pentecost.subtract(Duration(days: 10)),
+    ));
+
     // -------------------------------------------------------------
     // 3. ANTSO MANDAVANTAONA PAROASY II (Aorian'ny Pentekosta)
     // -------------------------------------------------------------
@@ -154,7 +178,7 @@ class LiturgicalCalendar {
 
     events.add(LiturgicalEvent(
       code: 'CORPUS_CHRISTI',
-      title: 'Vatsin\'ny Mpahazo (Corpus Christi)',
+      title: 'Ny Vatana sy Ran\'ny Kristy',
       date: easter.add(const Duration(days: 63)), // Mankalaza amin'ny Alahady
     ));
 
@@ -210,6 +234,20 @@ class LiturgicalCalendar {
       code: 'CHRISTMAS',
       title: 'Noely (Krismasy)',
       date: DateTime(year, 12, 25),
+    ));
+
+    // Ny Fianakavian'i Nazareta Masina (Alahady ao anatin'ny Oktavan'ny Noely)
+    events.add(LiturgicalEvent(
+      code: 'HOLY_FAMILY',
+      title: "Ny Fianakaviana Masina",
+      date: getHolyFamily(year),
+    ));
+
+    // 1 Janoary: Masiba lehiben'i Maria Reny Masin'Andriamanitra (daty raikitra)
+    events.add(LiturgicalEvent(
+      code: 'MARY_MOTHER_OF_GOD',
+      title: "Maria Reny Masin'Andriamanitra",
+      date: DateTime(year, 1, 1),
     ));
 
     // Sordina araka ny filaharan'ny daty

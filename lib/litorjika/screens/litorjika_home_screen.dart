@@ -125,7 +125,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
   String _formatLiturgicalCode(String code) {
     if (code.startsWith('ORDINARY_SUNDAY_')) {
       final number = code.replaceAll('ORDINARY_SUNDAY_', '');
-      return 'Alahady faha-$number Tsotra';
+      return 'Alahady faha-$number Tsotra mandavantaona';
     }
     if (code.startsWith('ADVENT_SUNDAY_')) {
       final number = code.replaceAll('ADVENT_SUNDAY_', '');
@@ -142,19 +142,25 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
 
     switch (code) {
       case 'EASTER':
-        return 'Alahadyn\'ny Paka';
+        return 'Alahady ny Paka';
       case 'PALM_SUNDAY':
-        return 'Alahadyn\'ny Sampan-kazo';
+        return 'Alahady ny Sampankazo';
       case 'CHRIST_THE_KING':
         return 'Kristy Mpanjaka';
       case 'PENTECOST':
         return 'Pantekoty';
       case 'ASCENSION':
-        return 'Andro Niakarana';
+        return 'Ny Fiakaran\'ny Tompo';
       case 'TRINITY':
         return 'Trinite Masina';
       case 'CORPUS_CHRISTI':
-        return 'Vatan\'i Kristy Masina';
+        return 'Ny Vatana sy Ran\'ny Kristy';
+      case 'HOLY_FAMILY':
+        return 'Ny Fianakaviana Masina';
+      case 'MARY_MOTHER_OF_GOD':
+        return 'Maria Reny Masin\'Andriamanitra';
+      case 'SACRED_HEART_OF_JESUS':
+        return 'Ny Fo Masin\'i Jesoa';
       default:
         return code;
     }
@@ -255,10 +261,13 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
                         'Kaody (Code):',
                         _formatLiturgicalCode(event.code),
                       ),
-                      if (event.readings != null) ...[
-                        const SizedBox(height: 8),
+                      if (event.readings != null) ...[ 
+                        const SizedBox(height: 6),
                         _buildDetailRow(
                             'Taona (Cycle):', event.readings!.taona),
+                        const SizedBox(height: 6),
+                        _buildDetailRow(
+                            'Lohahevitra:', event.readings!.lohahevitra),
                       ],
                       const SizedBox(height: 16),
                       if (!event.hasReadings)
@@ -369,7 +378,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Voaadikay tsara ny anton-tsoratra (Copied)! 📋'),
+          content: Text('Voadika tsara (Copied)! 📋'),
           duration: Duration(seconds: 2),
         ),
       );
@@ -417,7 +426,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
     await CommentsService.saveComment(id, controller.text);
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Voatahiry ny commentairenao ✅')),
+        const SnackBar(content: Text('Voatahiry ny Toriteny ✅')),
       );
     }
     return controller.text.trim();
@@ -443,7 +452,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
     }
 
     buffer.writeln();
-    buffer.write("Nozaraina avy amin'ny app Litorjika Katolika 🙏");
+    buffer.write("Nozaraina avy amin'ny app Alimanaka Katolika 🙏");
 
     await SharePlus.instance.share(
       ShareParams(
@@ -503,7 +512,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
                       width: double.infinity,
                       child: Center(
                         child: Text(
-                          'Isan\'ny fisehoan-javatra amin\'ity Taona Litorjika ity: ${allDays.length}',
+                          'Isan\'ny fisehoan-javatra: ${allDays.length}',
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.purple,
@@ -625,7 +634,7 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
                 const SizedBox(height: 8),
                 if (event.hasReadings)
                   Text(
-                    'Vakiteny: ${event.readings!.vakyTeny.map((r) => r.karazany).join(' • ')}',
+                    '${event.readings!.lohahevitra}',
                     style: const TextStyle(color: Colors.white, fontSize: 13),
                   )
                 else

@@ -67,6 +67,11 @@ const List<SokajyCategory> sokajyCategories = [
     icon: Icons.workspace_premium,
     sokajyValues: ['Papa', 'Eveka'],
   ),
+  SokajyCategory(
+    label: 'Hermita',
+    icon: Icons.hiking,
+    sokajyValues: ['Hermita'],
+  ),
 ];
 
 /// Mikaroka ny [SokajyCategory] (sy noho izany ny icon mifandraika aminy)

@@ -4,6 +4,7 @@ class Reading {
   final String reference; // oh: "Isa 2:1-5"
   final String boky; // oh: "Izaia"
   final String andininy; // ny votoatin'ny andininy
+  
 
   Reading({
     required this.karazany,
@@ -29,12 +30,14 @@ class LiturgicalDayReadings {
   final String anarana; // ny anarana amin'ny teny malagasy, araka ny JSON
   final String taona; // "A", "B", "C" na "ABC" raha tsy miova isan-taona
   final List<Reading> vakyTeny;
+  final String lohahevitra;
 
   LiturgicalDayReadings({
     required this.vondrona,
     required this.anarana,
     required this.taona,
     required this.vakyTeny,
+    required this.lohahevitra,
   });
 
   factory LiturgicalDayReadings.fromJson(Map<String, dynamic> json) {
@@ -46,6 +49,7 @@ class LiturgicalDayReadings {
       vakyTeny: list
           .map((e) => Reading.fromJson(e as Map<String, dynamic>))
           .toList(),
+      lohahevitra: json['lohahevitra'] as String? ?? '',
     );
   }
 }
