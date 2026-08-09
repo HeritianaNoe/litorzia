@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../models/olomasina_model.dart';
 import '../models/sokajy_category.dart';
+import '../theme/app_colors.dart';
 
 class OlomasinaCard extends StatelessWidget {
   final Olomasina olomasina;
@@ -56,7 +57,7 @@ class OlomasinaCard extends StatelessWidget {
                     const SizedBox(height: 4),
                     Row(
                       children: [
-                        const Icon(Icons.calendar_today, size: 12, color: Colors.deepPurple),
+                        const Icon(Icons.calendar_today, size: 12, color: AppColors.olomasinaPrimaryDark),
                         const SizedBox(width: 4),
                         Expanded(
                           child: Text(
@@ -64,7 +65,7 @@ class OlomasinaCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
-                              color: Colors.deepPurple,
+                              color: AppColors.olomasinaPrimaryDark,
                               fontWeight: FontWeight.w600,
                               fontSize: 12,
                             ),
@@ -137,12 +138,12 @@ class OlomasinaCard extends StatelessWidget {
       width: taille,
       height: taille,
       decoration: BoxDecoration(
-        color: Colors.deepPurple.shade50,
+        color: AppColors.olomasinaLight,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Icon(
         category?.icon ?? Icons.church,
-        color: Colors.deepPurple,
+        color: AppColors.olomasinaPrimary,
         size: 28,
       ),
     );

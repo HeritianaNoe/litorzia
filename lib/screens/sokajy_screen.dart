@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/olomasina_model.dart';
 import '../models/sokajy_category.dart';
 import '../services/olomasina_service.dart';
+import '../theme/app_colors.dart';
 import 'sokajy_olomasina_screen.dart';
 
 /// Pejy grid mampiseho ny sokajin'ny Olomasina rehetra (Masina, Apostoly,
@@ -55,6 +56,8 @@ class _SokajyScreenState extends State<SokajyScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.olomasinaPrimary,
+        foregroundColor: AppColors.olomasinaOnPrimary,
         title: const Text('Sokajin\'ny Olomasina'),
         centerTitle: true,
       ),
@@ -131,7 +134,7 @@ class _SokajyTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.deepPurple.shade50,
+      color: AppColors.olomasinaLight,
       borderRadius: BorderRadius.circular(16),
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
@@ -147,11 +150,11 @@ class _SokajyTile extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(12),
                     child: Container(
-                      color: Colors.deepPurple.shade100,
+                      color: AppColors.olomasinaLight,
                       alignment: Alignment.center,
                       child: Icon(
                         category.icon,
-                        color: Colors.deepPurple,
+                        color: AppColors.olomasinaPrimary,
                         size: 36,
                       ),
                     ),
@@ -169,7 +172,7 @@ class _SokajyTile extends StatelessWidget {
                   style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 13,
-                    color: Colors.deepPurple,
+                    color: AppColors.olomasinaPrimaryDark,
                   ),
                 ),
               ),

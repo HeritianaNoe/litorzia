@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
+import '../../theme/app_colors.dart';
 import '../models/liturgical_data.dart';
 import '../services/comments_service.dart';
 import '../services/liturgical_readings_service.dart';
@@ -480,6 +481,8 @@ class _LitorjikaHomeScreenState extends State<LitorjikaHomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.litorjikaPrimary,
+        foregroundColor: AppColors.litorjikaOnPrimary,
         title: const Text('Litorjika Katolika'),
         centerTitle: true,
         actions: [

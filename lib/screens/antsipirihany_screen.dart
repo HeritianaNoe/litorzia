@@ -4,6 +4,7 @@ import 'package:share_plus/share_plus.dart';
 
 import '../models/olomasina_model.dart';
 import '../models/sokajy_category.dart';
+import '../theme/app_colors.dart';
 
 /// Pejy mampiseho ny tantara feno sy ny antsipirihan'ny Olomasina
 /// iray voafidy avy amin'ny lisitra.
@@ -20,6 +21,9 @@ class AntsipirihanyScreen extends StatelessWidget {
           SliverAppBar(
             expandedHeight: 260,
             pinned: true,
+            backgroundColor: AppColors.olomasinaPrimary,
+            foregroundColor: AppColors.olomasinaOnPrimary,
+            iconTheme: const IconThemeData(color: AppColors.olomasinaOnPrimary),
             actions: [
               // Icon fanaovana Copy
               IconButton(
@@ -61,7 +65,7 @@ class AntsipirihanyScreen extends StatelessWidget {
                         avatar: const Icon(Icons.category,
                             size: 16, color: Colors.white),
                         label: Text(olomasina.sokajy),
-                        backgroundColor: Colors.deepPurple,
+                        backgroundColor: AppColors.olomasinaPrimary,
                         labelStyle: const TextStyle(color: Colors.white),
                       ),
                       Chip(
@@ -85,7 +89,7 @@ class AntsipirihanyScreen extends StatelessWidget {
                       child: Row(
                         children: [
                           const Icon(Icons.history_edu,
-                              color: Colors.deepPurple),
+                              color: AppColors.olomasinaPrimary),
                           const SizedBox(width: 10),
                           Expanded(
                             child: Text(
@@ -104,7 +108,7 @@ class AntsipirihanyScreen extends StatelessWidget {
                       fontSize: 16,
                       fontStyle: FontStyle.italic,
                       fontWeight: FontWeight.w600,
-                      color: Colors.deepPurple,
+                      color: AppColors.olomasinaPrimaryDark,
                     ),
                   ),
                   const Divider(height: 30),
@@ -134,11 +138,11 @@ class AntsipirihanyScreen extends StatelessWidget {
     final SokajyCategory? category = findSokajyCategory(olomasina.sokajy);
 
     return Container(
-      color: Colors.deepPurple.shade100,
+      color: AppColors.olomasinaLight,
       child: Icon(
         category?.icon ?? Icons.church,
         size: 90,
-        color: Colors.deepPurple,
+        color: AppColors.olomasinaPrimary,
       ),
     );
   }

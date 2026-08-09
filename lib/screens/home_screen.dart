@@ -3,16 +3,14 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 import '../models/olomasina_model.dart';
 import '../services/olomasina_service.dart';
+import '../theme/app_colors.dart';
 import '../widgets/olomasina_card.dart';
 import 'antsipirihany_screen.dart';
 import 'sokajy_screen.dart';
 
-/// Pejy voalohany: mampiseho ny lisitry ny Olomasina rehetra, misy
-/// tsipika fikarohana ary mifanaraka amin'ny ecran Mobile sy Desktop.
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
-  // Variable static azonao alaina amin'ny Class hafa
   static String appVersion = '...';
 
   @override
@@ -34,19 +32,14 @@ class _HomeScreenState extends State<HomeScreen> {
     _alaoAngona();
   }
 
-// Azonao atao ao amin'ny initState na ao anatin'ny FutureBuilder
   Future<String> getAppVersion() async {
     final packageInfo = await PackageInfo.fromPlatform();
-
-    // packageInfo.version -> "1.6.9"
-    // packageInfo.buildNumber -> "1"
     return packageInfo.version;
   }
 
   Future<void> _alaoAngona() async {
     final version = await getAppVersion();
     if (mounted) {
-      // Halavirana ny error raha efa niala amin'ilay pejy ny mpampiasa
       setState(() {
         HomeScreen.appVersion = version;
       });
@@ -57,11 +50,13 @@ class _HomeScreenState extends State<HomeScreen> {
     });
     try {
       final data = await _jsonService.getOlomasinaRehetra();
+      if (!mounted) return;
       setState(() {
         _lisitra = data;
         _mbolaMiandry = false;
       });
     } catch (e) {
+      if (!mounted) return;
       setState(() {
         _mbolaMiandry = false;
         _hadisoana = 'Tsy voavaky ny rakitra JSON!\n\n$e';
@@ -81,11 +76,13 @@ class _HomeScreenState extends State<HomeScreen> {
     });
     try {
       final data = await _jsonService.karohyOlomasina(teny.trim());
+      if (!mounted) return;
       setState(() {
         _lisitra = data;
         _mbolaMiandry = false;
       });
     } catch (e) {
+      if (!mounted) return;
       setState(() {
         _mbolaMiandry = false;
         _hadisoana = 'Tsy voavaky ny rakitra JSON!\n\n$e';
@@ -97,7 +94,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Rakitry ny Olomasina"),
+        backgroundColor: AppColors.olomasinaPrimary,
+        foregroundColor: AppColors.olomasinaOnPrimary,
+        title: const Text("Olomasina"),
         centerTitle: true,
         actions: [
           IconButton(
@@ -112,7 +111,6 @@ class _HomeScreenState extends State<HomeScreen> {
           constraints: const BoxConstraints(maxWidth: 1200),
           child: Column(
             children: [
-              // Interface Fikarohana (Search Bar)
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
                 child: Row(
@@ -148,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(width: 8),
                     Material(
-                      color: Colors.deepPurple,
+                      color: AppColors.olomasinaPrimary,
                       borderRadius: BorderRadius.circular(30),
                       child: InkWell(
                         borderRadius: BorderRadius.circular(30),
@@ -172,8 +170,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-
-              // Lisitra (Dynamic Layout: Mobile vs Desktop)
               Expanded(
                 child: _mbolaMiandry
                     ? const Center(child: CircularProgressIndicator())
@@ -222,13 +218,11 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  /// Mampiditra ny Layout Responsive miaraka amin'ny elanelana ampy
   Widget _buildAdaptiveList() {
     return LayoutBuilder(
       builder: (context, constraints) {
         final double sakany = constraints.maxWidth;
 
-        // Mobile (< 600px): ListView.separated
         if (sakany < 600) {
           return ListView.separated(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -244,7 +238,6 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         }
 
-        // Tablet sy Desktop (>= 600px): GridView.builder
         final int tsanganana = sakany >= 1200
             ? 4
             : sakany >= 900
@@ -256,8 +249,8 @@ class _HomeScreenState extends State<HomeScreen> {
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: tsanganana,
             mainAxisExtent: 145,
-            crossAxisSpacing: 16, // Elanelana mitsivalana eo amin'ny karatra
-            mainAxisSpacing: 16, // Elanelana mitsangana eo amin'ny karatra
+            crossAxisSpacing: 16,
+            mainAxisSpacing: 16,
           ),
           itemCount: _lisitra.length,
           itemBuilder: (context, index) {
@@ -281,7 +274,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  /// Mampiseho ny fanazavana momba ny app (AboutDialog)
   void _showAboutDialog() {
     showDialog(
       context: context,
@@ -300,7 +292,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 48,
                   fit: BoxFit.cover,
                   errorBuilder: (_, __, ___) => const CircleAvatar(
-                    backgroundColor: Colors.deepPurple,
+                    backgroundColor: AppColors.olomasinaPrimary,
                     radius: 24,
                     child: Icon(Icons.church, color: Colors.white),
                   ),
@@ -321,7 +313,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Version ${HomeScreen.appVersion}',  
+                      'Version ${HomeScreen.appVersion}',
                       style: const TextStyle(
                         fontSize: 12,
                         color: Colors.grey,
@@ -337,15 +329,15 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                const Text(
                   'Ity app ity dia mampiseho ny alimanaka Katolika '
                   '(Fiaviana, Krismasy, Karemy, Paka, Alahady tsotra, sns.) '
                   'miaraka amin\'ny vakiteny '
                   'mifandraika amin\'ny alahady sy fety '
                   'tsirairay, araka ny taona litorjika A, B na C. '
-                  'Mirakitra ihany koa ny tantaran\'ny Olomasina '
+                  'Mirakitra ihany koa ny tantaran\'ny Olomasina sy ireo vavaka katolika '
                   'ho fanampiana ny fiainam-panahin\'ny kristiana Katolika.',
-                  style: const TextStyle(fontSize: 14, height: 1.4),
+                  style: TextStyle(fontSize: 14, height: 1.4),
                 ),
                 const SizedBox(height: 16),
                 Text(

@@ -3,11 +3,10 @@ import 'package:flutter/material.dart';
 import 'litorjika/screens/litorjika_home_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/splash_screen.dart';
+import 'screens/vavaka_screen.dart'; // 1. AMPIDIRO ETO NY IMPORT NY VAVAKA
 
 void main() async {
-  // 1. TSY MAINTSY AMPIDIRINA: Mampifandray ny Flutter Engine amin'ny Assets
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(const LitorziaApp());
 }
 
@@ -47,9 +46,11 @@ class MainNavigation extends StatefulWidget {
 class _MainNavigationState extends State<MainNavigation> {
   int _currentIndex = 0;
 
+  // 2. AMPIO ETO NY VavakaScreen() (Index 2)
   static const List<Widget> _pages = [
     HomeScreen(),
     LitorjikaHomeScreen(),
+    VavakaScreen(), 
   ];
 
   @override
@@ -59,6 +60,7 @@ class _MainNavigationState extends State<MainNavigation> {
         index: _currentIndex,
         children: _pages,
       ),
+      // 3. AMPIO ETO NY BOKOTRA FAHA-3 HO AN'NY VAVAKA
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,
         onDestinationSelected: (index) {
@@ -74,6 +76,11 @@ class _MainNavigationState extends State<MainNavigation> {
             icon: Icon(Icons.calendar_month_outlined),
             selectedIcon: Icon(Icons.calendar_month),
             label: 'Litorjika',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.auto_stories_outlined),
+            selectedIcon: Icon(Icons.auto_stories),
+            label: 'Vavaka',
           ),
         ],
       ),

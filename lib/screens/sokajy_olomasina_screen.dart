@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/olomasina_model.dart';
 import '../models/sokajy_category.dart';
 import '../services/olomasina_service.dart';
+import '../theme/app_colors.dart';
 import '../widgets/olomasina_card.dart';
 import 'antsipirihany_screen.dart';
 
@@ -56,6 +57,8 @@ class _SokajyOlomasinaScreenState extends State<SokajyOlomasinaScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: AppColors.olomasinaPrimary,
+        foregroundColor: AppColors.olomasinaOnPrimary,
         title: Text(widget.category.label),
         centerTitle: true,
       ),

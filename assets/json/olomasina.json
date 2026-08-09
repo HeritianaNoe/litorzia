@@ -414,8 +414,8 @@
     "anarana": "Md. Charles Lwanga sy ireo Maritiora avy any Uganda",
     "daty_fankalazana": "03 Jona",
     "fanoharana": "Maritiora Afrikanina, Nizaka ny fahafatesana noho ny finoana",
-    "tantara": "Tanora Katolika tao amin'ny lapan'ny mpanjaka tao Uganda i Charles Lwanga sy ny namany izay nolazana hanao fanotana saingy nandà noho ny finoany. Nodorana velona izy ireo tamin'ny 1886 noho ny fahatokiany an'i Kristy.",
-    "sokajy": "Maritiora Afrikanina",
+    "tantara": "Tanora Katolika tao amin'ny lapan'ny mpanjaka tao Uganda i Charles Lwanga sy ny namany, izay nolazana hanao fanotana saingy nandà noho ny finoany. Nodorana velona izy ireo tamin'ny 1886 noho ny fahatokiany an'i Kristy. Nohamasinina izy ireo ho ohatra amin'ny faharetana sy ny fahadiovana.",
+    "sokajy": "Martiry",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "1886"
   },
@@ -621,7 +621,7 @@
   },
   {
     "id": 63,
-    "anarana": "Md. Gianna Beretta Molla",
+    "anarana": "Mb. Gianna Beretta Molla",
     "daty_fankalazana": "28 Aprily",
     "fanoharana": "Dokotera sy Reny, Mpiaro ny Fiainana",
     "tantara": "Dokotera Italiana i Gianna izay nanolotra ny ainy mba hamonjena ny zanany fony izy bevohoka, na dia nahalala aza ny loza mety hitranga aminy. Modely amin'ny fitiavan-tena ho an'ny fiainana izy.",
@@ -704,7 +704,7 @@
     "anarana": "Md. Jean XXIII",
     "daty_fankalazana": "11 Oktobra",
     "fanoharana": "Papa, 'Papa tsara fanahy'",
-    "tantara": "Niantso ny Kônsily Vatikana II izy, izay nanova ny endrik'ilay Fiangonana. Malaza tamin'ny fahalalahan-tanany sy ny fahatsorany izy.",
+    "tantara": "Papa, 'Papa tsara fanahy'. Niantso ny Kônsily Vatikana II izy, izay nanova ny endrik'ilay Fiangonana. Malaza tamin'ny fahalalahan-tanany sy ny fahatsorany.",
     "sokajy": "Papa",
     "taona_nahaterahana": "1881",
     "taona_nahafatesana": "1963"
@@ -714,7 +714,7 @@
     "anarana": "Md. Paul VI",
     "daty_fankalazana": "26 Septambra",
     "fanoharana": "Papa, nanohy ny Kônsily Vatikana II",
-    "tantara": "Nanohy sy namarana ny Kônsily Vatikana II izy, ary nampiasa tamin'ny fampiharana ny fanavaozana litorjia.",
+    "tantara": "Nanohy sy namarana ny Kônsily Vatikana II izy. Nampiharana ny fanavaozana litorjia sy namporisika ny firaisan'ny kristiana. Fantatra amin'ny fitiavany ny Fiangonana sy ny fampandrosoana ny finoana maoderina.",
     "sokajy": "Papa",
     "taona_nahaterahana": "1897",
     "taona_nahafatesana": "1978"
@@ -724,7 +724,7 @@
     "anarana": "Md. Lin",
     "daty_fankalazana": "23 Septambra",
     "fanoharana": "Papa faharoa",
-    "tantara": "Nifandimby tamin'i Md. Piera ho evekan'i Roma izy, ary voalaza fa nandamina ny fiangonana tany am-piandohana.",
+    "tantara": "Papa faharoa, nifandimby tamin'i Md. Piera. Nandamina ny Fiangonana tany Roma tamin'ny androny ary nampiely ny Vaovao Mahafaly tany am-piandohana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "10",
     "taona_nahafatesana": "76"
@@ -734,7 +734,7 @@
     "anarana": "Md. Clet",
     "daty_fankalazana": "26 Aprily",
     "fanoharana": "Papa fahatelo",
-    "tantara": "Mpanaraka an'i Md. Piera, nanao ny asa fitoriana tany Roma nandritra ny fotoana naha-Papa azy.",
+    "tantara": "Papa fahatelo, mpanaraka an'i Md. Piera. Nanao ny asa fitoriana tany Roma nandritra ny fotoana naha-Papa azy ary nanampy tamin'ny fananganana ny Fiangonana voalohany.",
     "sokajy": "Papa",
     "taona_nahaterahana": "25",
     "taona_nahafatesana": "88"
@@ -754,7 +754,7 @@
     "anarana": "Md. Évariste",
     "daty_fankalazana": "26 Oktobra",
     "fanoharana": "Papa fahadimy",
-    "tantara": "Nandimby an'i Md. Clément izy, ary voalaza fa nanangona ny anaran'ny eveka.",
+    "tantara": "Papa fahadimy, nandimby an'i Md. Clément. Voalaza fa nanangona sy nanoratra ny anaran'ny eveka ary nandray anjara tamin'ny fandaminana ny Fiangonana tany am-piandohana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "40",
     "taona_nahafatesana": "105"
@@ -764,7 +764,7 @@
     "anarana": "Md. Alexandre I",
     "daty_fankalazana": "3 Mey",
     "fanoharana": "Papa fahenina",
-    "tantara": "Nantsoina hoe maritiora izy, na dia tsy dia fantatra loatra aza ny momba ny fiainany.",
+    "tantara": "Papa fahenina. Nantsoina hoe martiry izy. Na dia tsy dia fantatra loatra aza ny momba ny fiainany, dia nandray anjara tamin'ny fiarovana ny finoana tamin'ny androny.",
     "sokajy": "Papa",
     "taona_nahaterahana": "55",
     "taona_nahafatesana": "115"
@@ -774,7 +774,7 @@
     "anarana": "Md. Sixte I",
     "daty_fankalazana": "6 Aprily",
     "fanoharana": "Papa fahafito",
-    "tantara": "Nampiditra zava-baovao tao amin'ny litorjia, ary nandimby an'i Md. Alexandre.",
+    "tantara": "Papa fahafito, nampiditra zava-baovao tao amin'ny litorjia, toy ny fampiasana ny rano masina. Nandimby an'i Md. Alexandre I ary nanohy ny asa fitoriana tany Roma.",
     "sokajy": "Papa",
     "taona_nahaterahana": "65",
     "taona_nahafatesana": "125"
@@ -784,7 +784,7 @@
     "anarana": "Md. Télesphore",
     "daty_fankalazana": "5 Janoary",
     "fanoharana": "Papa fahavalo, martiry",
-    "tantara": "Izy no papa voalohany nanao lanonana amin'ny alina ho an'ny Paska sy nampiditra ny hira 'Gloria in excelsis Deo'.",
+    "tantara": "Papa fahavalo, martiry. Izy no papa voalohany nanao lanonana amin'ny alina ho an'ny Paska ary nampiditra ny hira 'Gloria in excelsis Deo' tao amin'ny litorjia.",
     "sokajy": "Papa",
     "taona_nahaterahana": "80",
     "taona_nahafatesana": "136"
@@ -794,7 +794,7 @@
     "anarana": "Md. Hygin",
     "daty_fankalazana": "11 Janoary",
     "fanoharana": "Papa fahasivy",
-    "tantara": "Maty maritiora tamin'ny andron'i Marcus Aurelius izy, na dia tsy dia fanta-daza aza ny zavatra nataony.",
+    "tantara": "Papa fahasivy. Maty martiry tamin'ny andron'i Marcus Aurelius. Na dia tsy dia fanta-daza aza ny zavatra nataony, dia niaro ny Fiangonana tamin'ny fanenjehana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "85",
     "taona_nahafatesana": "140"
@@ -804,7 +804,7 @@
     "anarana": "Md. Pie I",
     "daty_fankalazana": "11 Jolay",
     "fanoharana": "Papa fahafolo",
-    "tantara": "Nandimby an'i Hygin ary mety ho zokin'i Hermas, mpanoratra ny bokin'ny 'Pastora'.",
+    "tantara": "Papa fahafolo. Nandimby an'i Hygin ary mety ho zokin'i Hermas, mpanoratra ny bokin'ny 'Pastora'. Nanampy tamin'ny fandaminana ny Fiangonana tany Roma.",
     "sokajy": "Papa",
     "taona_nahaterahana": "90",
     "taona_nahafatesana": "155"
@@ -814,7 +814,7 @@
     "anarana": "Md. Anicet",
     "daty_fankalazana": "17 Aprily",
     "fanoharana": "Papa faha-11",
-    "tantara": "Nandray an'i Md. Polycarpe tao Roma mba hiresaka momba ny datin'ny Paska.",
+    "tantara": "Papa faha-11, nandray an'i Md. Polycarpe avy any Smyrne tao Roma mba hiresaka momba ny datin'ny Paska. Nanohitra ny hetsika gnostika sy nandray anjara tamin'ny firaisan'ny Fiangonana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "110",
     "taona_nahafatesana": "166"
@@ -824,7 +824,7 @@
     "anarana": "Md. Soter",
     "daty_fankalazana": "22 Aprily",
     "fanoharana": "Papa faha-12",
-    "tantara": "Nanoratra taratasy tany amin'ny Fiangonana any Korinto ary nanolotra fanampiana ho an'ny mahantra.",
+    "tantara": "Papa faha-12. Nanoratra taratasy tany amin'ny Fiangonana any Korinto ary nanolotra fanampiana ho an'ny mahantra. Fantatra amin'ny fahalalahan-tanany.",
     "sokajy": "Papa",
     "taona_nahaterahana": "120",
     "taona_nahafatesana": "175"
@@ -834,7 +834,7 @@
     "anarana": "Md. Éleuthère",
     "daty_fankalazana": "26 Mey",
     "fanoharana": "Papa faha-13",
-    "tantara": "Nanavao ny fatorana tamin'ny Fiangonana tany Gaola ary nanohitra ny hetsika gnostika.",
+    "tantara": "Papa faha-13. Nanavao ny fatorana tamin'ny Fiangonana tany Gaola ary nanohitra ny hetsika gnostika. Nanamafy ny firaisan'ny Fiangonana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "130",
     "taona_nahafatesana": "189"
@@ -844,7 +844,7 @@
     "anarana": "Md. Victor I",
     "daty_fankalazana": "28 Jolay",
     "fanoharana": "Papa faha-14",
-    "tantara": "Nandray ny fanapahan-kevitra momba ny datin'ny Paska tamin'ny Kônsily tao Roma, izay nanameloka ny fanao atsinanana.",
+    "tantara": "Papa faha-14. Nandray ny fanapahan-kevitra momba ny datin'ny Paska tamin'ny Kônsily tao Roma, izay nanameloka ny fanao atsinanana. Nanamafy ny fahefan'ny Roma.",
     "sokajy": "Papa",
     "taona_nahaterahana": "140",
     "taona_nahafatesana": "199"
@@ -854,7 +854,7 @@
     "anarana": "Md. Zéphyrin",
     "daty_fankalazana": "26 Aogositra",
     "fanoharana": "Papa faha-15",
-    "tantara": "Niatrika ny hetsika modalista izy, izay nandà ny maha-olona an'i Kristy.",
+    "tantara": "Papa faha-15, niatrika ny hetsika modalista izay nandà ny maha-olona an'i Kristy. Nanamafy ny fampianarana marina momba ny Trinite sy ny natioran'i Kristy.",
     "sokajy": "Papa",
     "taona_nahaterahana": "145",
     "taona_nahafatesana": "217"
@@ -864,7 +864,7 @@
     "anarana": "Md. Calixte I",
     "daty_fankalazana": "14 Oktobra",
     "fanoharana": "Papa faha-16",
-    "tantara": "Nanavao ny lalàna momba ny fanaovana fangorahana, ka namela ny mpanota mafy indrindra hiverina. Maty maritiora.",
+    "tantara": "Papa faha-16. Nanavao ny lalàna momba ny fanaovana fangorahana, ka namela ny mpanota mafy indrindra hiverina. Maty martiry noho ny finoany.",
     "sokajy": "Papa",
     "taona_nahaterahana": "150",
     "taona_nahafatesana": "222"
@@ -874,7 +874,7 @@
     "anarana": "Md. Urbain I",
     "daty_fankalazana": "25 Mey",
     "fanoharana": "Papa faha-17",
-    "tantara": "Ny fitondrany dia nilamina, ary betsaka ny olona niova finoana tamin'izany.",
+    "tantara": "Papa faha-17, ny fitondrany dia nilamina ary betsaka ny olona niova finoana tamin'izany. Nandray anjara tamin'ny fananganana ny Fiangonana tany Roma nandritra ny vanim-potoana somary milamina.",
     "sokajy": "Papa",
     "taona_nahaterahana": "160",
     "taona_nahafatesana": "230"
@@ -884,7 +884,7 @@
     "anarana": "Md. Pontien",
     "daty_fankalazana": "19 Nôvambra",
     "fanoharana": "Papa faha-18, maritiora",
-    "tantara": "Nifandimby tamin'ny antipapa Hippolytus izy, ary samy nalefa ho any amin'ny toeram-pitrandrahana any Sardinia.",
+    "tantara": "Papa faha-18, martiry. Nifandimby tamin'ny antipapa Hippolytus izy, ary samy nalefa ho any amin'ny toeram-pitrandrahana any Sardinia. Maty tao noho ny fijaliana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "170",
     "taona_nahafatesana": "235"
@@ -894,7 +894,7 @@
     "anarana": "Md. Antère",
     "daty_fankalazana": "3 Aogositra",
     "fanoharana": "Papa faha-19, martiry",
-    "tantara": "Ny fitondrany dia fohy, ary maty martiry.",
+    "tantara": "Papa faha-19, ny fitondrany dia fohy dia fohy. Maty martiry tamin'ny andron'ny fanenjehana. Voalaza fa nandevina ny fatiny tao amin'ny katakomba.",
     "sokajy": "Papa",
     "taona_nahaterahana": "180",
     "taona_nahafatesana": "236"
@@ -904,7 +904,7 @@
     "anarana": "Md. Fabien",
     "daty_fankalazana": "20 Janoary",
     "fanoharana": "Papa faha-20, martiry",
-    "tantara": "Voalaza fa nofidiana ho papa tamin'ny fipetrahan'ny voromailala teo an-dohany. Nandamina ny fizarana an'i Roma ho paroasy izy.",
+    "tantara": "Papa faha-20, martiry. Voalaza fa nofidiana ho papa tamin'ny fipetrahan'ny voromailala teo an-dohany. Nandamina ny fizarana an'i Roma ho paroasy ary maty tamin'ny fanenjehana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "185",
     "taona_nahafatesana": "250"
@@ -914,7 +914,7 @@
     "anarana": "Md. Corneille",
     "daty_fankalazana": "16 Septambra",
     "fanoharana": "Papa faha-21, martiry",
-    "tantara": "Nametraka ny fetra momba ny fanaovana fangorahana ho an'ireo izay nandà ny finoana tamin'ny fotoan'ny fanenjehana. Maty any am-ponja.",
+    "tantara": "Papa faha-21, martiry. Nametraka ny fetra momba ny fanaovana fangorahana ho an'ireo izay nandà ny finoana tamin'ny fotoan'ny fanenjehana. Maty any am-ponja.",
     "sokajy": "Papa",
     "taona_nahaterahana": "190",
     "taona_nahafatesana": "253"
@@ -924,7 +924,7 @@
     "anarana": "Md. Lucius I",
     "daty_fankalazana": "5 Martsa",
     "fanoharana": "Papa faha-22",
-    "tantara": "Nandimby an'i Corneille, ary noroahina noho ny fanenjehana nefa afaka taty aoriana.",
+    "tantara": "Papa faha-22. Nandimby an'i Corneille, ary noroahina noho ny fanenjehana nefa afaka taty aoriana. Nanohy ny fiarovana ny Fiangonana tamin'ny androny.",
     "sokajy": "Papa",
     "taona_nahaterahana": "200",
     "taona_nahafatesana": "254"
@@ -934,7 +934,7 @@
     "anarana": "Md. Étienne I",
     "daty_fankalazana": "2 Aogositra",
     "fanoharana": "Papa faha-23, martiry",
-    "tantara": "Nanao ady hevitra tamin'i Md. Cyprien momba ny batisa izy.",
+    "tantara": "Papa faha-23, nanao ady hevitra tamin'i Md. Cyprien momba ny batisa nataon'ny mpanota. Nanamafy ny fahefan'ny Fiangonana Romana ary maty martiry.",
     "sokajy": "Papa",
     "taona_nahaterahana": "210",
     "taona_nahafatesana": "257"
@@ -944,7 +944,7 @@
     "anarana": "Md. Sixte II",
     "daty_fankalazana": "6 Aogositra",
     "fanoharana": "Papa faha-24, martiry",
-    "tantara": "Novonoina mba ho fakan-tahaka ny maritiora hafa nandritra ny fanenjehana an'i Valérien.",
+    "tantara": "Papa faha-24, martiry. Novonoina mba ho fakan-tahaka ny maritiora hafa nandritra ny fanenjehana an'i Valérien. Maty niaraka tamin'ny diakra sasany.",
     "sokajy": "Papa",
     "taona_nahaterahana": "215",
     "taona_nahafatesana": "258"
@@ -954,7 +954,7 @@
     "anarana": "Md. Denys",
     "daty_fankalazana": "26 Desambra",
     "fanoharana": "Papa faha-25",
-    "tantara": "Nandimby an'i Sixte II, ary nanohitra ny hetsika sabelianisma.",
+    "tantara": "Papa faha-25, nandimby an'i Sixte II. Nanohitra ny hetsika sabelianisma ary nanamafy ny fampianarana marina momba ny Trinite. Nanampy ny Fiangonana taorian'ny fanenjehana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "220",
     "taona_nahafatesana": "268"
@@ -964,7 +964,7 @@
     "anarana": "Md. Félix I",
     "daty_fankalazana": "30 Desambra",
     "fanoharana": "Papa faha-26",
-    "tantara": "Nandimby an'i Denys, ary nanamafy ny fampianarana momba an'i Kristy.",
+    "tantara": "Papa faha-26, nandimby an'i Denys. Nanamafy ny fampianarana momba an'i Kristy ary nanohy ny fanarenana ny Fiangonana taorian'ny fanenjehana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "225",
     "taona_nahafatesana": "274"
@@ -974,7 +974,7 @@
     "anarana": "Md. Eutychien",
     "daty_fankalazana": "8 Desambra",
     "fanoharana": "Papa faha-27",
-    "tantara": "Ny fitondrany dia nilamina, ary nandevina maritiora maro izy.",
+    "tantara": "Papa faha-27, ny fitondrany dia nilamina. Nandevina maritiora maro ary nanampy ny Fiangonana tamin'ny fananganana ny katakomba. Fantatra amin'ny fanoloran-tenany tamin'ny martiry.",
     "sokajy": "Papa",
     "taona_nahaterahana": "230",
     "taona_nahafatesana": "283"
@@ -984,7 +984,7 @@
     "anarana": "Md. Gaïus",
     "daty_fankalazana": "22 Aprily",
     "fanoharana": "Papa faha-28",
-    "tantara": "Isan'ny fianakavian'ny Emperora Diocletian izy, ary nanorina ny fombam-pivavahana.",
+    "tantara": "Papa faha-28. Isan'ny fianakavian'ny Emperora Diocletian izy, ary nanorina ny fombam-pivavahana. Nanampy tamin'ny fananganana ny Fiangonana tamin'ny androny.",
     "sokajy": "Papa",
     "taona_nahaterahana": "240",
     "taona_nahafatesana": "296"
@@ -994,7 +994,7 @@
     "anarana": "Md. Marcellin",
     "daty_fankalazana": "26 Aprily",
     "fanoharana": "Papa faha-29, martiry",
-    "tantara": "Nampijaliana mafy tamin'ny fanenjehana an'i Diocletian izy.",
+    "tantara": "Papa faha-29, nampijaliana mafy tamin'ny fanenjehana an'i Diocletian. Voalaza fa nandà ny finoana tamin'ny fotoana iray nefa niverina ary maty martiry.",
     "sokajy": "Papa",
     "taona_nahaterahana": "245",
     "taona_nahafatesana": "304"
@@ -1004,7 +1004,7 @@
     "anarana": "Md. Marcel I",
     "daty_fankalazana": "16 Janoary",
     "fanoharana": "Papa faha-30, martiry",
-    "tantara": "Niatrika ny ady momba ny fanaovana fangorahana ho an'ny mpanota.",
+    "tantara": "Papa faha-30, niatrika ny ady momba ny fanaovana fangorahana ho an'ny mpanota izay nandà ny finoana tamin'ny fanenjehana. Maty martiry.",
     "sokajy": "Papa",
     "taona_nahaterahana": "255",
     "taona_nahafatesana": "309"
@@ -1014,7 +1014,7 @@
     "anarana": "Md. Eusèbe",
     "daty_fankalazana": "17 Aogositra",
     "fanoharana": "Papa faha-31",
-    "tantara": "Noroahina tany Sisilia noho ny ady hevitra momba ny fangorahana.",
+    "tantara": "Papa faha-31, noroahina tany Sisilia noho ny ady hevitra momba ny fangorahana. Nanamafy ny fahefan'ny Fiangonana amin'ny fanaovana fangorahana.",
     "sokajy": "Papa",
     "taona_nahaterahana": "260",
     "taona_nahafatesana": "310"
@@ -1024,7 +1024,7 @@
     "anarana": "Md. Miltiade",
     "daty_fankalazana": "10 Janoary",
     "fanoharana": "Papa faha-32",
-    "tantara": "Ny Papa nanjaka tamin'ny niafaran'ny fanenjehana ary namoaka ny didy fampihavanana.",
+    "tantara": "Papa faha-32. Ny Papa nanjaka tamin'ny niafaran'ny fanenjehana ary namoaka ny didy fampihavanana. Nandray anjara tamin'ny fampihavanana taorian'ny fanenjehana an'i Diocletian.",
     "sokajy": "Papa",
     "taona_nahaterahana": "270",
     "taona_nahafatesana": "314"
@@ -1034,7 +1034,7 @@
     "anarana": "Md. Jean-Baptiste de la Salle",
     "daty_fankalazana": "7 Aprily",
     "fanoharana": "Mpanorina ny Frères des Écoles Chrétiennes, Mpiaro ny Mpampianatra",
-    "tantara": "Nanolo-tena hanabe ny ankizy mahantra izy ary nanorina rafi-pampianarana vaovao.",
+    "tantara": "Mpanorina ny Frères des Écoles Chrétiennes, Mpiaro ny Mpampianatra. Nanolo-tena hanabe ny ankizy mahantra izy ary nanorina rafi-pampianarana vaovao maimaim-poana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1651",
     "taona_nahafatesana": "1719"
@@ -1044,7 +1044,7 @@
     "anarana": "Md. Jacques de Zébédée",
     "daty_fankalazana": "25 Jolay",
     "fanoharana": "Apostoly, Mpiaro ny Espaina",
-    "tantara": "Nanao fivahiniana masina tany Espaina ny fatrany, ary lasa mpiaro ny firenena.",
+    "tantara": "Apostoly, zanaky ny Zebede sy rahalahin'i Joany. Nanao fivahiniana masina tany Espaina ny fatrany, ary lasa mpiaro ny firenena Espaniola. Maty martiry tao Jerosalema.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "5",
     "taona_nahafatesana": "44"
@@ -1064,7 +1064,7 @@
     "anarana": "Md. Barthélemy",
     "daty_fankalazana": "24 Aogositra",
     "fanoharana": "Apostoly, martiry",
-    "tantara": "Nitory tany India sy Armenia izy, ary maty martiry tamin'ny alalan'ny fikapohana azy ho faty.",
+    "tantara": "Apostoly. Nitory tany India sy Armenia izy, ary maty martiry tamin'ny alalan'ny fikapohana azy ho faty. Fantatra amin'ny faharetany sy ny fitoriany.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "1",
     "taona_nahafatesana": "68"
@@ -1074,7 +1074,7 @@
     "anarana": "Md. Jude",
     "daty_fankalazana": "28 Oktobra",
     "fanoharana": "Apostoly, Mpiaro ny antony sarotra",
-    "tantara": "Anisan'ny havan'i Jesoa izy, ary nanoratra epistily ao amin'ny Baiboly.",
+    "tantara": "Apostoly, anisan'ny havan'i Jesoa. Nanoratra epistily ao amin'ny Baiboly ary nitory ny Vaovao Mahafaly. Antsoina hoe mpiaro ny antony sarotra sy tsy azo vahana.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "1",
     "taona_nahafatesana": "65"
@@ -1084,7 +1084,7 @@
     "anarana": "Md. Simon",
     "daty_fankalazana": "28 Oktobra",
     "fanoharana": "Apostoly, martiry",
-    "tantara": "Niaraka tamin'i Md. Jude izy tamin'ny asa fitoriana tany Persia, ary maty maritiora.",
+    "tantara": "Apostoly, martiry. Niaraka tamin'i Md. Jude izy tamin'ny asa fitoriana tany Persia, ary maty maritiora noho ny finoany. Nampiely ny Vaovao Mahafaly tany Atsinanana.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "2",
     "taona_nahafatesana": "65"
@@ -1094,7 +1094,7 @@
     "anarana": "Md. Matthieu",
     "daty_fankalazana": "21 Septambra",
     "fanoharana": "Apostoly, Evanjelista",
-    "tantara": "Mpanangom-bola taloha i Matthieu, ary nanoratra ny Evanjeliny voalohany.",
+    "tantara": "Apostoly sy Evanjelista. Mpanangom-bola taloha i Matthieu, ary nanoratra ny Evanjeliny voalohany. Nitory ny Vaovao Mahafaly tany Etiopia ary maty martiry.",
     "sokajy": "Evanjelista",
     "taona_nahaterahana": "5",
     "taona_nahafatesana": "70"
@@ -1104,7 +1104,7 @@
     "anarana": "Md. Luc",
     "daty_fankalazana": "18 Oktobra",
     "fanoharana": "Evanjelista",
-    "tantara": "Mpianatr'i Md. Paul izy, ary nanoratra ny Evanjeliny sy ny Asan'ny Apostoly.",
+    "tantara": "Evanjelista, mpianatr'i Md. Paul. Nanoratra ny Evanjeliny sy ny Asan'ny Apostoly. Dokotera ary nitory ny Vaovao Mahafaly tany Gresy sy Azia Minora.",
     "sokajy": "Evanjelista",
     "taona_nahaterahana": "30",
     "taona_nahafatesana": "84"
@@ -1114,7 +1114,7 @@
     "anarana": "Md. Marc",
     "daty_fankalazana": "25 Aprily",
     "fanoharana": "Evanjelista",
-    "tantara": "Mpianatr'i Md. Piera izy, ary nanoratra ny Evanjeliny izay heverina fa nangalany ny toritenin'i Md. Piera.",
+    "tantara": "Evanjelista. Mpianatr'i Md. Piera izy, ary nanoratra ny Evanjeliny izay heverina fa nangalany ny toritenin'i Md. Piera. Nitory tany Alexandria.",
     "sokajy": "Evanjelista",
     "taona_nahaterahana": "10",
     "taona_nahafatesana": "68"
@@ -1124,7 +1124,7 @@
     "anarana": "Md. Barnabé",
     "daty_fankalazana": "11 Jona",
     "fanoharana": "Apostoly, namana akaikin'i Md. Paul",
-    "tantara": "Niaraka tamin'i Md. Paul tamin'ny diany misiônera izy, ary nanampy tamin'ny fananganana ny Fiangonana any Antioche.",
+    "tantara": "Apostoly, namana akaikin'i Md. Paul. Niaraka tamin'i Md. Paul tamin'ny diany misiônera izy, ary nanampy tamin'ny fananganana ny Fiangonana any Antioche.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "1",
     "taona_nahafatesana": "61"
@@ -1134,7 +1134,7 @@
     "anarana": "Md. Matthias",
     "daty_fankalazana": "14 Mey",
     "fanoharana": "Apostoly",
-    "tantara": "Nofidiana hisolo an'i Jude, ilay namadika an'i Kristy, tamin'ny alalan'ny fanariana loka.",
+    "tantara": "Apostoly. Nofidiana hisolo an'i Jodasy Iskariota, ilay namadika an'i Kristy, tamin'ny alalan'ny fanariana loka. Nitory ny Vaovao Mahafaly ary maty martiry.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "1",
     "taona_nahafatesana": "80"
@@ -1144,7 +1144,7 @@
     "anarana": "Md. Tite",
     "daty_fankalazana": "26 Janoary",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Mpianatr'i Md. Paul, ary lasa eveka tao Creta. Nanampy tamin'ny fandaminana ny Fiangonana tany.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Mpianatr'i Md. Paul, ary lasa eveka tao Creta. Nanampy tamin'ny fandaminana ny Fiangonana tany ary nampianatra ny mpino.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1",
     "taona_nahafatesana": "96"
@@ -1154,7 +1154,7 @@
     "anarana": "Md. Tarsicius",
     "daty_fankalazana": "15 Aogositra",
     "fanoharana": "Martiry tanora, mpiaro ny Eokaristia",
-    "tantara": "Zazalahy iray izay maty noho ny nandà ny hanolotra ny Eokaristia tamin'ireo mpanenjika.",
+    "tantara": "Martiry tanora, mpiaro ny Eokaristia. Zazalahy iray izay maty noho ny nandà ny hanolotra ny Eokaristia tamin'ireo mpanenjika. Ohatra amin'ny fanoloran-tena.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "240",
     "taona_nahafatesana": "260"
@@ -1164,7 +1164,7 @@
     "anarana": "Md. Étienne",
     "daty_fankalazana": "26 Desambra",
     "fanoharana": "Martiry voalohany",
-    "tantara": "Martiry voalohany tao amin'ny Fiangonana. Nitoriteny tamim-pahasahiana ary nitora-bato ho faty.",
+    "tantara": "Martiry voalohany (Protomartyr) tao amin'ny Fiangonana. Nitoriteny tamim-pahasahiana ary nitora-bato ho faty. Ohatra amin'ny faharetana sy ny fitiavana ny fahavalo.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "5",
     "taona_nahafatesana": "34"
@@ -1174,7 +1174,7 @@
     "anarana": "Md. Justin de Naplouse",
     "daty_fankalazana": "1 Jona",
     "fanoharana": "Filozofa martiry, Mpiaro ny fahamarinana",
-    "tantara": "Iray amin'ireo Apolojista lehibe indrindra tamin'ny taonjato faha-2. Niezaka ny hampifanaraka ny finoana kristiana sy ny filozofia.",
+    "tantara": "Iray amin'ireo Apolojista lehibe indrindra tamin'ny taonjato faha-2. Niezaka ny hampifanaraka ny finoana kristiana sy ny filozofia. Maty martiry tao Roma.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "100",
     "taona_nahafatesana": "165"
@@ -1184,7 +1184,7 @@
     "anarana": "Md. Cyprien de Carthage",
     "daty_fankalazana": "16 Septambra",
     "fanoharana": "Eveka, Mpampianatra ny Fiangonana",
-    "tantara": "Eveka any Afrika Avaratra izay nanoratra betsaka momba ny firaisan'ny Fiangonana sy ny batisa. Maty maritiora.",
+    "tantara": "Eveka any Afrika Avaratra, Mpampianatra ny Fiangonana. Nanoratra betsaka momba ny firaisan'ny Fiangonana sy ny batisa. Maty martiry tamin'ny 258.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "200",
     "taona_nahafatesana": "258"
@@ -1204,7 +1204,7 @@
     "anarana": "Md. Nazaire",
     "daty_fankalazana": "28 Jolay",
     "fanoharana": "Martiry",
-    "tantara": "Mpitory ny Vaovao Mahafaly tany Gaola izy, ary maty maritiora tamin'ny fanenjehana.",
+    "tantara": "Martiry. Mpitory ny Vaovao Mahafaly tany Gaola izy, ary maty maritiora tamin'ny fanenjehana. Niaraka tamin'i Md. Celse tamin'ny asa fitoriana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "68"
@@ -1214,7 +1214,7 @@
     "anarana": "Md. Celse",
     "daty_fankalazana": "28 Jolay",
     "fanoharana": "Martiry",
-    "tantara": "Niaraka tamin'i Md. Nazaire tamin'ny asa fitoriana sy ny fijaliana.",
+    "tantara": "Martiry, niaraka tamin'i Md. Nazaire tamin'ny asa fitoriana sy ny fijaliana tany Gaola. Maty martiry noho ny finoany. Ohatra amin'ny fiaraha-miasa sy ny faharetana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "68"
@@ -1224,37 +1224,37 @@
     "anarana": "Md. Maxime",
     "daty_fankalazana": "29 Mey",
     "fanoharana": "Eveka sy Martiry",
-    "tantara": "Eveka tao Lyon izy, ary niara-nijaly tamin'i Md. Irénée.",
+    "tantara": "Eveka tao Lyon ary martiry. Niara-nijaly tamin'i Md. Irénée nandritra ny fanenjehana. Nanampy tamin'ny fiarovana ny finoana marina tany Gaola.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "178"
   },
   {
     "id": 124,
-    "anarana": "Md. Clotilde",
+    "anarana": "Mb. Clotilde",
     "daty_fankalazana": "4 Jona",
     "fanoharana": "Mpanjakavavy Frank, Mpiaro ny finoana",
-    "tantara": "Vadin'ny Mpanjaka Clovis. Nanana andraikitra lehibe tamin'ny niovan'ny mpanjaka ho Kristianina.",
+    "tantara": "Mpanjakavavy Frank, mpiaro ny finoana. Vadin'ny Mpanjaka Clovis. Nanana andraikitra lehibe tamin'ny niovan'ny mpanjaka ho Kristianina ary nampiely ny finoana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "475",
     "taona_nahafatesana": "545"
   },
   {
     "id": 125,
-    "anarana": "Md. Geneviève",
+    "anarana": "Mb. Geneviève",
     "daty_fankalazana": "3 Janoary",
     "fanoharana": "Mpiaro an'i Paris",
-    "tantara": "Virijiny izay nanampy tamin'ny famonjena an'i Paris tamin'ny adin'ny Huns tamin'ny alalan'ny vavaka.",
+    "tantara": "Virijiny, mpiaro an'i Paris. Nanampy tamin'ny famonjena an'i Paris tamin'ny adin'ny Huns tamin'ny alalan'ny vavaka sy ny fanoloran-tena. Fantatra amin'ny fahagagana.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "422",
     "taona_nahafatesana": "502"
   },
   {
     "id": 126,
-    "anarana": "Md. Jeanne d'Arc",
+    "anarana": "Mb. Jeanne d'Arc",
     "daty_fankalazana": "30 Mey",
     "fanoharana": "Mpiaro an'i Frantsa",
-    "tantara": "Zazavavy tantsaha notarihin'ny feo avy any an-danitra mba hamonjy an'i Frantsa tamin'ny Ady Zato Taona. Nodorana velona ho mpivadi-pinoana nefa naverina tamin'ny laoniny taty aoriana.",
+    "tantara": "Virijiny, mpiaro an'i Frantsa. Zazavavy tantsaha notarihin'ny feo avy any an-danitra mba hamonjy an'i Frantsa tamin'ny Ady Zato Taona. Nodorana velona nefa naverina tamin'ny laoniny.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "1412",
     "taona_nahafatesana": "1431"
@@ -1264,7 +1264,7 @@
     "anarana": "Md. Louis IX",
     "daty_fankalazana": "25 Aogositra",
     "fanoharana": "Mpanjakan'i Frantsa, Mpiaro ny fahamarinana",
-    "tantara": "Mpanjaka iray izay nanolotra ny fiainany ho an'ny fahantrana sy ny fivavahana. Nanao fivahiniana masina tany amin'ny Tany Masina.",
+    "tantara": "Mpanjakan'i Frantsa, mpiaro ny fahamarinana. Nanolotra ny fiainany ho an'ny fahantrana sy ny fivavahana. Nanao fivahiniana masina tany amin'ny Tany Masina ary maty tao Tunis.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1214",
     "taona_nahafatesana": "1270"
@@ -1274,7 +1274,7 @@
     "anarana": "Md. Charles de Foucauld",
     "daty_fankalazana": "1 Desambra",
     "fanoharana": "Hermita, Misionera any Afrika",
-    "tantara": "Nandao ny fahavetavetany mba hiaina fiainana tany an'efitra, nifandray tamin'ny vahoaka toamasina.",
+    "tantara": "Hermita, misionera any Afrika. Nandao ny fahavetavetany mba hiaina fiainana tany an'efitra, nifandray tamin'ny vahoaka Touareg. Maty martiry tamin'ny 1916.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "1858",
     "taona_nahafatesana": "1916"
@@ -1284,7 +1284,7 @@
     "anarana": "Md. Dominique",
     "daty_fankalazana": "8 Aogositra",
     "fanoharana": "Mpanorina ny Ordre des Prêcheurs (Dominicains)",
-    "tantara": "Nampianatra tao amin'ny alalan'ny toriteny sy ny fahantrana. Nanao ny Rosary.",
+    "tantara": "Mpanorina ny Ordin'ny Dominikanina (Prêcheurs). Nampianatra tamin'ny alalan'ny toriteny sy ny fahantrana. Nanao ny Rosary ary niady tamin'ny Albigenses.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1170",
     "taona_nahafatesana": "1221"
@@ -1294,7 +1294,7 @@
     "anarana": "Md. Camille de Lellis",
     "daty_fankalazana": "14 Jolay",
     "fanoharana": "Mpanorina ny Ordre des Ministres des Infirmes, Mpiaro ny marary",
-    "tantara": "Nandao ny fiainana miaramila mba hanampy ny marary. Namorona fikambanana mpitsabo mpanampy.",
+    "tantara": "Mpanorina ny Ordre des Ministres des Infirmes, mpiaro ny marary. Nandao ny fiainana miaramila mba hanampy ny marary. Namorona fikambanana mpitsabo mpanampy.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1550",
     "taona_nahafatesana": "1614"
@@ -1304,7 +1304,7 @@
     "anarana": "Md. Jean de Matha",
     "daty_fankalazana": "8 Febroary",
     "fanoharana": "Mpanorina ny Ordre de la Très Sainte Trinité pour la Rédemption des Captifs",
-    "tantara": "Nanokatra trano ho an'ireo izay efa afaka tamin'ny fanandevozana ary nanao asa fiantrana.",
+    "tantara": "Mpanorina ny Ordre de la Très Sainte Trinité pour la Rédemption des Captifs. Nanokatra trano ho an'ireo izay efa afaka tamin'ny fanandevozana ary nanao asa fiantrana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1160",
     "taona_nahafatesana": "1213"
@@ -1314,7 +1314,7 @@
     "anarana": "Md. Félix de Valois",
     "daty_fankalazana": "20 Nôvambra",
     "fanoharana": "Mpiara-manorina ny Trinitaires",
-    "tantara": "Niaraka tamin'i Md. Jean de Matha izy tamin'ny famonjena ireo babo.",
+    "tantara": "Mpiara-manorina ny Ordin'ny Trinitaires miaraka amin'i Md. Jean de Matha. Nanolo-tena tamin'ny famonjena ireo kristiana babo tany amin'ny firenena mozilmana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1127",
     "taona_nahafatesana": "1212"
@@ -1324,7 +1324,7 @@
     "anarana": "Md. Pierre Nolasque",
     "daty_fankalazana": "25 Janoary",
     "fanoharana": "Mpanorina ny Ordre de Notre-Dame de la Merci",
-    "tantara": "Nanangona vola mba hamonjena ny Kristianina voafandrika tany amin'ny firenena mozilmana.",
+    "tantara": "Mpanorina ny Ordre de Notre-Dame de la Merci. Nanangona vola mba hamonjena ny Kristianina voafandrika tany amin'ny firenena mozilmana. Nanolo-tena tamin'ny famonjena.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1180",
     "taona_nahafatesana": "1245"
@@ -1334,7 +1334,7 @@
     "anarana": "Md. Jean Eudes",
     "daty_fankalazana": "19 Aogositra",
     "fanoharana": "Mpanorina ny Eudistes, Mpisorona",
-    "tantara": "Nanolo-tena tamin'ny fanabeazana ny mpitandrina sy ny fitoriana ny fahasoavan'Andriamanitra.",
+    "tantara": "Mpanorina ny Eudistes, mpisorona. Nanolo-tena tamin'ny fanabeazana ny mpitandrina sy ny fitoriana ny fahasoavan'Andriamanitra. Nampiely ny fivavahana amin'ny Fo Masina.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1601",
     "taona_nahafatesana": "1680"
@@ -1344,7 +1344,7 @@
     "anarana": "Md. Alphonse de Liguori",
     "daty_fankalazana": "1 Aogositra",
     "fanoharana": "Mpanorina ny Rédemptoristes, Mpampianatra ny Fiangonana",
-    "tantara": "Nanoratra boky momba ny teolojia sy ny fanetren-tena.",
+    "tantara": "Mpanorina ny Rédemptoristes ary Mpampianatra ny Fiangonana. Nanoratra boky momba ny teolojia moraly sy ny fanetren-tena. Malaza amin'ny fitiavany an'i Maria sy ny Eokaristia.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1696",
     "taona_nahafatesana": "1787"
@@ -1354,7 +1354,7 @@
     "anarana": "Md. Joseph Calasanz",
     "daty_fankalazana": "25 Aogositra",
     "fanoharana": "Mpanorina ny Piaristes, Mpiaro ny mpianatra mahantra",
-    "tantara": "Namorona sekoly maimaim-poana ho an'ny ankizy mahantra.",
+    "tantara": "Mpanorina ny Piaristes. Namorona sekoly maimaim-poana ho an'ny ankizy mahantra tany Roma. Nanokana ny fiainany tamin'ny fanabeazana ny tanora mahantra.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1556",
     "taona_nahafatesana": "1648"
@@ -1364,7 +1364,7 @@
     "anarana": "Md. Jacques de la Marche",
     "daty_fankalazana": "28 Nôvambra",
     "fanoharana": "Frantsiskanina, Mpiaro ny firaisana",
-    "tantara": "Nanao asa fitoriana any Eoropa sy Afrika Avaratra, ary nampihavana ny Kristianina tamin'ny Jiosy.",
+    "tantara": "Frantsiskanina, mpiaro ny firaisana. Nanao asa fitoriana any Eoropa sy Afrika Avaratra, ary nampihavana ny Kristianina tamin'ny Jiosy. Fantatra amin'ny fanoloran-tenany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1391",
     "taona_nahafatesana": "1476"
@@ -1374,7 +1374,7 @@
     "anarana": "Md. Bernard de Clairvaux",
     "daty_fankalazana": "20 Aogositra",
     "fanoharana": "Mpanorina ny Cisterciens, Mpampianatra ny Fiangonana",
-    "tantara": "Mpitari-dalana ara-panahy izay nanorina monasitera maro. Niantso ny Fiangonana hiverina amin'ny fahantrana sy ny vavaka.",
+    "tantara": "Mpanorina ny Cisterciens, Mpampianatra ny Fiangonana. Mpitari-dalana ara-panahy izay nanorina monasitera maro. Niantso ny Fiangonana hiverina amin'ny fahantrana sy ny vavaka.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1090",
     "taona_nahafatesana": "1153"
@@ -1384,7 +1384,7 @@
     "anarana": "Md. Bruno le Chartreux",
     "daty_fankalazana": "6 Oktobra",
     "fanoharana": "Mpanorina ny Chartreux",
-    "tantara": "Nanorina ny monasitera voalohany tao Chartreuse, izay ahitana fiainana mangina sy fivavahana.",
+    "tantara": "Mpanorina ny Chartreux. Nanorina ny monasitera voalohany tao Chartreuse, izay ahitana fiainana mangina sy fivavahana lalina. Ohatra amin'ny fiainana eremitika.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1030",
     "taona_nahafatesana": "1101"
@@ -1394,7 +1394,7 @@
     "anarana": "Md. Romuald",
     "daty_fankalazana": "19 Jona",
     "fanoharana": "Mpanorina ny Camaldules",
-    "tantara": "Nampifangaro ny fiainana monastika sy eremitika tamin'ny alalan'ny fahanginana sy ny vavaka.",
+    "tantara": "Mpanorina ny Camaldules. Nampifangaro ny fiainana monastika sy eremitika tamin'ny alalan'ny fahanginana sy ny vavaka. Nanavao ny fiainam-pirenena.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "950",
     "taona_nahafatesana": "1027"
@@ -1404,7 +1404,7 @@
     "anarana": "Md. Albert le Grand",
     "daty_fankalazana": "15 Nôvambra",
     "fanoharana": "Mpampianatra ny Fiangonana, Mpahay siansa",
-    "tantara": "Dokotera sy filozofa izay nanoratra momba ny siansa sy ny teolojia. Mpampianatra an'i Md. Thomas Aquinas.",
+    "tantara": "Mpampianatra ny Fiangonana, mpahay siansa. Dokotera sy filozofa izay nanoratra momba ny siansa sy ny teolojia. Mpampianatra an'i Md. Thomas Aquinas.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1193",
     "taona_nahafatesana": "1280"
@@ -1414,7 +1414,7 @@
     "anarana": "Md. Bonaventure",
     "daty_fankalazana": "15 Jolay",
     "fanoharana": "Mpampianatra ny Fiangonana, Mpanorina ny Fransiskanina",
-    "tantara": "Nantsoina hoe 'Dokotera Serafika' noho ny fahaizany ny finoana sy ny fitiavana.",
+    "tantara": "Mpampianatra ny Fiangonana, nantsoina hoe 'Dokotera Serafika'. Frantsiskanina izay nanoratra momba ny teolojia sy ny mistika. Nandray anjara tamin'ny Kônsily tany Lyon.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1221",
     "taona_nahafatesana": "1274"
@@ -1424,7 +1424,7 @@
     "anarana": "Md. Robert Bellarmin",
     "daty_fankalazana": "17 Septambra",
     "fanoharana": "Mpampianatra ny Fiangonana, Mpiaro ny foto-pinoana",
-    "tantara": "Jésuite iray izay nanoratra mba hiadiana amin'ny Protestanta.",
+    "tantara": "Mpampianatra ny Fiangonana, Jésuite. Nanoratra mba hiadiana amin'ny Protestanta ary nanamafy ny fampianarana katolika nandritra ny Reformation.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1542",
     "taona_nahafatesana": "1621"
@@ -1434,7 +1434,7 @@
     "anarana": "Md. Pierre Canisius",
     "daty_fankalazana": "21 Desambra",
     "fanoharana": "Mpampianatra ny Fiangonana, Reformer katolika",
-    "tantara": "Jesoita iray izay namoaka katesizy maro mba hamerenana ny finoana katolika any Alemaina.",
+    "tantara": "Mpampianatra ny Fiangonana, reformer katolika. Jesoita iray izay namoaka katesizy maro mba hamerenana ny finoana katolika any Alemaina nandritra ny Reformation.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1521",
     "taona_nahafatesana": "1597"
@@ -1444,7 +1444,7 @@
     "anarana": "Md. François de Sales",
     "daty_fankalazana": "24 Janoary",
     "fanoharana": "Mpampianatra ny Fiangonana, Mpanorina ny Visitandines",
-    "tantara": "Nanoratra ny boky 'Introduction à la vie dévote'. Mpiaro ny mpanao gazety.",
+    "tantara": "Mpampianatra ny Fiangonana, mpanorina ny Visitandines. Nanoratra ny boky 'Introduction à la vie dévote'. Mpiaro ny mpanao gazety sy ny mpanoratra.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1567",
     "taona_nahafatesana": "1622"
@@ -1454,7 +1454,7 @@
     "anarana": "Md. Jean de la Croix",
     "daty_fankalazana": "14 Desambra",
     "fanoharana": "Mpampianatra ny Fiangonana, Mpanorina ny Carmes Déchaux",
-    "tantara": "Niaraka tamin'i Md. Teresa d'Avila tamin'ny fanavaozana ny Karmelita. Nanoratra tononkalo momba ny firaisan'ny fanahy amin'Andriamanitra.",
+    "tantara": "Mpampianatra ny Fiangonana, mpanorina ny Carmes Déchaux. Niaraka tamin'i Md. Teresa d'Avila tamin'ny fanavaozana ny Karmelita. Nanoratra tononkalo momba ny firaisan'ny fanahy amin'Andriamanitra.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1542",
     "taona_nahafatesana": "1591"
@@ -1464,7 +1464,7 @@
     "anarana": "Md. José Maria Escriva",
     "daty_fankalazana": "26 Jona",
     "fanoharana": "Mpanorina ny Opus Dei",
-    "tantara": "Nanorina fikambanana izay mampianatra ny fahamasinana eo amin'ny fiainana andavanandro.",
+    "tantara": "Mpanorina ny Opus Dei. Nanorina fikambanana izay mampianatra ny fahamasinana eo amin'ny fiainana andavanandro. Namporisika ny fahamasinana amin'ny asa mahazatra.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1902",
     "taona_nahafatesana": "1975"
@@ -1474,57 +1474,57 @@
     "anarana": "Md. Jacques Berthieu",
     "daty_fankalazana": "8 Jona",
     "fanoharana": "Martiry any Madagascar",
-    "tantara": "Jesoita frantsay mpanao asa fitoriana tany Madagascar, maty maritiora tamin'ny 1896.",
+    "tantara": "Martiry any Madagascar. Jesoita frantsay mpanao asa fitoriana tany Madagascar, maty maritiora tamin'ny 1896 noho ny finoany. Ohatra amin'ny fanoloran-tena misiônera.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1838",
     "taona_nahafatesana": "1896"
   },
   {
     "id": 149,
-    "anarana": "Mb. Jean-Paul I",
+    "anarana": "Md. Jean-Paul I",
     "daty_fankalazana": "28 Aogositra",
     "fanoharana": "Papa",
-    "tantara": "Nantsoina hoe 'Papa amim-pihomehezana' noho ny fahalalahan-tanany, indrisy fa fohy dia fohy ny fitondrany.",
+    "tantara": "Papa, nantsoina hoe 'Papa amim-pihomehezana' noho ny fahalalahan-tanany. Indrisy fa fohy dia fohy ny fitondrany (33 andro monja) tamin'ny 1978.",
     "sokajy": "Papa",
     "taona_nahaterahana": "1912",
     "taona_nahafatesana": "1978"
   },
   {
     "id": 150,
-    "anarana": "Mb. Pie IX",
+    "anarana": "Md. Pie IX",
     "daty_fankalazana": "7 Febroary",
     "fanoharana": "Papa",
-    "tantara": "Papa nanana ny fotoana lava indrindra, izay nandikany ny foto-pinoan'ny tsy fahalovan'i Maria.",
+    "tantara": "Papa nanana ny fotoana lava indrindra. Nandika ny foto-pinoan'ny tsy fahalovan'i Maria (Immaculée Conception) ary nitarika ny Fiangonana tamin'ny vanim-potoana sarotra.",
     "sokajy": "Papa",
     "taona_nahaterahana": "1792",
     "taona_nahafatesana": "1878"
   },
   {
     "id": 151,
-    "anarana": "Mb. Innocent V",
+    "anarana": "Md. Innocent V",
     "daty_fankalazana": "22 Jona",
     "fanoharana": "Papa",
-    "tantara": "Isan'ireo mpianatr'i Md. Thomas Aquinas izy.",
+    "tantara": "Papa, isan'ireo mpianatr'i Md. Thomas Aquinas. Dominikanina izay lasa Papa. Nanampy tamin'ny fanavaozana ny Fiangonana tamin'ny taonjato faha-13.",
     "sokajy": "Papa",
     "taona_nahaterahana": "1225",
     "taona_nahafatesana": "1276"
   },
   {
     "id": 152,
-    "anarana": "Md. Félicité",
+    "anarana": "Mb. Félicité",
     "daty_fankalazana": "7 Martsa",
     "fanoharana": "Martiry",
-    "tantara": "Niaraka tamin'i Md. Perpétue, nijaly tamin'ny fijalian'ny maritiora.",
+    "tantara": "Martiry, niaraka tamin'i Md. Perpétue. Nijaly tamin'ny fijalian'ny maritiora tany Carthage tamin'ny 203. Ohatra amin'ny faharetana sy ny finoana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "181",
     "taona_nahafatesana": "203"
   },
   {
     "id": 153,
-    "anarana": "Md. Perpétue",
+    "anarana": "Mb. Perpétue",
     "daty_fankalazana": "7 Martsa",
     "fanoharana": "Martiry",
-    "tantara": "Virijiny izay maty tamin'ny fijalian'ny biby, ary nanoratra diary momba ny fijaliana.",
+    "tantara": "Martiry. Virijiny izay maty tamin'ny fijalian'ny biby, ary nanoratra diary momba ny fijaliana. Ohatra amin'ny faharetana sy ny finoana miaraka amin'i Md. Félicité.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "181",
     "taona_nahafatesana": "203"
@@ -1534,7 +1534,7 @@
     "anarana": "Md. Laurence",
     "daty_fankalazana": "10 Aogositra",
     "fanoharana": "Martiry, diakra",
-    "tantara": "Naneho ny harena feno fahasahiana rehefa nitaky azy ny Emperora. 'Ity no haren'ny Fiangonana,' hoy izy naneho ny mahantra.",
+    "tantara": "Martiry, diakra. Naneho ny harena feno fahasahiana rehefa nitaky azy ny Emperora. 'Ity no haren'ny Fiangonana,' hoy izy naneho ny mahantra. Maty tamin'ny afo.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "225",
     "taona_nahafatesana": "258"
@@ -1544,7 +1544,7 @@
     "anarana": "Md. Roch",
     "daty_fankalazana": "16 Aogositra",
     "fanoharana": "Mpiaro ny areti-mandringana",
-    "tantara": "Nandao ny hareny mba hanampy ny marary tamin'ny areti-mandringana.",
+    "tantara": "Mpiaro ny areti-mandringana. Nandao ny hareny mba hanampy ny marary tamin'ny areti-mandringana. Fantatra amin'ny fanasitranana sy ny fahalalahan-tanany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1295",
     "taona_nahafatesana": "1327"
@@ -1554,7 +1554,7 @@
     "anarana": "Md. Guy",
     "daty_fankalazana": "11 Septambra",
     "fanoharana": "Mpiaro ny mozika",
-    "tantara": "Eveka any Anderlecht, belza, izay malaza tamin'ny fahalalahan-tanany.",
+    "tantara": "Eveka any Anderlecht, Belzika. Malaza tamin'ny fahalalahan-tanany sy ny asa fiantrana. Mpiaro ny mozika sy ny mpanao asa tanana. Fantatra amin'ny fahagagana nataony.",
     "sokajy": "Masina",
     "taona_nahaterahana": "950",
     "taona_nahafatesana": "1012"
@@ -1564,7 +1564,7 @@
     "anarana": "Md. Hubert",
     "daty_fankalazana": "3 Nôvambra",
     "fanoharana": "Mpiaro ny mpihaza",
-    "tantara": "Eveka any Liège izay niova fo rehefa nahita ny 'kerafotsy' tamin'ny alalan'ny fahitana.",
+    "tantara": "Eveka any Liège, mpiaro ny mpihaza. Niova fo rehefa nahita ny 'kerafotsy' tamin'ny alalan'ny fahitana. Nanolo-tena tamin'ny finoana sy ny fanasitranana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "656",
     "taona_nahafatesana": "727"
@@ -1574,7 +1574,7 @@
     "anarana": "Md. Éloi",
     "daty_fankalazana": "1 Desambra",
     "fanoharana": "Mpiaro ny mpanefy vy",
-    "tantara": "Orfèvre izay lasa eveka. Mpiaro ny mpanefy vy sy ny mpanao asa tanana.",
+    "tantara": "Orfèvre izay lasa eveka. Mpiaro ny mpanefy vy sy ny mpanao asa tanana. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony. Nanampy ny mahantra.",
     "sokajy": "Masina",
     "taona_nahaterahana": "588",
     "taona_nahafatesana": "660"
@@ -1584,47 +1584,37 @@
     "anarana": "Md. Médard",
     "daty_fankalazana": "8 Jona",
     "fanoharana": "Mpiaro ny toetrandro",
-    "tantara": "Eveka any Vermandois izay malaza amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka any Vermandois. Malaza amin'ny fahalalahan-tanany sy ny fanasitranana. Mpiaro ny toetrandro sy ny mpamboly. Fantatra amin'ny fahagagana nataony.",
     "sokajy": "Masina",
     "taona_nahaterahana": "456",
     "taona_nahafatesana": "545"
   },
   {
     "id": 160,
-    "anarana": "Md. Verdiane",
+    "anarana": "Mb. Verdiane",
     "daty_fankalazana": "23 Febroary",
     "fanoharana": "Mpiaro ny zaza",
-    "tantara": "Virijiny izay nijaly tamin'ny fanenjehana.",
+    "tantara": "Virijiny izay nijaly tamin'ny fanenjehana. Niaina fiainana feno vavaka sy fahantrana. Fantatra amin'ny faharetany sy ny fahadiovany. Ohatra amin'ny fanoloran-tena.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "150",
     "taona_nahafatesana": "200"
   },
   {
-    "id": 161,
-    "anarana": "Md. Cécile",
-    "daty_fankalazana": "22 Nôvambra",
-    "fanoharana": "Mpiaro ny mozika",
-    "tantara": "Nihira rehefa nanomboka ny fijaliany.",
-    "sokajy": "Virijiny",
-    "taona_nahaterahana": "200",
-    "taona_nahafatesana": "230"
-  },
-  {
     "id": 162,
-    "anarana": "Md. Madeleine",
+    "anarana": "Mb. Madeleine",
     "daty_fankalazana": "22 Jolay",
     "fanoharana": "Olona nanaraka an'i Jesoa",
-    "tantara": "Olona tia an'i Kristy ary nanampy tamin'ny fitoriana ny Vaovao Mahafaly.",
+    "tantara": "Olona nanaraka an'i Jesoa, tia Azy ary nanampy tamin'ny fitoriana ny Vaovao Mahafaly. Naneho ny fitiavana sy ny fibebahana. Voalaza fa niala tamin'ny demonia fito.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "50"
   },
   {
     "id": 163,
-    "anarana": "Md. Marthe",
+    "anarana": "Mb. Marthe",
     "daty_fankalazana": "29 Jolay",
     "fanoharana": "Namana akaikin'i Jesoa",
-    "tantara": "Nampiantrano an'i Jesoa tao an-tranony.",
+    "tantara": "Namana akaikin'i Jesoa, nampiantrano Azy tao an-tranony tany Bethania. Ohatra amin'ny fanompoana sy ny fandraisana vahiny. Anabavin'i Md. Maria sy Md. Lazare.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "80"
@@ -1634,7 +1624,7 @@
     "anarana": "Md. Lazare",
     "daty_fankalazana": "17 Desambra",
     "fanoharana": "Namana akaikin'i Jesoa, natsangan'ny maty",
-    "tantara": "Natsangan'i Jesoa tamin'ny maty.",
+    "tantara": "Namana akaikin'i Jesoa, natsangan'i Jesoa tamin'ny maty tao Bethania. Ohatra amin'ny fitsanganana amin'ny maty sy ny finoana. Rahalahin'i Md. Marthe sy Md. Maria.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1644,27 +1634,27 @@
     "anarana": "Md. Benoît-Joseph Labre",
     "daty_fankalazana": "16 Aprily",
     "fanoharana": "Mpiaro ny mpivahiny",
-    "tantara": "Nandao ny zava-drehetra mba hiaina fiainana fahantrana sy fivavahana.",
+    "tantara": "Mpiaro ny mpivahiny. Nandao ny zava-drehetra mba hiaina fiainana fahantrana sy fivavahana. Niaina toy ny mpivavaka mahantra tany Europa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1748",
     "taona_nahafatesana": "1783"
   },
   {
     "id": 166,
-    "anarana": "Md. Catherine Labouré",
+    "anarana": "Mb. Catherine Labouré",
     "daty_fankalazana": "28 Nôvambra",
     "fanoharana": "Virijiny, nahita ny medaly mahagaga",
-    "tantara": "Nahita an'i Maria izy, ary nisy medaly natao izay nanjary malaza.",
+    "tantara": "Virijiny, nahita an'i Masina Maria izay nampiseho ny medaly mahagaga. Nandray anjara tamin'ny fielezan'ny fivavahana amin'ny Medaly Mahagaga.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "1806",
     "taona_nahafatesana": "1876"
   },
   {
     "id": 167,
-    "anarana": "Mb. Louis Martin",
+    "anarana": "Md. Louis Martin",
     "daty_fankalazana": "12 Jolay",
     "fanoharana": "Rain'i Md. Thérèse de Lisieux",
-    "tantara": "Ray iray izay nanolotra ny zanany vavy ho an'ny finoana.",
+    "tantara": "Rain'i Md. Thérèse de Lisieux. Ray iray izay nanolotra ny zanany vavy ho an'ny finoana ary niaina fiainana feno fahamasinana miaraka amin'ny vadiny.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1823",
     "taona_nahafatesana": "1894"
@@ -1674,17 +1664,17 @@
     "anarana": "Mb. Zélie Martin",
     "daty_fankalazana": "12 Jolay",
     "fanoharana": "Renin'i Md. Thérèse de Lisieux",
-    "tantara": "Reny iray izay nitaiza ny zanany tamin'ny finoana.",
+    "tantara": "Renin'i Md. Thérèse de Lisieux. Reny iray izay nitaiza ny zanany tamin'ny finoana sy ny fitiavana. Nohamasinina miaraka amin'ny vadiny Louis.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1831",
     "taona_nahafatesana": "1877"
   },
   {
     "id": 169,
-    "anarana": "Md. Maria Goretti",
+    "anarana": "Mb. Maria Goretti",
     "daty_fankalazana": "6 Jolay",
     "fanoharana": "Virijiny martiry tanora",
-    "tantara": "Zazavavy 11 taona maty noho ny fandavana ny fahalotoana.",
+    "tantara": "Virijiny martiry tanora, 11 taona. Maty noho ny fandavana ny fahalotoana. Ohatra amin'ny fahadiovana sy ny faharetana ho an'ny tanora. Nohamasinina haingana noho ny fahagagana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1890",
     "taona_nahafatesana": "1902"
@@ -1694,7 +1684,7 @@
     "anarana": "Md. Dismas",
     "daty_fankalazana": "25 Martsa",
     "fanoharana": "Mpangalatra niova fo teo amin'ny hazofijaliana",
-    "tantara": "Mpanao ratsy izay nangataka famindram-po tamin'i Jesoa teo an-tsorokazo.",
+    "tantara": "Mpangalatra niova fo teo amin'ny hazofijaliana. Nangataka famindram-po tamin'i Jesoa ary nampanantenaina ny Paradisa. Ohatra amin'ny fibebahana farany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "33"
@@ -1704,7 +1694,7 @@
     "anarana": "Md. Gabriel Archange",
     "daty_fankalazana": "29 Septambra",
     "fanoharana": "Arkanjely, Mpitondra hafatra",
-    "tantara": "Nampitondra hafatra tamin'i Maria sy Zakaria.",
+    "tantara": "Arkanjely, mpitondra hafatra. Nampitondra hafatra tamin'i Maria (Annunciation) sy Zakaria. Mpiaro ny mpitory, ny mpitondra vaovao, ary ny fitoriana.",
     "sokajy": "Arkanjely",
     "taona_nahaterahana": "",
     "taona_nahafatesana": ""
@@ -1714,7 +1704,7 @@
     "anarana": "Md. Raphaël Archange",
     "daty_fankalazana": "29 Septambra",
     "fanoharana": "Arkanjely, Mpiaro ny mpitsangatsangana",
-    "tantara": "Niaro an'i Tobie tamin'ny diany.",
+    "tantara": "Arkanjely, mpiaro ny mpitsangatsangana. Niaro an'i Tobie tamin'ny diany ary nanasitranana azy. Mpiaro ny mpitsabo, ny mpandeha, ary ny olona mitady vady.",
     "sokajy": "Arkanjely",
     "taona_nahaterahana": "",
     "taona_nahafatesana": ""
@@ -1724,7 +1714,7 @@
     "anarana": "Md. Silas",
     "daty_fankalazana": "13 Jolay",
     "fanoharana": "Mpiara-dia tamin'i Md. Paul",
-    "tantara": "Mpanoratra taratasy niaraka tamin'i Md. Paul.",
+    "tantara": "Mpiara-dia tamin'i Md. Paul. Mpanoratra taratasy niaraka tamin'i Md. Paul ary nitory ny Vaovao Mahafaly tany amin'ny firenena maro. Fantatra amin'ny fahatokiany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "65"
@@ -1734,7 +1724,7 @@
     "anarana": "Md. Onesime",
     "daty_fankalazana": "16 Febroary",
     "fanoharana": "Andevo niova fo",
-    "tantara": "Andevo iray niova ho kristiana ary lasa eveka.",
+    "tantara": "Andevo niova fo. Andevo iray niova ho kristiana tamin'ny alalan'i Md. Paul ary lasa eveka. Ohatra amin'ny fiovan'ny fo sy ny famonjena (bokin'i Filemona).",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "90"
@@ -1744,7 +1734,7 @@
     "anarana": "Md. Epaphras",
     "daty_fankalazana": "5 Mey",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Niaraka tamin'i Md. Paul tamin'ny asa fitoriana tany Asia Minora.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Niaraka tamin'i Md. Paul tamin'ny asa fitoriana tany Asia Minora ary nampianatra ny Fiangonana. Voalaza ao amin'ny epistily.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1754,7 +1744,7 @@
     "anarana": "Md. Aristarque",
     "daty_fankalazana": "4 Aogositra",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Niaraka tamin'i Md. Paul tamin'ny diany.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Niaraka tamin'i Md. Paul tamin'ny diany misiônera ary nanampy tamin'ny fitoriana ny Vaovao Mahafaly. Voalaza ao amin'ny Asan'ny Apostoly sy ny epistily.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1764,7 +1754,7 @@
     "anarana": "Md. Gaius",
     "daty_fankalazana": "7 Oktobra",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Nampiantrano an'i Md. Paul tao an-tranony.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Nampiantrano an'i Md. Paul tao an-tranony ary nanampy tamin'ny Fiangonana tany Korinto. Fantatra amin'ny fandraisana vahiny.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1774,7 +1764,7 @@
     "anarana": "Md. Sosipater",
     "daty_fankalazana": "29 Aprily",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Iray amin'ireo namana akaikin'i Md. Paul.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Iray amin'ireo namana akaikin'i Md. Paul ary nitory ny Vaovao Mahafaly. Voalaza ao amin'ny epistily maro.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1784,7 +1774,7 @@
     "anarana": "Md. Jason",
     "daty_fankalazana": "12 Jolay",
     "fanoharana": "Mpiara-miasa amin'i Md. Paul",
-    "tantara": "Nampiantrano an'i Md. Paul tao Tesalonika.",
+    "tantara": "Mpiara-miasa amin'i Md. Paul. Nampiantrano an'i Md. Paul tao Tesalonika ary niaro ny Apostoly tamin'ny fanenjehana. Ohatra amin'ny fahatokiana sy ny fiarovana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "60"
@@ -1794,7 +1784,7 @@
     "anarana": "Md. Urban de Langres",
     "daty_fankalazana": "2 Aprily",
     "fanoharana": "Eveka",
-    "tantara": "Eveka iray izay nanao fahagagana maro.",
+    "tantara": "Eveka iray izay nanao fahagagana maro. Fantatra amin'ny fanasitranana sy ny fahalalahan-tanany. Nanampy ny mahantra sy ny marary ary nampiely ny finoana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "390"
@@ -1804,7 +1794,7 @@
     "anarana": "Md. Didier (Désiré)",
     "daty_fankalazana": "23 Mey",
     "fanoharana": "Eveka",
-    "tantara": "Eveka any Vienne izay nampiditra ny finoana tany amin'ny faritra.",
+    "tantara": "Eveka any Vienne izay nampiditra ny finoana tany amin'ny faritra. Nanampy tamin'ny fananganana ny Fiangonana tany Gaola ary fantatra amin'ny fanoloran-tenany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "607"
@@ -1814,7 +1804,7 @@
     "anarana": "Md. Jean-Baptiste",
     "daty_fankalazana": "24 Jona",
     "fanoharana": "Mpialoha lalana an'i Kristy",
-    "tantara": "Mpitoriteny tao an'efitra, izay nanao batisa an'i Jesoa.",
+    "tantara": "Mpialoha lalana an'i Kristy. Mpitoriteny tao an'efitra, izay nanao batisa an'i Jesoa tao amin'ny Jordan. Maty martiry noho ny fanoherany an'i Heroda Antipas.",
     "sokajy": "Masina",
     "taona_nahaterahana": "-5",
     "taona_nahafatesana": "33"
@@ -1824,7 +1814,7 @@
     "anarana": "Md. Jean (Evanjelista)",
     "daty_fankalazana": "27 Desambra",
     "fanoharana": "Evanjelista, namana akaikin'i Jesoa",
-    "tantara": "Mpianatra akaikin'i Kristy, nanoratra ny Evanjeliny sy ny bokin'ny Apokalipsy.",
+    "tantara": "Evanjelista, namana akaikin'i Jesoa. Mpianatra akaikin'i Kristy, nanoratra ny Evanjeliny sy ny bokin'ny Apokalipsy. Niaina ela ary maty tany Efeso.",
     "sokajy": "Evanjelista",
     "taona_nahaterahana": "6",
     "taona_nahafatesana": "100"
@@ -1834,7 +1824,7 @@
     "anarana": "Md. Jacques le Mineur",
     "daty_fankalazana": "3 Mey",
     "fanoharana": "Apostoly, havana akaikin'i Jesoa",
-    "tantara": "Anisan'ny apostoly, ary evekan'i Jerosalema.",
+    "tantara": "Apostoly, havana akaikin'i Jesoa. Anisan'ny apostoly ary evekan'i Jerosalema. Nanoratra epistily ao amin'ny Baiboly ary maty martiry noho ny finoany.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "62"
@@ -1844,7 +1834,7 @@
     "anarana": "Md. Pierre (Apostoly)",
     "daty_fankalazana": "29 Jona",
     "fanoharana": "Lohan'ny Apostoly",
-    "tantara": "Mpanarato izay lasa vato fototry ny Fiangonana. Maty maritiora tamin'ny alalan'ny fampihantonana azy tamin'ny hazofijaliana.",
+    "tantara": "Lohan'ny Apostoly, mpanarato izay lasa vato fototry ny Fiangonana. Maty maritiora tamin'ny alalan'ny fampihantonana azy tamin'ny hazofijaliana tany Roma (tamin'ny lohany midina).",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "-5",
     "taona_nahafatesana": "64"
@@ -1854,7 +1844,7 @@
     "anarana": "Md. Paul (Apostoly)",
     "daty_fankalazana": "29 Jona",
     "fanoharana": "Apostolin'ny Jentilisa",
-    "tantara": "Nampijaly ny kristiana taloha, nefa niova fo tamin'ny fahitana an'i Kristy. Nanoratra taratasy maro.",
+    "tantara": "Nampijaly ny kristiana taloha, nefa niova fo tamin'ny fahitana an'i Kristy. Nanoratra taratasy maro. Nitory ny Vaovao Mahafaly ary nanampy tamin'ny fananganana ny Fiangonana voalohany.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "5",
     "taona_nahafatesana": "67"
@@ -1864,7 +1854,7 @@
     "anarana": "Md. André (Apostoly)",
     "daty_fankalazana": "30 Nôvambra",
     "fanoharana": "Apostoly, rahalahin'i Md. Pierre",
-    "tantara": "Izy no nampiditra an'i Piera ho mpianatr'i Jesoa. Nitory tany Gresy ary maty tamin'ny hazofijaliana miendrika X.",
+    "tantara": "Apostoly, rahalahin'i Md. Pierre. Izy no nampiditra an'i Piera ho mpianatr'i Jesoa. Nitory tany Gresy ary maty tamin'ny hazofijaliana miendrika X (Sant'Andrea).",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "-5",
     "taona_nahafatesana": "60"
@@ -1874,67 +1864,17 @@
     "anarana": "Md. Philippe (Apostoly)",
     "daty_fankalazana": "3 Mey",
     "fanoharana": "Apostoly",
-    "tantara": "Apostoly iray izay nitory tany Asia Minora sy Gresy.",
+    "tantara": "Apostoly iray izay nitory tany Asia Minora sy Gresy. Nandray anjara tamin'ny fielezan'ny Vaovao Mahafaly ary maty martiry. Fantatra amin'ny fahatokiany.",
     "sokajy": "Apostoly",
     "taona_nahaterahana": "",
     "taona_nahafatesana": "80"
-  },
-  {
-    "id": 189,
-    "anarana": "Md. Étienne (Protomartyr)",
-    "daty_fankalazana": "26 Desambra",
-    "fanoharana": "Martiry voalohany",
-    "tantara": "Martiry voalohany tao amin'ny Fiangonana. Nitoriteny tamim-pahasahiana ary nitora-bato ho faty.",
-    "sokajy": "Martiry",
-    "taona_nahaterahana": "5",
-    "taona_nahafatesana": "34"
-  },
-  {
-    "id": 190,
-    "anarana": "Md. Grégoire de Nazianze",
-    "daty_fankalazana": "2 Janoary",
-    "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Rain'ny Fiangonana izay nampianatra momba ny Trinite Masina.",
-    "sokajy": "Mpampianatra ny Fiangonana",
-    "taona_nahaterahana": "329",
-    "taona_nahafatesana": "390"
-  },
-  {
-    "id": 191,
-    "anarana": "Md. Basile de Césarée",
-    "daty_fankalazana": "2 Janoary",
-    "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Mpanorina ny fiainam-pirenena any Atsinanana, ary nampianatra momba ny fahantrana.",
-    "sokajy": "Mpampianatra ny Fiangonana",
-    "taona_nahaterahana": "330",
-    "taona_nahafatesana": "379"
-  },
-  {
-    "id": 192,
-    "anarana": "Md. Athanase d'Alexandrie",
-    "daty_fankalazana": "2 Mey",
-    "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Niaro mafy ny finoana kristiana tamin'ny Arianisma, ary voaroaka imbetsaka.",
-    "sokajy": "Mpampianatra ny Fiangonana",
-    "taona_nahaterahana": "296",
-    "taona_nahafatesana": "373"
-  },
-  {
-    "id": 193,
-    "anarana": "Md. Jean Chrysostome",
-    "daty_fankalazana": "13 Septambra",
-    "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Eveka any Constantinople, fantatra amin'ny lahateniny mazava sy ny fahalalahan-tanany.",
-    "sokajy": "Mpampianatra ny Fiangonana",
-    "taona_nahaterahana": "347",
-    "taona_nahafatesana": "407"
   },
   {
     "id": 194,
     "anarana": "Md. Ephrem le Syrien",
     "daty_fankalazana": "9 Jona",
     "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Diakra sy mpihira izay nanoratra fihirana sy tononkalo momba ny finoana.",
+    "tantara": "Mpampianatra ny Fiangonana. Diakra sy mpihira izay nanoratra fihirana sy tononkalo momba ny finoana. Antsoina hoe 'Harp of the Holy Spirit'.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "306",
     "taona_nahafatesana": "373"
@@ -1944,7 +1884,7 @@
     "anarana": "Md. Pierre Damien",
     "daty_fankalazana": "21 Febroary",
     "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Kardinaly sy mpanavao ny fiainana monastika tamin'ny taonjato faha-11.",
+    "tantara": "Mpampianatra ny Fiangonana. Kardinaly sy mpanavao ny fiainana monastika tamin'ny taonjato faha-11. Nanoratra momba ny fanavaozana sy ny fahadiovana ara-panahy.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1007",
     "taona_nahafatesana": "1072"
@@ -1954,7 +1894,7 @@
     "anarana": "Md. Anselme de Cantorbéry",
     "daty_fankalazana": "21 Aprily",
     "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Filozofa sy teolojiana malaza, fantatra amin'ny porofiny momba ny fisian'Andriamanitra.",
+    "tantara": "Filozofa sy teolojiana malaza, fantatra amin'ny porofiny momba ny fisian'Andriamanitra. Nanoratra sy nampianatra momba ny finoana ka lasa ohatra amin'ny fahendrena.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "1033",
     "taona_nahafatesana": "1109"
@@ -1964,7 +1904,7 @@
     "anarana": "Md. Pierre Chrysologue",
     "daty_fankalazana": "30 Jolay",
     "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Eveka any Ravenna, fantatra amin'ny toriteniny feno fahaizana.",
+    "tantara": "Mpampianatra ny Fiangonana. Eveka any Ravenna, fantatra amin'ny toriteniny feno fahaizana sy ny fampianarana momba ny finoana. Antsoina hoe 'Dokotera Chrysologus'.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "380",
     "taona_nahafatesana": "450"
@@ -1974,7 +1914,7 @@
     "anarana": "Md. Jean de Damas",
     "daty_fankalazana": "4 Desambra",
     "fanoharana": "Mpampianatra ny Fiangonana",
-    "tantara": "Mpanoratra sy teolojiana izay niaro ny fanajàna ny sary masina.",
+    "tantara": "Mpampianatra ny Fiangonana. Mpanoratra sy teolojiana izay niaro ny fanajàna ny sary masina tamin'ny andron'ny Iconoclasme. Nanoratra boky teolojika manan-danja.",
     "sokajy": "Mpampianatra ny Fiangonana",
     "taona_nahaterahana": "676",
     "taona_nahafatesana": "749"
@@ -1984,7 +1924,7 @@
     "anarana": "Md. Thomas More",
     "daty_fankalazana": "22 Jona",
     "fanoharana": "Martiry, Mpanorina ny Utopia",
-    "tantara": "Mpanao lalàna sy mpanolotsaina ny Mpanjaka Henri VIII, nefa maty noho ny fandavany ny fanapahan-kevitry ny mpanjaka.",
+    "tantara": "Martiry, mpanorina ny Utopia. Mpanao lalàna sy mpanolotsaina ny Mpanjaka Henri VIII, nefa maty noho ny fandavany ny fanapahan-kevitry ny mpanjaka. Ohatra amin'ny fahamarinana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1478",
     "taona_nahafatesana": "1535"
@@ -1994,7 +1934,7 @@
     "anarana": "Md. John Fisher",
     "daty_fankalazana": "22 Jona",
     "fanoharana": "Martiry, Eveka",
-    "tantara": "Eveka any Rochester izay niaraka tamin'i Thomas More tamin'ny fanoherany ny fahotan'i Henri VIII. Maty noho ny finoany.",
+    "tantara": "Martiry, Eveka. Eveka any Rochester izay niaraka tamin'i Thomas More tamin'ny fanoherany ny fahotan'i Henri VIII. Maty noho ny finoany sy ny fahatokiany.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1469",
     "taona_nahafatesana": "1535"
@@ -2004,7 +1944,7 @@
     "anarana": "Md. Pancrace",
     "daty_fankalazana": "12 Mey",
     "fanoharana": "Martiry tanora, Mpiaro ny zaza",
-    "tantara": "Zazalahy 14 taona izay maty maritiora tao Roma nandritra ny fanenjehana an'i Diocletian noho ny fandavany ny hivavaka amin'ny sampy.",
+    "tantara": "Martiry tanora, mpiaro ny zaza. Zazalahy 14 taona izay maty maritiora tao Roma nandritra ny fanenjehana an'i Diocletian noho ny fandavany ny hivavaka amin'ny sampy.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "289",
     "taona_nahafatesana": "304"
@@ -2014,7 +1954,7 @@
     "anarana": "Md. Boniface",
     "daty_fankalazana": "5 Jona",
     "fanoharana": "Apostolin'ny Alemaina, Martiry",
-    "tantara": "Misionera anglisy izay nitory ny Filazantsara tany Alemaina tamin'ny taonjato faha-8. Namono azy ireo mpanompo sampy tamin'ny 754.",
+    "tantara": "Misionera anglisy, Apostolin'ny Alemaina, Martiry. Nitory ny Filazantsara tany Alemaina tamin'ny taonjato faha-8. Namono azy ireo mpanompo sampy tamin'ny 754.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "672",
     "taona_nahafatesana": "754"
@@ -2024,7 +1964,7 @@
     "anarana": "Md. Willibrord",
     "daty_fankalazana": "7 Novambra",
     "fanoharana": "Apostolin'ny Frisianina",
-    "tantara": "Misionera anglisy izay nitory tany amin'ny vahoaka Frisianina any Holandy. Nanangana monasitera sy fiangonana maro tany.",
+    "tantara": "Misionera anglisy, Apostolin'ny Frisianina. Nitory tany amin'ny vahoaka Frisianina any Holandy. Nanangana monasitera sy fiangonana maro tany ary nampiely ny finoana.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "658",
     "taona_nahafatesana": "739"
@@ -2034,7 +1974,7 @@
     "anarana": "Md. Adalbert",
     "daty_fankalazana": "23 Aprily",
     "fanoharana": "Eveka sy Martiry any Praha",
-    "tantara": "Eveka any Praha izay nandao ny sezany mba hitory ny Vaovao Mahafaly tany amin'ny vahoaka Prussiana. Maty maritiora tamin'ny 997.",
+    "tantara": "Eveka any Praha, Martiry. Nandao ny sezany mba hitory ny Vaovao Mahafaly tany amin'ny vahoaka Prussiana. Maty maritiora tamin'ny 997. Mpiaro an'i Polonia sy Tsekia.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "956",
     "taona_nahafatesana": "997"
@@ -2044,7 +1984,7 @@
     "anarana": "Md. Stanislas",
     "daty_fankalazana": "11 Aprily",
     "fanoharana": "Eveka sy Martiry any Polonia",
-    "tantara": "Eveka any Krakow izay namaly mafy ny mpanjaka Poloney noho ny faharatsiany. Novonoin'ny mpanjaka izy tamin'ny 1079.",
+    "tantara": "Eveka sy Martiry any Polonia. Eveka any Krakow izay namaly mafy ny mpanjaka Poloney noho ny faharatsiany. Novonoin'ny mpanjaka izy tamin'ny 1079.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1030",
     "taona_nahafatesana": "1079"
@@ -2054,7 +1994,7 @@
     "anarana": "Md. Venceslas",
     "daty_fankalazana": "28 Septambra",
     "fanoharana": "Mpanjakan'i Bohemia, Martiry",
-    "tantara": "Mpanjaka Bohemianina izay nanapaka tamin'ny fahamarinana sy ny finoana. Novonoin'ny rahalahiny Boleslav Izy tamin'ny 935.",
+    "tantara": "Mpanjakan'i Bohemia, Martiry. Nanapaka tamin'ny fahamarinana sy ny finoana. Novonoin'ny rahalahiny Boleslav tamin'ny 935. Mpiaro an'i Tsekia sy ny tanora.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "907",
     "taona_nahafatesana": "935"
@@ -2064,7 +2004,7 @@
     "anarana": "Md. Ludmila",
     "daty_fankalazana": "16 Septambra",
     "fanoharana": "Reniben'i Md. Venceslas, Martiry",
-    "tantara": "Reniben'i Md. Venceslas izay nampianatra azy tamin'ny finoana kristiana. Novonoin'ny mpanompony noho ny fifandonana ara-politika.",
+    "tantara": "Reniben'i Md. Venceslas, Martiry. Nampianatra azy tamin'ny finoana kristiana. Novonoin'ny mpanompony noho ny fifandonana ara-politika. Ohatra amin'ny fitaizana kristiana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "860",
     "taona_nahafatesana": "921"
@@ -2074,7 +2014,7 @@
     "anarana": "Md. Olaf",
     "daty_fankalazana": "29 Jolay",
     "fanoharana": "Mpanjakan'i Norvezy, Martiry",
-    "tantara": "Mpanjaka Norvezianina izay nampiditra ny finoana kristiana tany Norvezy. Maty tamin'ny ady tao Stiklestad tamin'ny 1030.",
+    "tantara": "Mpanjakan'i Norvezy, Martiry. Nampiditra ny finoana kristiana tany Norvezy. Maty tamin'ny ady tao Stiklestad tamin'ny 1030. Fantatra amin'ny faharetany sy ny fanoloran-tenany.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "995",
     "taona_nahafatesana": "1030"
@@ -2084,7 +2024,7 @@
     "anarana": "Md. Canute",
     "daty_fankalazana": "19 Janoary",
     "fanoharana": "Mpanjakan'i Danemark, Martiry",
-    "tantara": "Mpanjaka Danemark izay nanolotra ny fiainany ho an'ny finoana. Novonoina tany Odense tamin'ny 1086.",
+    "tantara": "Mpanjaka Danemark izay nanolotra ny fiainany ho an'ny finoana. Novonoina tany Odense tamin'ny 1086. Maty noho ny fahatokiany tamin'i Kristy ary lasa ohatra amin'ny faharetana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1042",
     "taona_nahafatesana": "1086"
@@ -2100,38 +2040,18 @@
     "taona_nahafatesana": "1160"
   },
   {
-    "id": 211,
-    "anarana": "Md. Marguerite",
-    "daty_fankalazana": "20 Jolay",
-    "fanoharana": "Mpanjakavavy Ekosy, Mpiaro ny mahantra",
-    "tantara": "Mpanjakavavy Ekosy izay nanokana ny fiainany ho an'ny vavaka sy ny fiantrana. Nanampy ny mahantra sy nanorina fiangonana.",
-    "sokajy": "Masina",
-    "taona_nahaterahana": "1045",
-    "taona_nahafatesana": "1093"
-  },
-  {
-    "id": 212,
-    "anarana": "Md. Edouard",
-    "daty_fankalazana": "13 Oktobra",
-    "fanoharana": "Mpanjakan'i Angletera, Mpiaro ny fahamarinana",
-    "tantara": "Mpanjaka Angletera izay nanapaka tamin'ny fahamarinana sy ny finoana. Fantatra amin'ny fahalalahan-tanany sy ny fitoriany ny fampihavanana.",
-    "sokajy": "Masina",
-    "taona_nahaterahana": "1003",
-    "taona_nahafatesana": "1066"
-  },
-  {
     "id": 213,
     "anarana": "Md. Ferdinand III",
     "daty_fankalazana": "30 Mey",
     "fanoharana": "Mpanjakan'i Castilla, Mpanorina ny fivavahana",
-    "tantara": "Mpanjaka Espaniola izay nanorina fiangonana sy monasitera maro. Nampiditra ny finoana kristiana tany amin'ny faritra notafihiny.",
+    "tantara": "Mpanjakan'i Castilla, mpanorina ny fivavahana. Nanorina fiangonana sy monasitera maro. Nampiditra ny finoana kristiana tany amin'ny faritra notafihiny. Fantatra amin'ny fahamarinany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1199",
     "taona_nahafatesana": "1252"
   },
   {
     "id": 214,
-    "anarana": "Md. Isabelle",
+    "anarana": "Mb. Isabelle",
     "daty_fankalazana": "4 Jolay",
     "fanoharana": "Mpanjakavavy Portogaly, Mpiaro ny fahantrana",
     "tantara": "Mpanjakavavy Portogaly izay nanolo-tena tamin'ny fanampiana ny mahantra sy ny marary. Rehefa maty ny vadiny dia niditra tao amin'ny fiainam-pirenena.",
@@ -2141,27 +2061,27 @@
   },
   {
     "id": 215,
-    "anarana": "Md. Elizabeth",
+    "anarana": "Mb. Elizabeth",
     "daty_fankalazana": "19 Nôvambra",
     "fanoharana": "Mpanjakavavy Hongriana, Mpiaro ny mahantra",
-    "tantara": "Mpanjakavavy Hongriana izay nanolotra ny fananany rehetra ho an'ny mahantra sy ny marary. Namorona hopitaly sy trano fialofana.",
+    "tantara": "Mpanjakavavy Hongriana, mpiaro ny mahantra. Nanolotra ny fananany rehetra ho an'ny mahantra sy ny marary. Namorona hopitaly sy trano fialofana. Ohatra amin'ny fiantrana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1207",
     "taona_nahafatesana": "1231"
   },
   {
     "id": 216,
-    "anarana": "Md. Hedwige",
+    "anarana": "Mb. Hedwige",
     "daty_fankalazana": "16 Oktobra",
     "fanoharana": "Mpanjakavavy Poloney, Mpanorina monasitera",
-    "tantara": "Mpanjakavavy Poloney izay nanorina monasitera sy fiangonana maro. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana.",
+    "tantara": "Mpanjakavavy Poloney, mpanorina monasitera. Nanorina monasitera sy fiangonana maro. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana. Ohatra amin'ny fahamasinana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1174",
     "taona_nahafatesana": "1243"
   },
   {
     "id": 217,
-    "anarana": "Md. Kunigunda",
+    "anarana": "Mb. Kunigunda",
     "daty_fankalazana": "3 Martsa",
     "fanoharana": "Mpanjakavavy Alemaina, Virijiny",
     "tantara": "Mpanjakavavy Alemaina izay niara-niaina tamin'ny vadiny tamim-pahadiovana. Rehefa maty ny vadiny dia niditra tao amin'ny fiainam-pirenena.",
@@ -2171,7 +2091,7 @@
   },
   {
     "id": 218,
-    "anarana": "Md. Radegonde",
+    "anarana": "Mb. Radegonde",
     "daty_fankalazana": "13 Aogositra",
     "fanoharana": "Mpanjakavavy Frank, Mpanorina monasitera",
     "tantara": "Mpanjakavavy Frank izay nandao ny vadiny mba hanorina monasitera ho an'ny vehivavy. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana.",
@@ -2181,40 +2101,40 @@
   },
   {
     "id": 219,
-    "anarana": "Md. Bathilde",
+    "anarana": "Mb. Bathilde",
     "daty_fankalazana": "30 Janoary",
     "fanoharana": "Mpanjakavavy Frank, Mpanafaka ny andevo",
-    "tantara": "Mpanjakavavy Frank izay nanafaka ny andevo maro. Nanorina monasitera sy fiangonana ary nanampy ny mahantra.",
+    "tantara": "Mpanjakavavy Frank izay nanafaka ny andevo maro. Nanorina monasitera sy fiangonana ary nanampy ny mahantra. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "626",
     "taona_nahafatesana": "680"
   },
   {
     "id": 220,
-    "anarana": "Md. Margaret",
+    "anarana": "Mb. Margaret",
     "daty_fankalazana": "20 Jolay",
     "fanoharana": "Mpanjakavavy Ekosy, Mpanorina fiangonana",
-    "tantara": "Mpanjakavavy Ekosy izay nanorina fiangonana sy monasitera maro. Nanampy ny mahantra sy nampianatra ny vahoakany.",
+    "tantara": "Mpanjakavavy Ekosy, mpanorina fiangonana. Nanorina fiangonana sy monasitera maro. Nanampy ny mahantra sy nampianatra ny vahoakany. Fantatra amin'ny fahalalahan-tanany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1045",
     "taona_nahafatesana": "1093"
   },
   {
     "id": 221,
-    "anarana": "Md. Matilda",
+    "anarana": "Mb. Matilda",
     "daty_fankalazana": "14 Martsa",
     "fanoharana": "Mpanjakavavy Alemaina, Mpiaro ny mahantra",
-    "tantara": "Mpanjakavavy Alemaina izay nanampy ny mahantra sy nanorina fiangonana. Rehefa maty ny vadiny dia niditra tao amin'ny fiainam-pirenena.",
+    "tantara": "Mpanjakavavy Alemaina, mpiaro ny mahantra. Nanampy ny mahantra sy nanorina fiangonana. Rehefa maty ny vadiny dia niditra tao amin'ny fiainam-pirenena. Fantatra amin'ny fahamasinany.",
     "sokajy": "Masina",
     "taona_nahaterahana": "895",
     "taona_nahafatesana": "968"
   },
   {
     "id": 222,
-    "anarana": "Md. Adelaide",
+    "anarana": "Mb. Adelaide",
     "daty_fankalazana": "16 Desambra",
     "fanoharana": "Mpanjakavavy Alemaina, Mpanorina monasitera",
-    "tantara": "Mpanjakavavy Alemaina izay nanorina monasitera maro. Nanampy ny mahantra sy nampandroso ny finoana kristiana.",
+    "tantara": "Mpanjakavavy Alemaina izay nanorina monasitera maro. Nanampy ny mahantra sy nampandroso ny finoana kristiana. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "931",
     "taona_nahafatesana": "999"
@@ -2224,7 +2144,7 @@
     "anarana": "Md. Henry",
     "daty_fankalazana": "15 Jolay",
     "fanoharana": "Emperora Alemaina, Mpanorina monasitera",
-    "tantara": "Emperora Alemaina izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra ary niara-niasa tamin'ny Papa.",
+    "tantara": "Emperora Alemaina, mpanorina monasitera. Nanorina monasitera sy fiangonana maro. Nanampy ny mahantra ary niara-niasa tamin'ny Papa. Ohatra amin'ny fitondrana kristiana.",
     "sokajy": "Masina",
     "taona_nahaterahana": "972",
     "taona_nahafatesana": "1024"
@@ -2234,7 +2154,7 @@
     "anarana": "Md. Stephen",
     "daty_fankalazana": "16 Aogositra",
     "fanoharana": "Mpanjakan'i Hongria, Mpanorina ny finoana tany Hongria",
-    "tantara": "Mpanjaka Hongriana voalohany izay nampiditra ny finoana kristiana tany Hongria. Nanorina fiangonana sy monasitera maro.",
+    "tantara": "Mpanjakan'i Hongria, mpanorina ny finoana. Mpanjaka Hongriana voalohany izay nampiditra ny finoana kristiana tany Hongria. Nanorina fiangonana sy monasitera maro.",
     "sokajy": "Masina",
     "taona_nahaterahana": "969",
     "taona_nahafatesana": "1038"
@@ -2244,7 +2164,7 @@
     "anarana": "Md. Emeric",
     "daty_fankalazana": "4 Nôvambra",
     "fanoharana": "Zanaky ny Mpanjaka Stephen, Virijiny",
-    "tantara": "Zanaky ny Mpanjaka Stephen any Hongria. Niaina fiainana madio sy mpivavaka, maty tamin'ny fahatanorany.",
+    "tantara": "Zanaky ny Mpanjaka Stephen any Hongria. Niaina fiainana madio sy mpivavaka, maty tamin'ny fahatanorany. Niaina fiainana madio sy feno fanoloran-tena ho an'i Kristy.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "1000",
     "taona_nahafatesana": "1031"
@@ -2254,7 +2174,7 @@
     "anarana": "Md. Ladislas",
     "daty_fankalazana": "27 Jona",
     "fanoharana": "Mpanjakan'i Hongria, Mpiaro ny fahamarinana",
-    "tantara": "Mpanjaka Hongriana izay nanapaka tamin'ny fahamarinana sy ny finoana. Nanorina fiangonana sy monasitera maro.",
+    "tantara": "Mpanjaka Hongriana izay nanapaka tamin'ny fahamarinana sy ny finoana. Nanorina fiangonana sy monasitera maro. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1040",
     "taona_nahafatesana": "1095"
@@ -2264,7 +2184,7 @@
     "anarana": "Md. Sigismund",
     "daty_fankalazana": "2 Mey",
     "fanoharana": "Mpanjakan'i Bourgogne, Martiry",
-    "tantara": "Mpanjaka Bourgogne izay niova fo tamin'ny finoana kristiana ary nanorina monasitera. Novonoina noho ny fahatokiany.",
+    "tantara": "Mpanjakan'i Bourgogne, Martiry. Niova fo tamin'ny finoana kristiana ary nanorina monasitera. Novonoina noho ny fahatokiany. Ohatra amin'ny fibebahana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "475",
     "taona_nahafatesana": "524"
@@ -2274,7 +2194,7 @@
     "anarana": "Md. Dagobert",
     "daty_fankalazana": "23 Desambra",
     "fanoharana": "Mpanjakan'i Frank, Mpanorina monasitera",
-    "tantara": "Mpanjaka Frank izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra sy nampiely ny finoana.",
+    "tantara": "Mpanjaka Frank izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra sy nampiely ny finoana. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "602",
     "taona_nahafatesana": "639"
@@ -2284,7 +2204,7 @@
     "anarana": "Md. Clovis",
     "daty_fankalazana": "27 Nôvambra",
     "fanoharana": "Mpanjakan'i Frank, Mpanorina ny fianakavian'ny Merovingiana",
-    "tantara": "Mpanjaka Frank voalohany niova fo ho Kristianina. Nampiditra ny finoana kristiana tany amin'ny faritra notafihiny.",
+    "tantara": "Mpanjakan'i Frank, mpanorina ny fianakavian'ny Merovingiana. Mpanjaka Frank voalohany niova fo ho Kristianina. Nampiditra ny finoana kristiana tany amin'ny faritra notafihiny.",
     "sokajy": "Masina",
     "taona_nahaterahana": "466",
     "taona_nahafatesana": "511"
@@ -2294,7 +2214,7 @@
     "anarana": "Md. Charlemagne",
     "daty_fankalazana": "28 Janoary",
     "fanoharana": "Emperora Romana Masina, Mpanorina ny Fiangonana",
-    "tantara": "Emperora Romana Masina izay nanorina fiangonana sy monasitera maro. Nanampy ny Papa tamin'ny fanitarana ny finoana.",
+    "tantara": "Emperora Romana Masina, mpanorina ny Fiangonana. Nanorina fiangonana sy monasitera maro. Nanampy ny Papa tamin'ny fanitarana ny finoana tany Eoropa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "742",
     "taona_nahafatesana": "814"
@@ -2304,7 +2224,7 @@
     "anarana": "Md. Louis",
     "daty_fankalazana": "19 Aogositra",
     "fanoharana": "Mpanjakan'i Frantsa, Mpanorina monasitera",
-    "tantara": "Mpanjaka Frantsa izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra ary nitandrina ny finoana.",
+    "tantara": "Mpanjaka Frantsa izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra ary nitandrina ny finoana. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1214",
     "taona_nahafatesana": "1270"
@@ -2314,7 +2234,7 @@
     "anarana": "Md. Robert",
     "daty_fankalazana": "29 Aprily",
     "fanoharana": "Mpanjakan'i Frantsa, Mpanorina monasitera",
-    "tantara": "Mpanjaka Frantsa izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra sy namindra fo.",
+    "tantara": "Mpanjaka Frantsa izay nanorina monasitera sy fiangonana maro. Nanampy ny mahantra sy namindra fo. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "972",
     "taona_nahafatesana": "1031"
@@ -2324,7 +2244,7 @@
     "anarana": "Md. Edward",
     "daty_fankalazana": "13 Oktobra",
     "fanoharana": "Mpanjakan'i Angletera, Mpiaro ny fahamarinana",
-    "tantara": "Mpanjaka Angletera izay nanapaka tamin'ny fahamarinana sy ny finoana. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Mpanjaka Angletera izay nanapaka tamin'ny fahamarinana sy ny finoana. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana feno fahamasinana, fitiavana an'Andriamanitra ary fanompoana ny hafa.",
     "sokajy": "Masina",
     "taona_nahaterahana": "1003",
     "taona_nahafatesana": "1066"
@@ -2334,7 +2254,7 @@
     "anarana": "Md. Edmund",
     "daty_fankalazana": "20 Novambra",
     "fanoharana": "Mpanjakan'i East Anglia, Martiry",
-    "tantara": "Mpanjaka East Anglia izay maty maritiora tamin'ny ady tamin'ireo Viking. Nandà ny hivavaka amin'ny sampy.",
+    "tantara": "Mpanjaka East Anglia izay maty maritiora tamin'ny ady tamin'ireo Viking. Nandà ny hivavaka amin'ny sampy. Maty noho ny fahatokiany tamin'i Kristy ary lasa ohatra amin'ny faharetana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "841",
     "taona_nahafatesana": "869"
@@ -2354,7 +2274,7 @@
     "anarana": "Md. Alphege",
     "daty_fankalazana": "19 Aprily",
     "fanoharana": "Eveka sy Martiry any Angletera",
-    "tantara": "Eveka any Canterbury izay maty maritiora tamin'ny ady tamin'ireo Viking. Nandà ny hanome vola ho vidim-pahafahany.",
+    "tantara": "Eveka sy Martiry any Angletera. Eveka any Canterbury izay maty maritiora tamin'ny ady tamin'ireo Viking. Nandà ny hanome vola ho vidim-pahafahany.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "954",
     "taona_nahafatesana": "1012"
@@ -2364,7 +2284,7 @@
     "anarana": "Md. Dunstan",
     "daty_fankalazana": "19 Mey",
     "fanoharana": "Eveka any Canterbury, Mpanavao ny fiangonana",
-    "tantara": "Eveka any Canterbury izay nanavao ny fiangonana sy ny monasitera tany Angletera. Nanoratra boky sy hira ara-pivavahana.",
+    "tantara": "Eveka any Canterbury, mpanavao ny fiangonana. Nanavao ny fiangonana sy ny monasitera tany Angletera. Nanoratra boky sy hira ara-pivavahana. Fantatra amin'ny fahendrena.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "909",
     "taona_nahafatesana": "988"
@@ -2384,7 +2304,7 @@
     "anarana": "Md. Thomas Becket",
     "daty_fankalazana": "29 Desambra",
     "fanoharana": "Eveka any Canterbury, Martiry",
-    "tantara": "Eveka any Canterbury izay maty maritiora noho ny fandavany ny fanapahan-kevitry ny Mpanjaka Henri II. Novonoina tao amin'ny katedraly.",
+    "tantara": "Eveka any Canterbury, Martiry. Maty maritiora noho ny fandavany ny fanapahan-kevitry ny Mpanjaka Henri II. Novonoina tao amin'ny katedraly. Ohatra amin'ny fiarovana ny fahefan'ny Fiangonana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "1118",
     "taona_nahafatesana": "1170"
@@ -2394,7 +2314,7 @@
     "anarana": "Md. Edmund Rich",
     "daty_fankalazana": "16 Novambra",
     "fanoharana": "Eveka any Canterbury, Mpanorina",
-    "tantara": "Eveka any Canterbury izay nanoratra boky momba ny finoana sy ny fahadiovana. Nanampy ny mahantra sy nampianatra.",
+    "tantara": "Eveka any Canterbury, mpanorina. Nanoratra boky momba ny finoana sy ny fahadiovana. Nanampy ny mahantra sy nampianatra. Ohatra amin'ny fiainana madio.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1180",
     "taona_nahafatesana": "1240"
@@ -2404,7 +2324,7 @@
     "anarana": "Md. Richard",
     "daty_fankalazana": "3 Aprily",
     "fanoharana": "Eveka any Chichester, Mpanabe",
-    "tantara": "Eveka any Chichester izay nanampy ny mahantra sy nampianatra ny vahoakany. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka any Chichester, mpanabe. Nanampy ny mahantra sy nampianatra ny vahoakany. Fantatra amin'ny fahalalahan-tanany sy ny fanoloran-tenany.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1197",
     "taona_nahafatesana": "1253"
@@ -2414,7 +2334,7 @@
     "anarana": "Md. Hugh",
     "daty_fankalazana": "16 Novambra",
     "fanoharana": "Eveka any Lincoln, Mpiaro ny biby",
-    "tantara": "Eveka any Lincoln izay tia ny biby sy ny zavaboary rehetra. Nanampy ny mahantra sy nampianatra ny finoana.",
+    "tantara": "Eveka any Lincoln izay tia ny biby sy ny zavaboary rehetra. Nanampy ny mahantra sy nampianatra ny finoana. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1135",
     "taona_nahafatesana": "1200"
@@ -2424,7 +2344,7 @@
     "anarana": "Md. Gilbert",
     "daty_fankalazana": "4 Febroary",
     "fanoharana": "Mpanorina ny Gilbertines",
-    "tantara": "Pretra anglisy izay nanorina ny fikambanana Gilbertines, izay ahitana lehilahy sy vehivavy miara-miaina amim-pahadiovana.",
+    "tantara": "Pretra anglisy, mpanorina ny Gilbertines. Nanorina fikambanana ahitana lehilahy sy vehivavy miara-miaina amim-pahadiovana. Nanokana ny fiainany tamin'ny fanompoana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "1083",
     "taona_nahafatesana": "1189"
@@ -2434,7 +2354,7 @@
     "anarana": "Md. William",
     "daty_fankalazana": "8 Febroary",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita anglisy izay nanorina monasitera tao York. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana.",
+    "tantara": "Hermita anglisy izay nanorina monasitera tao York. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "1130",
     "taona_nahafatesana": "1205"
@@ -2444,7 +2364,7 @@
     "anarana": "Md. Godric",
     "daty_fankalazana": "21 Mey",
     "fanoharana": "Hermita, Mpivahiny",
-    "tantara": "Hermita anglisy izay nandao ny fiainany mba hiaina tany an'efitra. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana.",
+    "tantara": "Hermita anglisy. Nandao ny fiainany mba hiaina tany an'efitra. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana. Fantatra amin'ny fahagagana sy ny fiainana mangina.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "1065",
     "taona_nahafatesana": "1170"
@@ -2454,7 +2374,7 @@
     "anarana": "Md. Cuthbert",
     "daty_fankalazana": "20 Martsa",
     "fanoharana": "Eveka any Lindisfarne, Hermita",
-    "tantara": "Eveka any Lindisfarne izay niaina tany an'efitra tamin'ny fahanterany. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Eveka any Lindisfarne izay niaina tany an'efitra tamin'ny fahanterany. Fantatra amin'ny fahagagana nataony. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "634",
     "taona_nahafatesana": "687"
@@ -2464,7 +2384,7 @@
     "anarana": "Md. Aidan",
     "daty_fankalazana": "31 Aogositra",
     "fanoharana": "Eveka any Lindisfarne, Misionera",
-    "tantara": "Misionera irlandey izay nitory tany Angletera sy nanorina monasitera tao Lindisfarne.",
+    "tantara": "Misionera irlandey izay nitory tany Angletera sy nanorina monasitera tao Lindisfarne. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "590",
     "taona_nahafatesana": "651"
@@ -2474,7 +2394,7 @@
     "anarana": "Md. Columba",
     "daty_fankalazana": "9 Jona",
     "fanoharana": "Misionera any Ekosy, Mpanorina monasitera",
-    "tantara": "Misionera irlandey izay nanorina monasitera tao Iona any Ekosy. Nampiely ny finoana tany amin'ny vahoaka ekosy.",
+    "tantara": "Misionera any Ekosy, mpanorina monasitera. Misionera irlandey izay nanorina monasitera tao Iona any Ekosy. Nampiely ny finoana tany amin'ny vahoaka ekosy.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "521",
     "taona_nahafatesana": "597"
@@ -2484,7 +2404,7 @@
     "anarana": "Md. Columban",
     "daty_fankalazana": "23 Novambra",
     "fanoharana": "Misionera any Eoropa, Mpanorina monasitera",
-    "tantara": "Misionera irlandey izay nitory tany Frantsa, Alemaina ary Italia. Nanorina monasitera maro.",
+    "tantara": "Misionera irlandey izay nitory tany Frantsa, Alemaina ary Italia. Nanorina monasitera maro. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "543",
     "taona_nahafatesana": "615"
@@ -2494,7 +2414,7 @@
     "anarana": "Md. Brendan",
     "daty_fankalazana": "16 Mey",
     "fanoharana": "Mpitety ranomasina, Mpanorina monasitera",
-    "tantara": "Misionera irlandey izay nanao dia lavitra tany amin'ny ranomasina. Nanorina monasitera maro tany Irlanda.",
+    "tantara": "Misionera irlandey izay nanao dia lavitra tany amin'ny ranomasina. Nanorina monasitera maro tany Irlanda. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "484",
     "taona_nahafatesana": "577"
@@ -2504,7 +2424,7 @@
     "anarana": "Md. Kevin",
     "daty_fankalazana": "3 Jona",
     "fanoharana": "Hermita, Mpanorina monasitera",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Glendalough. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Glendalough. Fantatra amin'ny fahagagana nataony. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "498",
     "taona_nahafatesana": "618"
@@ -2514,7 +2434,7 @@
     "anarana": "Md. Malachy",
     "daty_fankalazana": "2 Novambra",
     "fanoharana": "Eveka any Irlanda, Mpanavao",
-    "tantara": "Eveka irlandey izay nanavao ny fiangonana tany Irlanda. Nanao fivahiniana masina tany Roma.",
+    "tantara": "Eveka irlandey izay nanavao ny fiangonana tany Irlanda. Nanao fivahiniana masina tany Roma. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1094",
     "taona_nahafatesana": "1148"
@@ -2524,7 +2444,7 @@
     "anarana": "Md. Laurence O'Toole",
     "daty_fankalazana": "14 Novambra",
     "fanoharana": "Eveka any Dublin, Mpanabe",
-    "tantara": "Eveka any Dublin izay nanampy ny mahantra sy nampianatra ny vahoakany. Nanao fivahiniana masina tany Roma.",
+    "tantara": "Eveka any Dublin izay nanampy ny mahantra sy nampianatra ny vahoakany. Nanao fivahiniana masina tany Roma. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "1128",
     "taona_nahafatesana": "1180"
@@ -2534,37 +2454,37 @@
     "anarana": "Md. Fiacre",
     "daty_fankalazana": "30 Aogositra",
     "fanoharana": "Hermita, Mpiaro ny mpamboly",
-    "tantara": "Hermita irlandey izay nanorina monasitera any Frantsa. Mpiaro ny mpamboly sy ny zaridaina.",
+    "tantara": "Hermita irlandey izay nanorina monasitera any Frantsa. Mpiaro ny mpamboly sy ny zaridaina. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "600",
     "taona_nahafatesana": "670"
   },
   {
     "id": 255,
-    "anarana": "Md. Gobnait",
+    "anarana": "Mb. Gobnait",
     "daty_fankalazana": "11 Febroary",
     "fanoharana": "Virijiny, Mpiaro ny tantely",
-    "tantara": "Virijiny irlandey izay nanorina monasitera. Mpiaro ny tantely sy ny biby.",
+    "tantara": "Virijiny irlandey izay nanorina monasitera. Mpiaro ny tantely sy ny biby. Fantatra amin'ny fahagagana nataony sy ny fahalalahan-tanany.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "570"
   },
   {
     "id": 256,
-    "anarana": "Md. Ita",
+    "anarana": "Mb. Ita",
     "daty_fankalazana": "15 Janoary",
     "fanoharana": "Virijiny, Mpanabe",
-    "tantara": "Virijiny irlandey izay nanorina monasitera ho an'ny vehivavy. Nampianatra ny zaza sy ny tanora.",
+    "tantara": "Virijiny irlandey izay nanorina monasitera ho an'ny vehivavy. Nampianatra ny zaza sy ny tanora. Niaina fiainana madio sy feno fanoloran-tena ho an'i Kristy.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "480",
     "taona_nahafatesana": "570"
   },
   {
     "id": 257,
-    "anarana": "Md. Brigid",
+    "anarana": "Mb. Brigid",
     "daty_fankalazana": "1 Febroary",
     "fanoharana": "Virijiny, Mpanorina monasitera",
-    "tantara": "Virijiny irlandey izay nanorina monasitera tao Kildare. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony.",
+    "tantara": "Virijiny, mpanorina monasitera. Virijiny irlandey izay nanorina monasitera tao Kildare. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony. Mpiaro an'i Irlanda.",
     "sokajy": "Virijiny",
     "taona_nahaterahana": "451",
     "taona_nahafatesana": "525"
@@ -2574,7 +2494,7 @@
     "anarana": "Md. Ciarán",
     "daty_fankalazana": "9 Septambra",
     "fanoharana": "Mpanorina monasitera",
-    "tantara": "Irlandey izay nanorina monasitera tao Clonmacnoise. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Irlandey izay nanorina monasitera tao Clonmacnoise. Fantatra amin'ny fahagagana nataony. Nanokana ny fiainany tamin'ny fananganana fikambanana relijiozy sy ny fanompoana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "512",
     "taona_nahafatesana": "546"
@@ -2584,7 +2504,7 @@
     "anarana": "Md. Finian",
     "daty_fankalazana": "9 Desambra",
     "fanoharana": "Mpanorina monasitera",
-    "tantara": "Irlandey izay nanorina monasitera tao Clonard. Nampianatra maro ireo olo-masina irlandey.",
+    "tantara": "Irlandey izay nanorina monasitera tao Clonard. Nampianatra maro ireo olo-masina irlandey. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "470",
     "taona_nahafatesana": "549"
@@ -2594,7 +2514,7 @@
     "anarana": "Md. Mael",
     "daty_fankalazana": "25 Aprily",
     "fanoharana": "Eveka, Mpanorina",
-    "tantara": "Eveka irlandey izay nanorina monasitera maro. Nanampy ny mahantra sy nampianatra.",
+    "tantara": "Eveka irlandey izay nanorina monasitera maro. Nanampy ny mahantra sy nampianatra. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "530",
     "taona_nahafatesana": "600"
@@ -2604,7 +2524,7 @@
     "anarana": "Md. David",
     "daty_fankalazana": "1 Martsa",
     "fanoharana": "Eveka any Wales, Mpanorina monasitera",
-    "tantara": "Eveka any Wales izay nanorina monasitera maro. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony.",
+    "tantara": "Eveka any Wales izay nanorina monasitera maro. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "589"
@@ -2614,7 +2534,7 @@
     "anarana": "Md. Dyfrig",
     "daty_fankalazana": "14 Novambra",
     "fanoharana": "Eveka any Wales, Mpanorina",
-    "tantara": "Eveka any Wales izay nanorina monasitera maro. Nanampy ny mahantra sy nampianatra.",
+    "tantara": "Eveka any Wales izay nanorina monasitera maro. Nanampy ny mahantra sy nampianatra. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "450",
     "taona_nahafatesana": "550"
@@ -2624,7 +2544,7 @@
     "anarana": "Md. Teilo",
     "daty_fankalazana": "9 Febroary",
     "fanoharana": "Eveka any Wales",
-    "tantara": "Eveka any Wales izay nanorina monasitera. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana.",
+    "tantara": "Eveka any Wales izay nanorina monasitera. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "560"
@@ -2634,7 +2554,7 @@
     "anarana": "Md. Padarn",
     "daty_fankalazana": "15 Aprily",
     "fanoharana": "Eveka any Wales",
-    "tantara": "Eveka any Wales izay nanorina monasitera. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana.",
+    "tantara": "Eveka any Wales izay nanorina monasitera. Nanokana ny fiainany ho an'ny vavaka sy ny fiantrana. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "480",
     "taona_nahafatesana": "550"
@@ -2644,7 +2564,7 @@
     "anarana": "Md. Piran",
     "daty_fankalazana": "5 Martsa",
     "fanoharana": "Eveka any Cornouailles",
-    "tantara": "Eveka irlandey izay nitory tany Cornouailles any Angletera. Mpiaro ny mpitrandraka firaka.",
+    "tantara": "Eveka irlandey izay nitory tany Cornouailles any Angletera. Mpiaro ny mpitrandraka firaka. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "490",
     "taona_nahafatesana": "560"
@@ -2654,7 +2574,7 @@
     "anarana": "Md. Petroc",
     "daty_fankalazana": "4 Jona",
     "fanoharana": "Hermita any Cornouailles",
-    "tantara": "Hermita irlandey izay nitory tany Cornouailles. Nanorina monasitera tao Bodmin.",
+    "tantara": "Hermita any Cornouailles. Hermita irlandey izay nitory tany Cornouailles. Nanorina monasitera tao Bodmin ary fantatra amin'ny fahagagana nataony.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "564"
@@ -2664,7 +2584,7 @@
     "anarana": "Md. Ninian",
     "daty_fankalazana": "16 Septambra",
     "fanoharana": "Eveka any Ekosy, Misionera",
-    "tantara": "Eveka any Ekosy izay nitory tany amin'ny vahoaka pikt. Nanorina monasitera tao Whithorn.",
+    "tantara": "Eveka any Ekosy izay nitory tany amin'ny vahoaka pikt. Nanorina monasitera tao Whithorn. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "360",
     "taona_nahafatesana": "432"
@@ -2674,7 +2594,7 @@
     "anarana": "Md. Kentigern",
     "daty_fankalazana": "13 Janoary",
     "fanoharana": "Eveka any Ekosy, Mpanorina",
-    "tantara": "Eveka any Ekosy izay nanorina monasitera tao Glasgow. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana.",
+    "tantara": "Eveka any Ekosy izay nanorina monasitera tao Glasgow. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "518",
     "taona_nahafatesana": "603"
@@ -2684,7 +2604,7 @@
     "anarana": "Md. Drostan",
     "daty_fankalazana": "11 Jolay",
     "fanoharana": "Hermita any Ekosy",
-    "tantara": "Hermita irlandey izay nitory tany Ekosy. Nanorina monasitera tao Deer.",
+    "tantara": "Hermita any Ekosy. Hermita irlandey izay nitory tany Ekosy. Nanorina monasitera tao Deer ary nanampy tamin'ny fielezan'ny finoana tany amin'ny faritra.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "570"
@@ -2694,7 +2614,7 @@
     "anarana": "Md. Machar",
     "daty_fankalazana": "12 Novambra",
     "fanoharana": "Eveka any Ekosy",
-    "tantara": "Eveka irlandey izay nitory tany Ekosy. Nanorina monasitera tao Aberdeen.",
+    "tantara": "Eveka irlandey izay nitory tany Ekosy. Nanorina monasitera tao Aberdeen ary nampiely ny Vaovao Mahafaly. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "490",
     "taona_nahafatesana": "550"
@@ -2704,7 +2624,7 @@
     "anarana": "Md. Palladius",
     "daty_fankalazana": "6 Jolay",
     "fanoharana": "Eveka any Irlanda, Misionera",
-    "tantara": "Eveka iray izay nampiditra ny finoana kristiana tany Irlanda talohan'i Md. Patrick. Nanorina fiangonana.",
+    "tantara": "Eveka iray izay nampiditra ny finoana kristiana tany Irlanda talohan'i Md. Patrick. Nanorina fiangonana. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "380",
     "taona_nahafatesana": "431"
@@ -2714,7 +2634,7 @@
     "anarana": "Md. Declan",
     "daty_fankalazana": "24 Jolay",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nitory tany amin'ny faritra atsimon'i Irlanda. Nanorina monasitera.",
+    "tantara": "Eveka irlandey izay nitory tany amin'ny faritra atsimon'i Irlanda. Nanorina monasitera. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "400",
     "taona_nahafatesana": "480"
@@ -2724,7 +2644,7 @@
     "anarana": "Md. Ailbe",
     "daty_fankalazana": "12 Septambra",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nanorina monasitera tao Emly. Nampianatra ny finoana tany Irlanda.",
+    "tantara": "Eveka irlandey izay nanorina monasitera tao Emly. Nampianatra ny finoana tany Irlanda. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "400",
     "taona_nahafatesana": "527"
@@ -2734,7 +2654,7 @@
     "anarana": "Md. Carthage",
     "daty_fankalazana": "14 Mey",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nanorina monasitera tao Lismore. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka irlandey izay nanorina monasitera tao Lismore. Fantatra amin'ny fahalalahan-tanany. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "540",
     "taona_nahafatesana": "637"
@@ -2744,7 +2664,7 @@
     "anarana": "Md. Molua",
     "daty_fankalazana": "4 Aogositra",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Kyle. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Kyle. Fantatra amin'ny fahagagana nataony. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "590"
@@ -2754,7 +2674,7 @@
     "anarana": "Md. Canice",
     "daty_fankalazana": "11 Oktobra",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Kilkenny. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Kilkenny. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "600"
@@ -2764,7 +2684,7 @@
     "anarana": "Md. Laserian",
     "daty_fankalazana": "18 Aprily",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nanorina monasitera tao Leighlin. Nampianatra ny finoana tany Irlanda.",
+    "tantara": "Eveka irlandey izay nanorina monasitera tao Leighlin. Nampianatra ny finoana tany Irlanda. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "550",
     "taona_nahafatesana": "639"
@@ -2774,7 +2694,7 @@
     "anarana": "Md. Fintan",
     "daty_fankalazana": "17 Febroary",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Clonenagh. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Clonenagh. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "600"
@@ -2784,7 +2704,7 @@
     "anarana": "Md. Comgall",
     "daty_fankalazana": "10 Mey",
     "fanoharana": "Mpanorina monasitera",
-    "tantara": "Irlandey izay nanorina monasitera tao Bangor. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana.",
+    "tantara": "Irlandey izay nanorina monasitera tao Bangor. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana. Nanokana ny fiainany tamin'ny fananganana fikambanana relijiozy sy ny fanompoana.",
     "sokajy": "Mpanorina Ordina",
     "taona_nahaterahana": "517",
     "taona_nahafatesana": "602"
@@ -2794,7 +2714,7 @@
     "anarana": "Md. Mochuda",
     "daty_fankalazana": "14 Mey",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Lismore. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Lismore. Fantatra amin'ny fahagagana nataony. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "540",
     "taona_nahafatesana": "637"
@@ -2804,7 +2724,7 @@
     "anarana": "Md. Carthach",
     "daty_fankalazana": "24 Mey",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nanorina monasitera tao Rahan. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka irlandey izay nanorina monasitera tao Rahan. Fantatra amin'ny fahalalahan-tanany. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "540",
     "taona_nahafatesana": "636"
@@ -2814,7 +2734,7 @@
     "anarana": "Md. Maelruain",
     "daty_fankalazana": "7 Jolay",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Tallaght. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Tallaght. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "540",
     "taona_nahafatesana": "627"
@@ -2824,7 +2744,7 @@
     "anarana": "Md. Oengus",
     "daty_fankalazana": "11 Martsa",
     "fanoharana": "Hermita, Mpanoratra",
-    "tantara": "Hermita irlandey izay nanoratra boky momba ny olo-masina irlandey. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita irlandey izay nanoratra boky momba ny olo-masina irlandey. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "600",
     "taona_nahafatesana": "680"
@@ -2834,7 +2754,7 @@
     "anarana": "Md. Colman",
     "daty_fankalazana": "18 Febroary",
     "fanoharana": "Eveka any Irlanda",
-    "tantara": "Eveka irlandey izay nanorina monasitera tao Lindisfarne. Nampianatra ny finoana.",
+    "tantara": "Eveka irlandey izay nanorina monasitera tao Lindisfarne. Nampianatra ny finoana. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "600",
     "taona_nahafatesana": "676"
@@ -2844,7 +2764,7 @@
     "anarana": "Md. Dunchad",
     "daty_fankalazana": "7 Aogositra",
     "fanoharana": "Hermita, Mpanorina",
-    "tantara": "Hermita irlandey izay nanorina monasitera tao Iona. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita irlandey izay nanorina monasitera tao Iona. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "600",
     "taona_nahafatesana": "680"
@@ -2854,7 +2774,7 @@
     "anarana": "Md. Fursy",
     "daty_fankalazana": "16 Janoary",
     "fanoharana": "Misionera any Frantsa",
-    "tantara": "Misionera irlandey izay nitory tany Frantsa ary nanorina monasitera tao Péronne.",
+    "tantara": "Misionera irlandey izay nitory tany Frantsa ary nanorina monasitera tao Péronne. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "590",
     "taona_nahafatesana": "648"
@@ -2864,7 +2784,7 @@
     "anarana": "Md. Kilian",
     "daty_fankalazana": "8 Jolay",
     "fanoharana": "Misionera any Alemaina, Martiry",
-    "tantara": "Misionera irlandey izay nitory tany Alemaina. Novonoina niaraka tamin'ny namany roa tamin'ny 689.",
+    "tantara": "Misionera irlandey izay nitory tany Alemaina. Novonoina niaraka tamin'ny namany roa tamin'ny 689. Maty noho ny fahatokiany tamin'i Kristy ary lasa ohatra amin'ny faharetana.",
     "sokajy": "Martiry",
     "taona_nahaterahana": "640",
     "taona_nahafatesana": "689"
@@ -2874,7 +2794,7 @@
     "anarana": "Md. Virginius",
     "daty_fankalazana": "15 Nôvambra",
     "fanoharana": "Eveka any Salzburg",
-    "tantara": "Eveka irlandey izay nitory tany Salzburg any Aotrisy. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka irlandey izay nitory tany Salzburg any Aotrisy. Fantatra amin'ny fahalalahan-tanany. Nanokana ny fiainany tamin'ny fanabeazana sy ny fanompoana ny Fiangonana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "700",
     "taona_nahafatesana": "784"
@@ -2884,7 +2804,7 @@
     "anarana": "Md. Donatus",
     "daty_fankalazana": "7 Oktobra",
     "fanoharana": "Eveka any Fiesole",
-    "tantara": "Eveka irlandey izay nitory tany Italia ary nanorina monasitera tao Fiesole.",
+    "tantara": "Eveka irlandey izay nitory tany Italia ary nanorina monasitera tao Fiesole. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony. Nampiely ny finoana tany Toscana.",
     "sokajy": "Mpanabe",
     "taona_nahaterahana": "800",
     "taona_nahafatesana": "874"
@@ -2894,27 +2814,17 @@
     "anarana": "Md. Marianus",
     "daty_fankalazana": "2 Jolay",
     "fanoharana": "Hermita any Alemaina",
-    "tantara": "Hermita irlandey izay nitory tany Alemaina ary nanorina monasitera tao Ratisbonne.",
+    "tantara": "Hermita irlandey izay nitory tany Alemaina ary nanorina monasitera tao Ratisbonne. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "1000",
     "taona_nahafatesana": "1088"
-  },
-  {
-    "id": 291,
-    "anarana": "Md. David",
-    "daty_fankalazana": "1 Martsa",
-    "fanoharana": "Eveka any Wales, Mpanorina monasitera",
-    "tantara": "Eveka any Wales izay nanorina monasitera maro. Fantatra amin'ny fahalalahan-tanany sy ny fahagagana nataony.",
-    "sokajy": "Mpanabe",
-    "taona_nahaterahana": "500",
-    "taona_nahafatesana": "589"
   },
   {
     "id": 292,
     "anarana": "Md. Samson",
     "daty_fankalazana": "28 Jolay",
     "fanoharana": "Eveka any Dol, Misionera",
-    "tantara": "Eveka any Dol any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera maro.",
+    "tantara": "Eveka any Dol any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera maro. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "490",
     "taona_nahafatesana": "565"
@@ -2924,7 +2834,7 @@
     "anarana": "Md. Malo",
     "daty_fankalazana": "15 Novambra",
     "fanoharana": "Eveka any Saint-Malo, Misionera",
-    "tantara": "Eveka any Saint-Malo any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahagagana nataony.",
+    "tantara": "Eveka any Saint-Malo any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahagagana nataony. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "621"
@@ -2934,7 +2844,7 @@
     "anarana": "Md. Brieuc",
     "daty_fankalazana": "1 Mey",
     "fanoharana": "Eveka any Saint-Brieuc, Misionera",
-    "tantara": "Eveka any Saint-Brieuc any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera.",
+    "tantara": "Eveka any Saint-Brieuc any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "490",
     "taona_nahafatesana": "560"
@@ -2944,7 +2854,7 @@
     "anarana": "Md. Tugdual",
     "daty_fankalazana": "1 Desambra",
     "fanoharana": "Eveka any Tréguier, Misionera",
-    "tantara": "Eveka any Tréguier any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera.",
+    "tantara": "Eveka any Tréguier any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "600"
@@ -2954,7 +2864,7 @@
     "anarana": "Md. Corentin",
     "daty_fankalazana": "12 Desambra",
     "fanoharana": "Eveka any Quimper, Misionera",
-    "tantara": "Eveka any Quimper any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Eveka any Quimper any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahalalahan-tanany. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "480",
     "taona_nahafatesana": "550"
@@ -2964,7 +2874,7 @@
     "anarana": "Md. Hervé",
     "daty_fankalazana": "17 Jona",
     "fanoharana": "Hermita any Bretagne",
-    "tantara": "Hermita any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahagagana nataony sy ny fahalalahan-tanany.",
+    "tantara": "Hermita any Bretagne. Hermita any Bretagne izay nitory tany amin'ny faritra. Fantatra amin'ny fahagagana nataony sy ny fahalalahan-tanany. Mpiaro ny jamba.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "520",
     "taona_nahafatesana": "590"
@@ -2974,7 +2884,7 @@
     "anarana": "Md. Guénolé",
     "daty_fankalazana": "3 Martsa",
     "fanoharana": "Eveka any Landévennec, Misionera",
-    "tantara": "Eveka any Landévennec any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera.",
+    "tantara": "Eveka any Landévennec any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "480",
     "taona_nahafatesana": "550"
@@ -2984,7 +2894,7 @@
     "anarana": "Md. Gildas",
     "daty_fankalazana": "29 Janoary",
     "fanoharana": "Hermita, Mpanoratra",
-    "tantara": "Hermita any Bretagne izay nanoratra boky momba ny fiangonana. Fantatra amin'ny fahalalahan-tanany.",
+    "tantara": "Hermita any Bretagne izay nanoratra boky momba ny fiangonana. Fantatra amin'ny fahalalahan-tanany. Niaina fiainana mangina feno vavaka sy fahantrana tany an'efitra na monasitera.",
     "sokajy": "Hermita",
     "taona_nahaterahana": "500",
     "taona_nahafatesana": "570"
@@ -2994,7 +2904,7 @@
     "anarana": "Md. Méen",
     "daty_fankalazana": "21 Jona",
     "fanoharana": "Eveka any Bretagne, Misionera",
-    "tantara": "Eveka any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera tao Gaël.",
+    "tantara": "Eveka any Bretagne izay nitory tany amin'ny faritra. Nanorina monasitera tao Gaël. Nampiely ny Vaovao Mahafaly tany amin'ny firenena lavitra ary nanova fo olona maro.",
     "sokajy": "Misionera",
     "taona_nahaterahana": "540",
     "taona_nahafatesana": "617"

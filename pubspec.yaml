@@ -22,7 +22,7 @@ dependencies:
   cached_network_image: ^3.4.1
 
   # Ho an'ny fanamboarana daty malagasy raha ilaina
-  intl: ^0.19.0
+  intl: ^0.20.3
 
   # Ho an'ny fanaovana "partage" (fizarana) ny antsipiriany Olomasina sy ny Litorjika
   share_plus: ^13.3.0
@@ -69,6 +69,7 @@ flutter:
     - assets/images/
     - assets/json/litorjika.json
     - assets/json/olomasina.json
+    - assets/json/vavaka.json
 
   fonts:
     - family: Roboto
