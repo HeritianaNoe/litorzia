@@ -67,6 +67,77 @@ class OlomasinaJsonService {
     ).toList();
   }
 
+  /// Mamerina ny lisitry ny Olomasina ankalazaina amin'ny andro voatondro
+  /// (androany raha tsy misy 'andro' omena). Mety hisy Olomasina maromaro
+  /// mizara daty iray ihany, ka lisitra no averina.
+  Future<List<Olomasina>> getOlomasinaAndroany({DateTime? andro}) async {
+    final DateTime izao = andro ?? DateTime.now();
+    final list = await getOlomasinaRehetra();
+    return list.where((o) => _mifanaraka(o.datyFankalazana, izao)).toList();
+  }
+
+  /// Ireo anaran-bolana Malagasy ekena ho mifanandrify amin'ny isan-bolana
+  /// (1 = Janoary, ... 12 = Desambra). Nampidirina ny endriny samihafa hita
+  /// tao amin'ny rakitra JSON (oh: "Marsa"/"Martsa", "Novambra"/"Nôvambra")
+  /// mba tsy hisy tsy fetezana amin'ny fampitahana.
+  static const Map<int, List<String>> _anaranVolanaEkena = {
+    1: ['janoary'],
+    2: ['febroary'],
+    3: ['marsa', 'martsa'],
+    4: ['aprily'],
+    5: ['mey'],
+    6: ['jona'],
+    7: ['jolay'],
+    8: ['aogositra'],
+    9: ['septambra'],
+    10: ['oktobra'],
+    11: ['novambra'],
+    12: ['desambra'],
+  };
+
+  /// Anaran-bolana Malagasy ho an'ny fampisehoana (endrika iraisana indrindra
+  /// tao amin'ny angona).
+  static const List<String> anaranVolanaFampisehoana = [
+    'Janoary',
+    'Febroary',
+    'Martsa',
+    'Aprily',
+    'Mey',
+    'Jona',
+    'Jolay',
+    'Aogositra',
+    'Septambra',
+    'Oktobra',
+    'Novambra',
+    'Desambra',
+  ];
+
+  /// Mamerina ny daty amin'ny endriny "DD Volana" (oh: "27 Aogositra")
+  /// mifanaraka amin'ny endriky ny "daty_fankalazana" ao amin'ny JSON.
+  static String formatoDaty(DateTime andro) {
+    final String volana = anaranVolanaFampisehoana[andro.month - 1];
+    return '${andro.day.toString().padLeft(2, '0')} $volana';
+  }
+
+  static String _manalaDiakritika(String teny) =>
+      teny.toLowerCase().trim().replaceAll('ô', 'o');
+
+  /// Mamerina 'true' raha mifanandrify amin'ny 'andro' voatondro ny
+  /// 'datyFankalazana' iray (mitovy ny isan'andro sy ny volana, tsy
+  /// miraharaha ny endri-tsoratra ivelan'izany).
+  bool _mifanaraka(String datyFankalazana, DateTime andro) {
+    final List<String> ampahany = datyFankalazana.trim().split(RegExp(r'\s+'));
+    if (ampahany.length < 2) return false;
+
+    final int? isanAndro = int.tryParse(ampahany.first);
+    if (isanAndro == null || isanAndro != andro.day) return false;
+
+    final String volanaVoasoratra = _manalaDiakritika(ampahany.sublist(1).join(' '));
+    final List<String>? volanaEkena = _anaranVolanaEkena[andro.month];
+
+    return volanaEkena != null && volanaEkena.contains(volanaVoasoratra);
+  }
+
   /// Mamafa ny Cache raha te-hanery ny app hamaky indray ny JSON
   void clearCache() {
     _cachedList = null;

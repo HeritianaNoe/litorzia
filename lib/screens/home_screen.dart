@@ -4,6 +4,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import '../models/olomasina_model.dart';
 import '../services/olomasina_service.dart';
 import '../theme/app_colors.dart';
+import '../widgets/olomasina_androany_banner.dart';
 import '../widgets/olomasina_card.dart';
 import 'antsipirihany_screen.dart';
 import 'sokajy_screen.dart';
@@ -22,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _searchController = TextEditingController();
 
   List<Olomasina> _lisitra = [];
+  List<Olomasina> _olomasinaAndroany = [];
   bool _mbolaMiandry = true;
   String _tenyKarohina = "";
   String? _hadisoana;
@@ -50,9 +52,11 @@ class _HomeScreenState extends State<HomeScreen> {
     });
     try {
       final data = await _jsonService.getOlomasinaRehetra();
+      final androany = await _jsonService.getOlomasinaAndroany();
       if (!mounted) return;
       setState(() {
         _lisitra = data;
+        _olomasinaAndroany = androany;
         _mbolaMiandry = false;
       });
     } catch (e) {
@@ -170,6 +174,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
+              if (_hadisoana == null &&
+                  _tenyKarohina.isEmpty &&
+                  _olomasinaAndroany.isNotEmpty)
+                OlomasinaAndroanyBanner(
+                  olomasinaAndroany: _olomasinaAndroany,
+                  datyAnio: OlomasinaJsonService.formatoDaty(DateTime.now()),
+                  onTap: _mankanyAntsipirihany,
+                ),
               Expanded(
                 child: _mbolaMiandry
                     ? const Center(child: CircularProgressIndicator())
