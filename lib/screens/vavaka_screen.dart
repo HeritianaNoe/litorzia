@@ -333,12 +333,12 @@ class _VavakaScreenState extends State<VavakaScreen> {
       appBar: AppBar(
         backgroundColor: AppColors.vavakaPrimary,
         foregroundColor: AppColors.vavakaOnPrimary,
-        title: const Text("Vavaka Katolika"),
+        title: const Text("Vavaka"),
         centerTitle: true,
         actions: [
           IconButton(
             icon: const Icon(Icons.info_outline),
-            tooltip: 'Mombamomba ny app',
+            tooltip: 'Momba ny app',
             onPressed: _showAboutDialog,
           ),
         ],

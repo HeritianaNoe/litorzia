@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         controller: _searchController,
                         onChanged: _karohy,
                         decoration: InputDecoration(
-                          hintText: "Karohy anarana na sokajin'Olomasina...",
+                          hintText: "Karohy anarana...",
                           prefixIcon: const Icon(Icons.search),
                           suffixIcon: _tenyKarohina.isNotEmpty
                               ? IconButton(

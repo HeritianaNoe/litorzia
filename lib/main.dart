@@ -1,12 +1,36 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/foundation.dart';
+import 'package:window_manager/window_manager.dart';
 import 'litorjika/screens/litorjika_home_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/splash_screen.dart';
-import 'screens/vavaka_screen.dart'; // 1. AMPIDIRO ETO NY IMPORT NY VAVAKA
+import 'screens/vavaka_screen.dart';  
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  if (!kIsWeb &&
+      (Platform.isWindows || Platform.isLinux || Platform.isMacOS)) {
+
+    await windowManager.ensureInitialized();
+
+    const WindowOptions windowOptions = WindowOptions(
+      size: Size(600, 680), 
+      minimumSize: Size(600, 680),
+      center: true,
+      backgroundColor: Colors.transparent,
+      skipTaskbar: false,
+      titleBarStyle: TitleBarStyle.normal,
+      title: 'Alimanaka',
+    );
+
+    await windowManager.waitUntilReadyToShow(windowOptions, () async {
+      await windowManager.show();
+      await windowManager.focus();
+    });
+  }
+
   runApp(const LitorziaApp());
 }
 

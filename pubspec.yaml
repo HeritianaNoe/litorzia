@@ -27,6 +27,7 @@ dependencies:
   # Ho an'ny fanaovana "partage" (fizarana) ny antsipiriany Olomasina sy ny Litorjika
   share_plus: ^13.3.0
   package_info_plus: ^10.2.1
+  window_manager: ^0.5.2
 
 dev_dependencies:
   flutter_test:

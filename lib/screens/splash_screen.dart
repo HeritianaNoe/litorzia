@@ -136,7 +136,7 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Litorjika & Rakitry ny Olomasina',
+                    'Litorjika sy Vavaka ary Rakitry ny Olomasina',
                     style: TextStyle(
                       fontSize: 13,
                       color: Colors.white.withAlpha(204),
