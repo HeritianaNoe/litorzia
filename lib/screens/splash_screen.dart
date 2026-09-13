@@ -61,27 +61,39 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        // Radian Gradient ho an'ny background
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Colors.deepPurple.shade900,
-              Colors.deepPurple.shade600,
-              Colors.purple.shade400,
-            ],
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          // Sary fond ho an'ny splash screen
+          Image.asset(
+            'assets/images/lt.jpg',
+            fit: BoxFit.cover,
+            errorBuilder: (_, __, ___) => Container(
+              color: Colors.deepPurple.shade900,
+            ),
           ),
-        ),
-        child: Center(
-          child: FadeTransition(
-            opacity: _fadeAnimation,
-            child: ScaleTransition(
-              scale: _scaleAnimation,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+          // Aloka miloko volomparasy eo ambonin'ny sary mba hamakiana tsara ny soratra
+          Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Colors.deepPurple.shade900.withAlpha(217),
+                  Colors.deepPurple.shade900.withAlpha(153),
+                  Colors.purple.shade900.withAlpha(217),
+                ],
+              ),
+            ),
+          ),
+          Center(
+            child: FadeTransition(
+              opacity: _fadeAnimation,
+              child: ScaleTransition(
+                scale: _scaleAnimation,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
                   // Logo miaraka amin'ny aloka (Shadow)
                   Container(
                     decoration: BoxDecoration(
@@ -154,11 +166,12 @@ class _SplashScreenState extends State<SplashScreen>
                       valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                     ),
                   ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),
-        ),
+        ],
       ),
     );
   }
