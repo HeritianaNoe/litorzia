@@ -1,84 +1,122 @@
-import 'dart:convert';
-import 'package:flutter/services.dart' show rootBundle;
+import '../data/app_database.dart';
 import '../models/olomasina_model.dart';
+import '../models/sokajy_category.dart';
 
-/// Service hitantanana ny famakiana ny rakitra JSON "olomasina.json"
-class OlomasinaJsonService {
-  OlomasinaJsonService._privateConstructor();
-  static final OlomasinaJsonService instance = OlomasinaJsonService._privateConstructor();
+/// Service ho an'ny Olomasina avy ao amin'ny `smc.db` (angona voahodina).
+///
+/// Voamaha (decrypt) indray mandeha rehefa manomboka ny app ([load]) ary tahiry
+/// ao RAM: ny fikarohana sy ny sivana dia SYNCHRONE (tsy misy `await`), ka tsy
+/// mila spinner ny pejy ary tsy mitsambikina rehefa mitaipa na miova pejy.
+class OlomasinaService {
+  OlomasinaService._();
+  static final OlomasinaService instance = OlomasinaService._();
 
-  static const String _jsonPath = "assets/json/olomasina.json";
+  List<Olomasina> _rehetra = const [];
 
-  // Cache ho an'ny RAM mba tsy averimberina vakiana ao amin'ny assets ny JSON
-  List<Olomasina>? _cachedList;
+  /// Soratra kely (lowercase) ho an'ny fikarohana: anarana, sokajy, fanoharana.
+  List<String> _index = const [];
+  Map<String, int> _isaAminSokajy = const {};
+  final Map<String, List<Olomasina>> _cacheSokajy = {};
+  bool _loaded = false;
 
-  /// Mamaky ny JSON ary mamerina ny lisitry ny Olomasina rehetra
-  Future<List<Olomasina>> getOlomasinaRehetra() async {
-    // Raha efa voavaky teo aloha ny JSON dia ampiasaina mivantana amin'ny RAM
-    if (_cachedList != null) {
-      return _cachedList!;
-    }
+  bool get isLoaded => _loaded;
 
-    try {
-      final String response = await rootBundle.loadString(_jsonPath);
-      final List<dynamic> data = json.decode(response);
+  Future<void> load() async {
+    if (_loaded) return;
+    final db = await AppDatabase.instance.open();
+    final rows = await db.query('olomasina');
 
-      _cachedList = data.map((jsonMap) => Olomasina.fromMap(jsonMap)).toList();
-      
+    final list = rows.map(_avyAminNyRow).toList()
       // Mandahatra azy araka ny anarana (A-Z)
-      _cachedList!.sort((a, b) => a.anarana.compareTo(b.anarana));
+      ..sort((a, b) => a.anarana.compareTo(b.anarana));
 
-      return _cachedList!;
-    } catch (e) {
-      throw Exception('Tsy voavaky ny rakitra JSON ($_jsonPath): $e');
+    final isa = <String, int>{};
+    for (final o in list) {
+      isa[o.sokajy] = (isa[o.sokajy] ?? 0) + 1;
+    }
+
+    _rehetra = List.unmodifiable(list);
+    _index = List.unmodifiable(
+      list.map(
+        (o) =>
+            '${o.anarana}\u0001${o.sokajy}\u0001${o.fanoharana}'.toLowerCase(),
+      ),
+    );
+    _isaAminSokajy = Map.unmodifiable(isa);
+    _cacheSokajy.clear();
+    _loaded = true;
+  }
+
+  static Olomasina _avyAminNyRow(Map<String, Object?> row) {
+    return Olomasina(
+      id: row['id'] as int?,
+      anarana: decryptText(row['anarana']),
+      datyFankalazana: decryptText(row['daty_fankalazana']),
+      sary: decryptNullable(row['sary']),
+      fanoharana: decryptText(row['fanoharana']),
+      tantara: decryptText(row['tantara']),
+      sokajy: decryptText(row['sokajy']),
+      taonaNahaterahana: decryptNullable(row['taona_nahaterahana']),
+      taonaNahafatesana: decryptNullable(row['taona_nahafatesana']),
+    );
+  }
+
+  void _ensureLoaded() {
+    if (!_loaded) {
+      throw StateError(
+        'OlomasinaService.load() tsy mbola vita (jereo AppData.init).',
+      );
     }
   }
 
-  /// Mikaroka Olomasina araka ny teny voasoratra (anarana, sokajy, na fanoharana)
-  Future<List<Olomasina>> karohyOlomasina(String teny) async {
-    final list = await getOlomasinaRehetra();
-    if (teny.trim().isEmpty) return list;
-
-    final query = teny.toLowerCase();
-    return list.where((olomasina) {
-      final anaranaMatch = olomasina.anarana.toLowerCase().contains(query);
-      final sokajyMatch = olomasina.sokajy.toLowerCase().contains(query);
-      final fanoharanaMatch = olomasina.fanoharana.toLowerCase().contains(query);
-
-      return anaranaMatch || sokajyMatch || fanoharanaMatch;
-    }).toList();
+  /// Olomasina rehetra (voasokajy A-Z).
+  List<Olomasina> get rehetra {
+    _ensureLoaded();
+    return _rehetra;
   }
 
-  /// Mamerina ny Olomasina iray araka ny ID-ny
-  Future<Olomasina?> getOlomasinaAmin(int id) async {
-    final list = await getOlomasinaRehetra();
-    try {
-      return list.firstWhere((olomasina) => olomasina.id == id);
-    } catch (_) {
-      return null;
+  /// Mikaroka Olomasina araka ny teny voasoratra (anarana, sokajy, na fanoharana).
+  List<Olomasina> karohy(String teny) {
+    final query = teny.trim().toLowerCase();
+    if (query.isEmpty) return rehetra;
+
+    final result = <Olomasina>[];
+    for (var i = 0; i < _rehetra.length; i++) {
+      if (_index[i].contains(query)) result.add(_rehetra[i]);
     }
+    return result;
   }
 
-  /// Mamerina ny Olomasina fankalazaina amin'ny daty voatondro
-  Future<List<Olomasina>> getOlomasinaAminNyDaty(String daty) async {
-    final list = await getOlomasinaRehetra();
-    return list.where((olomasina) => 
-      olomasina.datyFankalazana.toLowerCase().contains(daty.toLowerCase())
-    ).toList();
+  /// Isan'ny Olomasina ao amin'ny sokajy (ahitana ny soatoavina rehetra mifandray aminy).
+  int isaAmin(SokajyCategory category) {
+    _ensureLoaded();
+    var total = 0;
+    for (final v in category.sokajyValues) {
+      total += _isaAminSokajy[v] ?? 0;
+    }
+    return total;
   }
 
-  /// Mamerina ny lisitry ny Olomasina ankalazaina amin'ny andro voatondro
-  /// (androany raha tsy misy 'andro' omena). Mety hisy Olomasina maromaro
-  /// mizara daty iray ihany, ka lisitra no averina.
-  Future<List<Olomasina>> getOlomasinaAndroany({DateTime? andro}) async {
+  /// Olomasina ao amin'ny sokajy (tahiry ao RAM, tsy averina kajiana).
+  List<Olomasina> olomasinaAmin(SokajyCategory category) {
+    return _cacheSokajy.putIfAbsent(
+      category.label,
+      () => List.unmodifiable(
+        rehetra.where((o) => category.sokajyValues.contains(o.sokajy)),
+      ),
+    );
+  }
+
+  /// Olomasina fankalazaina amin'ny andro voatondro (androany raha tsy misy 'andro').
+  /// Mety hisy Olomasina maromaro mizara daty iray ihany, ka lisitra no averina.
+  List<Olomasina> androany({DateTime? andro}) {
     final DateTime izao = andro ?? DateTime.now();
-    final list = await getOlomasinaRehetra();
-    return list.where((o) => _mifanaraka(o.datyFankalazana, izao)).toList();
+    return rehetra.where((o) => _mifanaraka(o.datyFankalazana, izao)).toList();
   }
 
   /// Ireo anaran-bolana Malagasy ekena ho mifanandrify amin'ny isan-bolana
   /// (1 = Janoary, ... 12 = Desambra). Nampidirina ny endriny samihafa hita
-  /// tao amin'ny rakitra JSON (oh: "Marsa"/"Martsa", "Novambra"/"Nôvambra")
+  /// tao amin'ny angona (oh: "Marsa"/"Martsa", "Novambra"/"Nôvambra")
   /// mba tsy hisy tsy fetezana amin'ny fampitahana.
   static const Map<int, List<String>> _anaranVolanaEkena = {
     1: ['janoary'],
@@ -113,7 +151,7 @@ class OlomasinaJsonService {
   ];
 
   /// Mamerina ny daty amin'ny endriny "DD Volana" (oh: "27 Aogositra")
-  /// mifanaraka amin'ny endriky ny "daty_fankalazana" ao amin'ny JSON.
+  /// mifanaraka amin'ny endriky ny "daty_fankalazana".
   static String formatoDaty(DateTime andro) {
     final String volana = anaranVolanaFampisehoana[andro.month - 1];
     return '${andro.day.toString().padLeft(2, '0')} $volana';
@@ -122,9 +160,8 @@ class OlomasinaJsonService {
   static String _manalaDiakritika(String teny) =>
       teny.toLowerCase().trim().replaceAll('ô', 'o');
 
-  /// Mamerina 'true' raha mifanandrify amin'ny 'andro' voatondro ny
-  /// 'datyFankalazana' iray (mitovy ny isan'andro sy ny volana, tsy
-  /// miraharaha ny endri-tsoratra ivelan'izany).
+  /// 'true' raha mifanandrify amin'ny 'andro' voatondro ny 'datyFankalazana'
+  /// iray (mitovy ny isan'andro sy ny volana, tsy miraharaha ny endri-tsoratra).
   bool _mifanaraka(String datyFankalazana, DateTime andro) {
     final List<String> ampahany = datyFankalazana.trim().split(RegExp(r'\s+'));
     if (ampahany.length < 2) return false;
@@ -132,14 +169,11 @@ class OlomasinaJsonService {
     final int? isanAndro = int.tryParse(ampahany.first);
     if (isanAndro == null || isanAndro != andro.day) return false;
 
-    final String volanaVoasoratra = _manalaDiakritika(ampahany.sublist(1).join(' '));
+    final String volanaVoasoratra = _manalaDiakritika(
+      ampahany.sublist(1).join(' '),
+    );
     final List<String>? volanaEkena = _anaranVolanaEkena[andro.month];
 
     return volanaEkena != null && volanaEkena.contains(volanaVoasoratra);
-  }
-
-  /// Mamafa ny Cache raha te-hanery ny app hamaky indray ny JSON
-  void clearCache() {
-    _cachedList = null;
   }
 }

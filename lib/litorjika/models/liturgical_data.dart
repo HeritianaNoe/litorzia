@@ -4,58 +4,41 @@ class Reading {
   final String reference; // oh: "Isa 2:1-5"
   final String boky; // oh: "Izaia"
   final String andininy; // ny votoatin'ny andininy
-  
 
-  Reading({
+  const Reading({
     required this.karazany,
     required this.reference,
     required this.boky,
     required this.andininy,
   });
-
-  factory Reading.fromJson(Map<String, dynamic> json) {
-    return Reading(
-      karazany: json['karazany'] as String? ?? '',
-      reference: json['reference'] as String? ?? '',
-      boky: json['boky'] as String? ?? '',
-      andininy: json['andininy'] as String? ?? '',
-    );
-  }
 }
 
-/// Kilasy mitahiry ny "iray andalana" ao amin'ny JSON: vondrona, anarana, taona
-/// ary ny lisitry ny vakiteny mifandraika aminy.
+/// Kilasy mitahiry ny "iray andalana" ao amin'ny database: vondrona, anarana,
+/// taona ary ny isan'ny vakiteny mifandraika aminy.
+///
+/// Ny vakiteny mihitsy (andininy lava) dia TSY voamaha mialoha: alaina
+/// ho an'ny fisehoan-javatra iray rehefa sokafana ny antsipiriany
+/// (jereo `LiturgicalReadingsService.loadVakyTeny`).
 class LiturgicalDayReadings {
+  final int id; // `litorjika.id` ao amin'ny database
   final String vondrona; // oh: "Advento", "Fotoana mahazatra", ...
-  final String anarana; // ny anarana amin'ny teny malagasy, araka ny JSON
+  final String anarana; // ny anarana amin'ny teny malagasy
   final String taona; // "A", "B", "C" na "ABC" raha tsy miova isan-taona
-  final List<Reading> vakyTeny;
   final String lohahevitra;
+  final int isaVaky; // isan'ny vakiteny
 
-  LiturgicalDayReadings({
+  const LiturgicalDayReadings({
+    required this.id,
     required this.vondrona,
     required this.anarana,
     required this.taona,
-    required this.vakyTeny,
     required this.lohahevitra,
+    required this.isaVaky,
   });
-
-  factory LiturgicalDayReadings.fromJson(Map<String, dynamic> json) {
-    final List<dynamic> list = json['vaky_teny'] as List<dynamic>? ?? [];
-    return LiturgicalDayReadings(
-      vondrona: json['vondrona'] as String? ?? '',
-      anarana: json['anarana'] as String? ?? '',
-      taona: json['taona'] as String? ?? '',
-      vakyTeny: list
-          .map((e) => Reading.fromJson(e as Map<String, dynamic>))
-          .toList(),
-      lohahevitra: json['lohahevitra'] as String? ?? '',
-    );
-  }
 }
 
 /// Ny vokatra farany: fisehoan-javatra litorjika iray (avy amin'ny LiturgicalCalendar)
-/// izay efa nampifandraisina tamin'ny vakiteniny (avy amin'ny JSON), raha nisy.
+/// izay efa nampifandraisina tamin'ny vakiteniny (avy amin'ny database), raha nisy.
 class MergedLiturgicalDay {
   final String code; // oh: "ORDINARY_SUNDAY_12"
   final String title; // ny lohateny kajian'ny calendar (malagasy ihany koa)
@@ -69,5 +52,13 @@ class MergedLiturgicalDay {
     this.readings,
   });
 
-  bool get hasReadings => readings != null && readings!.vakyTeny.isNotEmpty;
+  bool get hasReadings => readings != null && readings!.isaVaky > 0;
+}
+
+/// Sary an'ny alimanaka ho an'ny taona litorjika ankehitriny (kajy mialoha).
+class LiturgicalSnapshot {
+  final List<MergedLiturgicalDay> days;
+  final MergedLiturgicalDay? lastSunday; // "Alahady farany teo"
+
+  const LiturgicalSnapshot({required this.days, required this.lastSunday});
 }

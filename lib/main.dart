@@ -1,23 +1,30 @@
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:window_manager/window_manager.dart';
+
 import 'litorjika/screens/litorjika_home_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/splash_screen.dart';
-import 'screens/vavaka_screen.dart';  
+import 'screens/vavaka_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  if (!kIsWeb &&
-      (Platform.isWindows || Platform.isLinux || Platform.isMacOS)) {
+  // SQLite amin'ny PC (Windows/Linux) mampiasa FFI; Android/iOS/macOS mampiasa ny plugin sqflite.
+  if (!kIsWeb && (Platform.isWindows || Platform.isLinux)) {
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+  }
 
+  if (!kIsWeb && (Platform.isWindows || Platform.isLinux || Platform.isMacOS)) {
     await windowManager.ensureInitialized();
 
     const WindowOptions windowOptions = WindowOptions(
-      size: Size(600, 680), 
-      minimumSize: Size(600, 680),
+      size: Size(500, 660),
+      minimumSize: Size(500, 660),
       center: true,
       backgroundColor: Colors.transparent,
       skipTaskbar: false,
@@ -74,16 +81,13 @@ class _MainNavigationState extends State<MainNavigation> {
   static const List<Widget> _pages = [
     HomeScreen(),
     LitorjikaHomeScreen(),
-    VavakaScreen(), 
+    VavakaScreen(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _pages,
-      ),
+      body: IndexedStack(index: _currentIndex, children: _pages),
       // 3. AMPIO ETO NY BOKOTRA FAHA-3 HO AN'NY VAVAKA
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,

@@ -1,25 +1,135 @@
-import 'dart:convert';
-import 'package:flutter/services.dart' show rootBundle;
-
+import '../../data/app_database.dart';
 import 'liturgical_calendar.dart';
 import '../models/liturgical_data.dart';
 
-/// Kilasy mpampifandray ny JSON (vakiteny) sy ny LiturgicalCalendar (daty/code).
+/// Kilasy mpampifandray ny database (vakiteny) sy ny LiturgicalCalendar (daty/code).
 ///
 /// Ny olana: ny code toy ny "ORDINARY_SUNDAY_12" (avy amin'ny calendar) dia tsy
-/// mitovy soratra amin'ny "anarana" ao amin'ny JSON
+/// mitovy soratra amin'ny "anarana" ao amin'ny database
 /// ("Alahady faharoa ambin'ny folo amin'ny fotoana mahazatra"). Io kilasy io
 /// no manova ny code ho lasa "kaody fikarohana" (vondrona + anarana malagasy)
-/// mba hahitana ilay andalana mifanaraka ao amin'ny JSON.
+/// mba hahitana ilay andalana mifanaraka.
+///
+/// Ny angona dia voahodina ao amin'ny `smc.db`. Ny "metadata" (vondrona, anarana,
+/// taona, lohahevitra) ihany no voamaha mialoha ([load]); ny andininy lava
+/// dia voamaha rehefa sokafana ny antsipirihany ([loadVakyTeny]).
 class LiturgicalReadingsService {
-  /// Famakiana ny rakitra JSON avy ao amin'ny assets
+  static LiturgicalSnapshot? _snapshot;
+  static final Map<int, List<Reading>> _vakyCache = {};
+  static const int _vakyCacheMax = 24;
+
+  static bool get isLoaded => _snapshot != null;
+
+  /// Alimanaka efa kajy (ao RAM) ho an'ny taona litorjika ankehitriny.
+  static LiturgicalSnapshot get snapshot {
+    final s = _snapshot;
+    if (s == null) {
+      throw StateError(
+        'LiturgicalReadingsService.load() tsy mbola vita (jereo AppData.init).',
+      );
+    }
+    return s;
+  }
+
+  /// Mamaky ny metadata, mikajy ny alimanaka ary mametraka mialoha ny
+  /// vakitenin'ny "Alahady farany teo" (voalohany horesahina).
+  static Future<void> load({DateTime? today}) async {
+    final readings = await loadReadings();
+    final snap = buildSnapshot(readings, today ?? DateTime.now());
+    final lastId = snap.lastSunday?.readings?.id;
+    if (lastId != null) {
+      await loadVakyTeny(lastId);
+    }
+    _snapshot = snap;
+  }
+
+  /// Famakiana ny metadata (tsy misy andininy) avy ao amin'ny database.
   static Future<List<LiturgicalDayReadings>> loadReadings() async {
-    final String jsonString =
-        await rootBundle.loadString('assets/json/litorjika.json');
-    final List<dynamic> jsonList = jsonDecode(jsonString);
-    return jsonList
-        .map((e) => LiturgicalDayReadings.fromJson(e as Map<String, dynamic>))
+    final db = await AppDatabase.instance.open();
+    final rows = await db.query('litorjika', orderBy: 'id');
+    return rows
+        .map(
+          (r) => LiturgicalDayReadings(
+            id: r['id'] as int,
+            vondrona: decryptText(r['vondrona']),
+            anarana: decryptText(r['anarana']),
+            taona: decryptText(r['taona']),
+            lohahevitra: decryptText(r['lohahevitra']),
+            isaVaky: r['isa_vaky'] as int,
+          ),
+        )
         .toList();
+  }
+
+  /// Mamaky ny vakiteny (andininy) an'ny andro iray (ary tehirizina ao RAM).
+  static Future<List<Reading>> loadVakyTeny(int litorjikaId) async {
+    final cached = _vakyCache[litorjikaId];
+    if (cached != null) return cached;
+
+    final db = await AppDatabase.instance.open();
+    final rows = await db.query(
+      'litorjika_vaky',
+      where: 'litorjika_id = ?',
+      whereArgs: [litorjikaId],
+      orderBy: 'ordre',
+    );
+    final list = List<Reading>.unmodifiable(
+      rows.map(
+        (r) => Reading(
+          karazany: decryptText(r['karazany']),
+          reference: decryptText(r['reference']),
+          boky: decryptText(r['boky']),
+          andininy: decryptText(r['andininy']),
+        ),
+      ),
+    );
+
+    if (_vakyCache.length >= _vakyCacheMax) {
+      _vakyCache.remove(_vakyCache.keys.first);
+    }
+    _vakyCache[litorjikaId] = list;
+    return list;
+  }
+
+  /// Mikajy ny daty nanombohan'ny Fiaviana (Alahady voalohany amin'ny Fiaviana)
+  /// ho an'ny taona sivilizasiona iray. Ny Krismasy dia 25 Desambra foana; ny
+  /// Fiaviana dia 4 Alahady alohan'ny Krismasy.
+  static DateTime startOfLiturgicalYear(int civilYear) {
+    final christmas = DateTime(civilYear, 12, 25);
+    final daysToSubtract = (christmas.weekday % 7) + 21;
+    final startAdvent = christmas.subtract(Duration(days: daysToSubtract));
+    return DateTime(startAdvent.year, startAdvent.month, startAdvent.day);
+  }
+
+  /// Manivana ny andro amin'ny Taona Litorjika ankehitriny (Fiaviana -> Kristy Mpanjaka).
+  static LiturgicalSnapshot buildSnapshot(
+    List<LiturgicalDayReadings> allReadings,
+    DateTime today,
+  ) {
+    final todayOnly = DateTime(today.year, today.month, today.day);
+
+    // Mikajy ny taon'ny litorjika telo mba hahazoana antoka fa feno ny angona
+    final merged = buildCalendarSpanningYears(
+      today.year - 1,
+      today.year + 1,
+      allReadings,
+    );
+    final last = findLastEventUpTo(merged, todayOnly);
+
+    final adventThisYear = startOfLiturgicalYear(today.year);
+    final DateTime currentStart = todayOnly.isBefore(adventThisYear)
+        ? startOfLiturgicalYear(
+            today.year - 1,
+          ) // mbola ao anatin'ny taona taloha
+        : adventThisYear; // efa niditra amin'ny taona litorjika vaovao
+    final nextStart = startOfLiturgicalYear(currentStart.year + 1);
+
+    final days = merged.where((event) {
+      final d = DateTime(event.date.year, event.date.month, event.date.day);
+      return !d.isBefore(currentStart) && d.isBefore(nextStart);
+    }).toList();
+
+    return LiturgicalSnapshot(days: List.unmodifiable(days), lastSunday: last);
   }
 
   // ---------------------------------------------------------------------
@@ -104,7 +214,10 @@ class LiturgicalReadingsService {
           "I Kristy Mpanjaka: Alahady farany amin'ny fotoana mahazatra",
         );
       }
-      return ('Fotoana mahazatra', "Alahady ${_ordinaryOrdinal(n)} amin'ny fotoana mahazatra");
+      return (
+        'Fotoana mahazatra',
+        "Alahady ${_ordinaryOrdinal(n)} amin'ny fotoana mahazatra",
+      );
     }
     if (code.startsWith('ADVENT_')) {
       final n = int.parse(code.substring('ADVENT_'.length));
@@ -115,10 +228,16 @@ class LiturgicalReadingsService {
       return ('Karemy', _lentNames[n]!);
     }
     if (code == 'PALM_SUNDAY') {
-      return ('Karemy', "Alahadin'ny Sampan-drofia sy ny Fijalian'ny Tompo (Lamesa)");
+      return (
+        'Karemy',
+        "Alahadin'ny Sampan-drofia sy ny Fijalian'ny Tompo (Lamesa)",
+      );
     }
     if (code == 'EASTER') {
-      return ('Paka', "Alahadin'ny Paka: Ny Fitsanganan'ny Tompo tamin'ny Maty");
+      return (
+        'Paka',
+        "Alahadin'ny Paka: Ny Fitsanganan'ny Tompo tamin'ny Maty",
+      );
     }
     if (code.startsWith('EASTER_SUNDAY_')) {
       final n = int.parse(code.substring('EASTER_SUNDAY_'.length));
@@ -127,13 +246,13 @@ class LiturgicalReadingsService {
       return ('Paka', name);
     }
     if (code == 'SACRED_HEART_OF_JESUS') {
-      return ('Fetim-panjakana', "Ny Fo Masin\'i Jesoa");
+      return ('Fetim-panjakana', "Ny Fo Masin'i Jesoa");
     }
     if (code == 'PENTECOST') {
       return ('Paka', "Pentekosta: Amin'ny antoandro");
     }
     if (code == 'ASCENSION') {
-      return ('Paka', "Ny Fiakaran\'ny Tompo");
+      return ('Paka', "Ny Fiakaran'ny Tompo");
     }
     if (code == 'TRINITY_SUNDAY') {
       return ('Fetim-panjakana', 'Ny Trinite Masina');
@@ -152,10 +271,7 @@ class LiturgicalReadingsService {
     }
     if (code == 'MARY_MOTHER_OF_GOD') {
       // Daty raikitra (1 Janoary), koa "ABC" no soratana ho an'ny "taona".
-      return (
-        'Krismasy',
-        "Maria Reny Masin'Andriamanitra",
-      );
+      return ('Krismasy', "Maria Reny Masin'Andriamanitra");
     }
     if (code == 'ASH_WEDNESDAY') {
       // Mitovy vakiteny isan-taona (A, B, C) ny an'ny Alarobian'ny Lavenona,

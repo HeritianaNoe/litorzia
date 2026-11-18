@@ -15,6 +15,8 @@ dependencies:
 
   # Ho an'ny SQLite database
   sqflite: ^2.3.3+1
+  # SQLite amin'ny PC (Windows/Linux)
+  sqflite_common_ffi: ^2.3.4
   path: ^1.9.0
   path_provider: ^2.1.4
 
@@ -68,9 +70,8 @@ flutter:
   assets:
     - assets/fonts/
     - assets/images/
-    - assets/json/litorjika.json
-    - assets/json/olomasina.json
-    - assets/json/vavaka.json
+    # Database voahodina (Caesar), novokarina avy amin'ny tool/data/*.json
+    - assets/db/smc.db
 
   fonts:
     - family: Roboto
