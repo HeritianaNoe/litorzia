@@ -1,4 +1,4 @@
-import '../../data/app_database.dart';
+import '../data/app_database.dart';
 import 'liturgical_calendar.dart';
 import '../models/liturgical_data.dart';
 

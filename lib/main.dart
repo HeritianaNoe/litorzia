@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:window_manager/window_manager.dart';
 
-import 'litorjika/screens/litorjika_home_screen.dart';
+import 'screens/litorjika_home_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/vavaka_screen.dart';

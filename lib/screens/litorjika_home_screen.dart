@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
 
-import '../../theme/app_colors.dart';
-import '../../widgets/app_about_dialog.dart';
+import '../theme/app_colors.dart';
+import '../widgets/app_about_dialog.dart';
 import '../models/liturgical_data.dart';
 import '../services/comments_service.dart';
 import '../services/liturgical_readings_service.dart';

@@ -1,5 +1,5 @@
 import '../core/app_info.dart';
-import '../litorjika/services/liturgical_readings_service.dart';
+import '../services/liturgical_readings_service.dart';
 import '../services/olomasina_service.dart';
 import '../services/vavaka_service.dart';
 import 'app_database.dart';
